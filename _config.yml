@@ -8,7 +8,7 @@ start_date: 2016-09-18 00:00:00.00-7:00
 num_weeks: 11
 extra_exam_week: true
 
-instructor_url: https://ucsb-cs16.github.io/instructor_info/
+instructor_url: https://ucsb-cs16.github.io/instructor/
 
 cal_dates: >
   [
