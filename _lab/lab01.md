@@ -237,7 +237,9 @@ int main() {
     // Your printing code should go here
 
     return 0;
-}</pre>
+}
+xxxxx
+</pre>
 
 <p>Go ahead and type this in to the <b>hello.cpp</b> file. Alternatively, you can copy and paste it directly from this page.</p>
 
