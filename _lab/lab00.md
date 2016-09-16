@@ -140,14 +140,13 @@ $ cd pa01   </pre>
 <p>Knowing how to navigate a UNIX environment and issue UNIX commands is VERY valuable to computer scientists and engineers. To learn more UNIX commands, there are lot of cool Web resources and books on the topic. This is one website I found that's a good introductory page: 
 <a href="https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html" target="_blank">https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html</a>.
 
+<!--
 <h3>Step 4: Create a C++ File</h3>
-
-xxxxxxx
 
 <p>Now that we have a directory to contain our work for the assignment, let's start writing our code. Create a file called <b>hello.cpp</b> with the <b>touch</b> command:</p>
 <pre>$ touch hello.cpp</pre>
 
-<p><span class="code">hello.cpp</span> is now a completely empty file that you will use throughout the rest of the assignment to write your C++ code.</p> 
+<p><span class="code">hello.cpp</span> is now a completely empty file that you will use throughout the rest of the assignment to write your C++ code.</p> -->
 
 
 <h3 id="step5">Step 5: Edit <span class="code">hello.cpp</span></h3>
