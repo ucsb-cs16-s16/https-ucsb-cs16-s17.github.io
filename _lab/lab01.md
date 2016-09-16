@@ -60,7 +60,7 @@ newer hardware, as compared to `csil.cs.ucsb.edu`.
 
 
 <ol>
-<h4><i>Step 2a: Opening a Terminal on a Phelps Lab Machine</i></h4>
+<h4><i><a name="step2a"></a>Step 2a: Opening a Terminal on a Phelps Lab Machine</i></h4>
 <p>
 <li>Log in to the machine using your account credentials (i.e. your username and password) created in Step 1.</li>
 <li>Find the <i>Activities</i> menu, which is in the top-left corner of the screen. Click on it to open the menu.</li>
