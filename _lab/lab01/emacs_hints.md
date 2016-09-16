@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: topics
 topic: "emacs hints"
 desc: "Getting started if you've never used emacs before"
 ---
@@ -11,9 +11,9 @@ $ emacs hello.cpp
 ```
 Once emacs is open, you can start editing the file immediately. To move around, use <b>the arrow keys</b>.
 
-<p>emacs commands usually take the form <b>C-x C-c</b>. This means press and hold the <b>control</b> key while pressing the <b>x</b> key, then next press and hold the <b>control</b> key while pressing the <b>c</b> key. In contrast, the command <b>C-x 1</b> means press and hold the <b>control</b> and <b>x</b> keys, then release both and then press the <b>1</b> key.</p>
+<b>emacs</b> commands usually take the form <b>C-x C-c</b>. This means press and hold the <b>control</b> key while pressing the <b>x</b> key, then next press and hold the <b>control</b> key while pressing the <b>c</b> key. In contrast, the command <b>C-x 1</b> means press and hold the <b>control</b> and <b>x</b> keys, then release both and then press the <b>1</b> key.
 
-<p>Some useful commands are:</p>
+Some useful commands are:
 <ol><ul>
 	<li><b>C-x C-c</b> closes emacs</li>
 	<li><b>C-x C-s</b> saves the current file</li>
