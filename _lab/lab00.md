@@ -154,13 +154,25 @@ $ cd pa01   </pre>
 <p>You are surely all familiar with Microsoft Word as a widely-used "word processor"</p>
 <p>DO <b>NOT</b> USE MS WORD IN PROGRAMMING!! :)</p>
 
-<p>Instead, for programming, you have access to a large number of excellent text editors. I will introduce you to just 4 of them:</br>
+<p>Instead, for programming, you have access to a very large number of excellent text editors.</br>
+I will introduce you to just 5 of them:</p>
 <ol>
-<li> <b>emacs</b> for UNIX-based OS (this includes Ubuntu and MacOS X), </li>
-<li> <b>vim</b> for UNIX-based OS (this includes Ubuntu and MacOS X), </li>
-<li> <b>Sublime Text 2</b> for Windows OS and MacOS X, and </li>
-<li> <b>Notepad++</b> for Windows OS. </li>
+<li> <b>emacs</b> for UNIX-based OS
+	<ol>
+	<p>emacs is a very popular editor that's available on just about every UNIX machine (including the ones that you're using in the CS labs) and UNIX-based machines (like MacOS computers).</p>
+	<p>To run emacs on a UNIX machine, type:</br>
+	<pre>$ emacs</pre></p>
+	<p>To run emacs on a MacOS machine, open the Terminal program (see above how to do that) and then type:</br>
+	<pre>$ emacs</pre></p>
 
+
+	
+(this includes Ubuntu and MacOS X) --- see <a href="xxx">THIS</a> resource</li>
+<li> <b>vim</b> for UNIX-based OS (this includes Ubuntu and MacOS X) --- see <a href="xxx">THIS</a> resource</li>
+<li> <b>Sublime Text 2</b> for Windows OS and MacOS X --- see <a href="https://www.sublimetext.com/">the product website</a></li>
+<li> <b>Notepad++</b> for Windows OS --- see <a href="https://notepad-plus-plus.org/">the product website</a> </li>
+</ol>
+<p>No one editor is necessarily "better" than another. It is a matter of your preference. This is a great time for you to explore multiple options and then pick one. Once you pick an editor of choice, STICK WITH IT!</p>
 
 <h3>Step 4: Edit <b>hello.cpp</b></h3>
 
