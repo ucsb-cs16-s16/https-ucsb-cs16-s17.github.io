@@ -18,6 +18,8 @@ You will write your first C++ program that will print a specific text out on you
 
 <p>You can create an account online at <a href="https://accounts.engr.ucsb.edu/create" target="_blank">https://accounts.engr.ucsb.edu/create</a>.</p>
 
+<p>[HERE!]("http://www.google.com"){:target="_blank"}</p>
+
 <p>If you are enrolled in <i>any</i> CoE course this quarter (including CS16), you can create your account immediately. If you are not, you will need to contact the ECI Help Desk at <a href="mailto:help@engineering.ucsb.edu">help@engineering.ucsb.edu</a>.</p> 
 
 <h3 id="step2">Step 2: Open a Terminal</h3>
