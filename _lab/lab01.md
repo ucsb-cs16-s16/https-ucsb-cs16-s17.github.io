@@ -230,9 +230,11 @@ As you progress in your Computer Science education and, subsequently, your caree
 <hr>
 <h3>Step 4: Create and edit a file containing a C++ program</h3>
 
-<p>Let's use <b>emacs</b> to create and edit a new file. We'll call this file <b>hello.cpp</b>. On a terminal, type:<br>
-<pre>$ emacs hello.cpp</pre><br>
-Once emacs is open, you can start editing the file immediately. To move around, use <b>the arrow keys</b>.</p>
+Let's use <b>emacs</b> to create and edit a new file. We'll call this file <b>hello.cpp</b>. On a terminal, type:
+```
+$ emacs hello.cpp
+```
+Once emacs is open, you can start editing the file immediately. To move around, use <b>the arrow keys</b>.
 
 <p>emacs commands usually take the form <b>C-x C-c</b>. This means press and hold the <b>control</b> key while pressing the <b>x</b> key, then next press and hold the <b>control</b> key while pressing the <b>c</b> key. In contrast, the command <b>C-x 1</b> means press and hold the <b>control</b> and <b>x</b> keys, then release both and then press the <b>1</b> key.</p>
 
@@ -247,7 +249,7 @@ Once emacs is open, you can start editing the file immediately. To move around, 
 
 <p>Now it's time to write the program! This assignment only needs you to write a program that prints out two lines on the display, and nothing else. The output should look exactly as follows (no space before or after each line, except the newlines):</p>
 <pre>Hello, world!
-CS16 Winter 2016.</pre>
+CS16 Fall 2016.</pre>
 
 <p>Start with a "skeleton program" (or template) that contains the necessary structure but that does not do anything:</p>
 <pre>
