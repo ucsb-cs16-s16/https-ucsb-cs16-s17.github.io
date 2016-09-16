@@ -143,12 +143,12 @@ Are you sure you want to continue connecting (yes/no)? </pre>
 <p>Now move into that new CS16 directory with the <b>cd</b> command as follows:</p>
 <pre>$ cd cs16</pre>
 
-<p>And create and move into a PA 01 directory:</p>
-<pre>$ mkdir pa01
-$ cd pa01   </pre>
+<p>And create and move into a LAB 01 directory:</p>
+<pre>$ mkdir lab01
+$ cd lab01   </pre>
 
-<p>At any time, you can check what directory you are current in with the command <b>pwd</b>. It will output the full path of the current directory. For example, if you are inside your <b>pa01</b> directory, you might see:</p>
-<pre>/cs/student/yourcsilname/cs16/pa01</pre>
+<p>At any time, you can check what directory you are current in with the command <b>pwd</b>. It will output the full path of the current directory. For example, if you are inside your <b>lab01</b> directory, you might see:</p>
+<pre>/cs/student/yourcsilname/cs16/lab01</pre>
 
 <p>Knowing how to navigate a UNIX environment and issue UNIX commands is VERY valuable to computer scientists and engineers. To learn more UNIX commands, there are lot of cool Web resources and books on the topic. This is one website I found that's a good introductory page: 
 <a href="https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html" target="_blank">https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html</a>.
@@ -240,106 +240,108 @@ int main() {
 
 <p>Next, you will need to replace the comment with code to print out the expected output. Comments in C++ are lines that start with <b>//</b> or text between <b>/*</b> and <b>*/</b>. The second type can span multiple lines.</p>
 
-xxxxx
+<p><em>Important note: For students familiar with Python, remember that lines starting with the <b>#</b> character are not comments in C++. Rather, they are important include lines that allow your program to use the input and output functionality. Make sure to copy those lines in your program as well. Only <b>//</b> or <b>/*</b> create comments in C++.</em></p>
 
-<p><em>Important note: For students familiar with Python, remember that lines starting with the <span class="code">#</span> character are not comments in C++. Rather, they are important include lines that allow your program to use the input and output functionality. Make sure to copy those lines in your program as well. Only <span class="code">//</span> or <span class="code">/*</span> create comments in C++.</em></p>
-
-<p>To print out text to the terminal, you can use the <span class="code">cout</span> stream. To output something use the <span class="code">&lt;&lt;</span> operator as shown below:</p>
+<p>To print out text to the terminal, you can use the <b>cout</b> stream. To output something use the <b>&lt;&lt;</b> operator as shown below:</p>
 <pre>cout &lt;&lt; "This will be printed out to the terminal" &lt;&lt; endl;</pre>
 
-<p>The <span class="code">endl</span> will cause a newline to be printed and the next print to go on the next line.</p>
+<p>The <b>endl</b> command will cause a newline (i.e. a carriage return) to be printed and the next print to go on the next line.</p>
 
-<p>You can adapt this line to achieve the objective of the assignment. Remember that we need to print two lines, each with a newline at the end. You can do this with one statement or with two.</p>
+<p>You can adapt this line to achieve the objective of the assignment. <b>Remember that we need to print two lines, each with a newline at the end.</b> You can do this with one or two statements.</p>
 
-<h3 id="step7">Step 7: Compile the Code</h3>
+<hr>
+<h3>Step 5: Compile the Code</h3>
 
 <p>Now that the code is written, we need to <em>compile</em> it. This will be done using a special program called a <em>compiler</em>.</p>
 
-<p>Before moving on, make sure you save your code and close the text editor. The following step will be done in the terminal.</p>
+<p>Before moving on, <b>make sure you save your code</b> and close the text editor. The following step will be done in the terminal.</p>
 
-<p>For C++ code we will use the <span class="code">g++</span> compiler. You can compile the <span class="code">hello.cpp</span> file into an executable called <span class="code">hello</span> with the following command:</p>
-<pre>$ g++ -std=c++11 -o hello hello.cpp</pre>
+<p>For C++ code we will use the <b>g++</b> compiler that's built-into many UNIX machines (it even works on most MacOS terminal programs). You can compile the <b>hello.cpp</b> file into an executable called <b>hello</b> with the following command:</p>
+<pre>$ g++ -o hello hello.cpp</pre>
 
-<p>This will make an executable version of your code. Specifically, it will tell the compiler to take the source code file <span class="code">hello.cpp</span> and compile and link it to an executable called <span class="code">hello</span>. It also tells the compiler to use C++11, which is the C++ version we will use throughout the course. But you don't have to worry about the specifics for now.</p>
+<p>This will compile your code and make an executable version of it. Specifically, it will tell the compiler to take the source code file <b>hello.cpp</b> and compile and link it to an executable called <b>hello</b>.</p>
 
-<p>If the compilation is successful, you won't see any output from the compiler. You can then use the following command to run your program:</p>
+<p>If the compilation is successful, you won't see any output from the compiler, but if you issue a UNIX <b>ls</b> command, you should see a new file has appeared: one called <b>hello</b>. You can then use the following command to run your program:</p>
 <pre>$ ./hello</pre>
 
-<p>Which means in the current directory, represented by the <span class="code">.</span> character, run the program <span class="code">hello</span>. You should see the program output the two expected lines.</p>
+<p>Which means "in the current directory, as represented by the <b>.</b> character, run the program <b>hello</b>". You should then see the program output the two expected lines.</p>
 
-<p>The other possibility is that the program does not compile successfully. In this case, you might see output that looks like:</p>
-<pre class="source">hello.cpp: In function ‘int main()’:
+<p>The other possibility is that the program may <b>not compile successfully</b>. What to do then?</br>
+If you run the <b>g++</b> command and are unsuccesful with your compilation, then you might see an output that looks like this:</p>
+<pre>hello.cpp: In function ‘int main()’:
 hello.cpp:10:1: error: expected ‘;’ before ‘}’ token
  }
  ^</pre>
 
-<p>The compiler will try to give you hints on the line (in this case 10) where the error occurs, and also what the error is (in this case a missing semicolon).</p>
+<p>The compiler will try to give you hints on the line (in this case, it's complaining about line 10) where the error occurs, and also about what the error is (in this case a missing semicolon). You will also note that, in this case, an output executable file is not produced.</p>
 
-<p>If you encounter an error, use the compiler hints and examine the line in question. If the compiler messsage is not sufficient to identify the error, you can search online to see when the error occurs in general. Once you have fixed the error, run the compilation command again.</p>
+<p>If you encounter an error, use the compiler hints and examine the line in question. If the compiler messsage is not sufficient to identify the error (which happens more than sometimes), you can search online to see when the error occurs in general. Once you have fixed the error, run the compilation command again. De-bugging a program code is a necessary ritual in almost all programs written (even those written by expert coders). More on that in a later class.</p>
 
 <!--
 <p>You can find a list of common C++ errors and possible solutions at <a href="http://charlottehill.com/cpperrors.html">http://charlottehill.com/cpperrors.html</a>.</p>
 -->
 
-<h3 id="step8">Step 8: Submit</h3>
+<hr>
+<h3>Step 6: Submit your program for grading</h3>
 
-<p>Once you are satisfied that your program is correct, it is time to submit it.</p>
+<p>Once you are satisfied that your program is correct, then it's time to submit it.</p>
 
 <p><strong>Please remember that you must submit the program to obtain any credit for the assignment; just completing the program is not enough.</strong></p>
 
-<p>In this course we will use the <a href="https://submit.cs.ucsb.edu/">submit.cs.ucsb.edu</a> system. You can make a submission from either the command line on any CS machine, or from a browser.</p>
+<p>In this course we will use the <a href="https://submit.cs.ucsb.edu/">submit.cs.ucsb.edu</a> system. You can make a submission from either the command line on any CS machine, or from a Web browser.</p>
 
-<p>If you don't have a submit.cs account, you will first need to create one. This can be done at <a href="https://submit.cs.ucsb.edu/form/user">https://submit.cs.ucsb.edu/form/user</a>.</p>
+<p>If you don't have a submit.cs account, you will first need to create one. This can be done at 
+<a href="https://submit.cs.ucsb.edu/form/user">https://submit.cs.ucsb.edu/form/user</a>.</p>
 
 <p>Once you have an account created, login at <a href="https://submit.cs.ucsb.edu/session">https://submit.cs.ucsb.edu/session</a>.</p>
 
-<p>Next, you need to join the CS16 course. Look for the &ldquo;Join Class&rdquo; link at the top of the page. It is in the top bar, seen below:</p>
+<p>Next, you need to join the CS16 course. Look for the "Join Class" link at the top of the page. It is in the top bar, as seen below:</p>
 <img src="images/submit-topbar.png" width="542" alt="submit.cs Top Bar" />
 
-<p>Once you see the list of all courses, click on the &ldquo;Join CS16_w16&rdquo; button. It looks like this:</p>
-<img src="images/cs16-button.png" width="144" alt="Join CS16_w16 Button" />
+<p>Once you see the list of all courses, click on the "Join CS16_f16"; button.
 
 <p>You should then see CS16 appear on your homepage when logging in to the submit.cs system. Click on the course now.</p>
 
-<p>Now find &ldquo;pa01&rdquo; and click on the &ldquo;Make Submission&rdquo; button. It looks like this:</p>
+<p>Now find "lab01" and click on the "Make Submission" button. It looks like this:</p>
 <img src="images/make-submission-button.png" width="154" alt="Make Submission Button" />
 
-<p>This is the web interface for submitting your code for the assignment. You can upload your source file directly on this page. The browser will open a dialog, and you will need to navigate to the directory containing your <span class="code">hello.cpp</span> file and select it.</p>
+<p>This is the Web interface for submitting your code for the assignment. You can now upload your source file directly on this page. The browser will open a dialog box and you will need to navigate to the directory containing your <b>hello.cpp</b> file and select it.</p>
 	
-<p>Once your file is uploaded, click &ldquo;Submit 1 File&rdquo;:</p>
+<p>Once your file is uploaded, click "Submit 1 File":</p>
 <img src="images/submit-file-button.png" width="129" alt="Submit 1 File Button" />
 
-<p>Once you submit, you should see a page detailing your submission. The system will automatically grade your program and will show you the results on this page after a 1 minute delay.</p>
+<p>Once you submit, you should see a page detailing your submission. The system will automatically grade your program and will show you the results on this page after about a 1 minute delay.</p>
 
-<p>You can <em>alternatively</em> submit your code from the command line (terminal) on any CS machine, including the Phelps lab machines or the CSIL server. You can use this method when logged in remotely. To submit the the <span class="code">hello.cpp</span> file to this assignment by running the command:</p>
+<p>You can <em>alternatively</em> submit your code from the command line (i.e. in the terminal) on any CS machine, including the Phelps lab machines or the CSIL server. You can also use this method when logged in remotely. To submit the the <b>hello.cpp</b> file to this assignment by running the command:</p>
 <pre>$ ~submit/submit -p 410 hello.cpp</pre>
 
-<p>The program will ask you to login with your submit.cs username and password. The password will not be printed to the terminal, but what you type will be used. It will also offer the option to save your credentials, so that you do not have login next time you submit. You may choose to do this or not. After the submission succeeds, you should see the program output something like:</p>
+<p>The program will ask you to login <b>with your submit.cs username and password</b>. The password will not be printed to the terminal, but what you type will be used. It will also offer the option to save your credentials, so that you do not have login next time you submit. You may choose to do this or not. After the submission succeeds, you should see the program output something like:</p>
 <pre>Results will be available at: https://submit.cs.ucsb.edu/submission/xxxxx</pre>
 
-<p>You can copy this URL and paste into a web browser to reach the same submission result page as described above.</p>
+<p>You can copy this URL and paste into a Web browser to reach the same submission result page as described above.</p>
 
-
-<h3 id="step9">Step 9: Check Submission Results</h3>
+<hr>
+<h3>Step 7: Check Submission Results</h3>
 
 <p>After the 1 minute delay, the submit system will show your score and give you feedback on your submission. <em>Refresh the webpage after a minute to see this information.</em> This usually takes one of three forms:</p>
 
 <p>A correct submission with a score of 100. This means that your program passed all the tests for this assignment. Once you get to this point, you are finished with the assignment and will receive full credit. This case will look like this:</p>
 <img src="images/correct-submission.png" width="233" alt="Correct Submission." />
 
-<p>An incorrect submission with a score of 0 to 99. This means that your program failed 1 or more of the tests. For this assignment, the system will show both the expected output and the output your program generated side-by-side so that you can see what went wrong. You will need to fix your program, and then do <a href="#step8">Step 8</a> again to re-submit. This case will look like this:</p>
+<p>An incorrect submission with a score of 0 to 99. This means that your program failed 1 or more of the tests. For this assignment, the system will show both the expected output and the output your program generated side-by-side so that you can see what went wrong. You will need to fix your program, and then do Step 6 again to re-submit. This case will look like this:</p>
 <img src="images/incorrect-submission.png" width="706" alt="Incorrect Submission." />
 
 <p>Or a submission for which compilation failed. This means that your program caused compilation errors when the system tried to compile it. You will need to interpret the compiler output and fix the errors. The system will show you the compilation command that failed along with the full error message. This case will look like this:</p>
 <img src="images/compilation-failure.png" width="499" alt="Compilation Failure." />
 
-<p>You may submit multiple times. You should submit only after local compilation does not produce any errors and runs as expected. The score of the last submission uploaded before the deadline will be used as your assignment grade.</p>
+<p>You may submit your program multiple times before the deadline. You should really only submit after local compilation does not produce any errors and runs as expected - that's the most efficient and preferred way to do things. The score of the last submission uploaded before the deadline will be used as your assignment grade.</p>
 
-<h3 id="step10">Step 10: Done!</h3>
+<hr>
+<h3>Step 8: Done!</h3>
 
 <p>Once your submission receives a score of 100/100, you are done with this assignment. Congratulations on completing your first C++ program!</p>
 
-<p>If you are in the Phelps lab or in CSIL, make sure to log out of the machine before you leave. Also, make sure to close all open programs before you log out. Some programs will not work next time if they are not closed. Remember to save all your open files before you close your text editor.</p>
+<p>If you are in the Phelps lab or in CSIL, <b>make sure to log out of the machine before you leave</b>. Also, make sure to close all open programs before you log out. Some programs will not work next time if they are not closed. Remember to save all your open files before you close your text editor.</p>
 
-<p>If you are logged in remotely, you can log out using the <span class="code">exit</span> command:</p>
+<p>If you are logged in remotely, you can log out using the <b>exit</b> command in UNIX:</p>
 <pre>$ exit</pre>
