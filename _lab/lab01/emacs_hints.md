@@ -5,6 +5,7 @@ desc: "Getting started if you've never used emacs before"
 ---
 
 If you want to use <b>emacs</b> to create and edit a new file (let's call it <b>hello.cpp</b>), then on a terminal, type:
+
 ```
 $ emacs hello.cpp
 ```
