@@ -167,9 +167,9 @@ As you progress in your Computer Science education and, subsequently, your caree
 	<pre>$ emacs <i>filename</i></pre></p>
 
 	<p>To learn how to use emacs, there is no substitute for PRACTICE!!! Of course, there are multiple online resources that you can look at (especially given emacs' popularity) and here are some of them:</br>
-	<li><a href="https://www.gnu.org/software/emacs/tour/">emacs tour from the GNU organization (makers of emacs)</a></br>
-	<a href="http://www.cs.colostate.edu/helpdocs/emacs.html">a concise list of commonly-used emacs commands</a></br>
-	<a href="http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs">a beginner's guide to emacs</a></p></li>
+	<li><a href="https://www.gnu.org/software/emacs/tour/">emacs tour from the GNU organization (makers of emacs)</a></li></br>
+	<li><a href="http://www.cs.colostate.edu/helpdocs/emacs.html">a concise list of commonly-used emacs commands</a></li></br>
+	<li><a href="http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs">a beginner's guide to emacs</a></li></p>
 	</ol>
 <li> <b>vim</b> for UNIX-based OS</li>
 	<ol>
@@ -179,9 +179,9 @@ As you progress in your Computer Science education and, subsequently, your caree
 	<p>To edit a file (let's say it's called "filename"), you'd type:</p>
 	<pre>$ vim <i>filename</i></pre></p>
 	<p>Again, to learn how to use vim, there is no substitute for PRACTICE!!! Again, there are multiple online resources that you can look at and here are some of them:</br>
-	<a href="http://www.vim.org/about.php">About vim</a></br>
-	<a href="http://tnerual.eriogerg.free.fr/vimqrc.html">vim commands - a quick reference card</a></br>
-	<a href="https://www.fprintf.net/vimCheatSheet.html">another reference cheat sheet for vim</a></p>
+	<li><a href="http://www.vim.org/about.php">About vim</a></li></br>
+	<li><a href="http://tnerual.eriogerg.free.fr/vimqrc.html">vim commands - a quick reference card</a></li></br>
+	<li><a href="https://www.fprintf.net/vimCheatSheet.html">another reference cheat sheet for vim</a></li></p>
 	</ol>
 <li> <b>Sublime Text 2</b> for Windows OS and MacOS X --- see <a href="https://www.sublimetext.com/">the product website</a> (it's a program that you'd have to download)</li>
 <li> <b>Notepad++</b> for Windows OS --- see <a href="https://notepad-plus-plus.org/">the product website</a> (it's a program that you'd have to download)</li>
