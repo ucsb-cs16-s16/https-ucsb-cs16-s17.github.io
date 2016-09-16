@@ -17,7 +17,7 @@ You will write your first C++ program that will print a specific text out on you
 <li>Create a College of Engineering online computer account, if you don't have one already.</li>
 <li>Learn how to open a terminal on a lab or personal computer.</li>
 <li>Learn how to edit a text file used for writing programming code.</li>
-<li>Write an actual C++ program.</li>
+<li>Write an actual program in C++.</li>
 <li>Compile your program and see if it runs.</li>
 <li>Learn how to submit your program for grading.</li>
 </ol>
@@ -182,7 +182,7 @@ As you progress in your Computer Science education and, subsequently, your caree
 
 	<p>To learn how to use emacs, there is no substitute for PRACTICE!!! Of course, there are multiple online resources that you can look at (especially given emacs' popularity) and here are some of them:</br>
 	<li><a href="https://www.gnu.org/software/emacs/tour/">emacs tour from the GNU organization (makers of emacs)</a></li></br>
-	<li><a href="http://www.cs.colostate.edu/helpdocs/emacs.html">a concise list of commonly-used emacs commands</a></li></br>
+	<li><a href="https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf">emacs commands - a handy reference card</a></li></br>
 	<li><a href="http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs">a beginner's guide to emacs</a></li></p>
 	</ol>
 <li> <b>vim</b> for UNIX-based OS</li>
@@ -194,7 +194,7 @@ As you progress in your Computer Science education and, subsequently, your caree
 	<pre>$ vim <i>filename</i></pre></p>
 	<p>Again, to learn how to use vim, there is no substitute for PRACTICE!!! Again, there are multiple online resources that you can look at and here are some of them:</br>
 	<li><a href="http://www.vim.org/about.php">About vim</a></li></br>
-	<li><a href="http://tnerual.eriogerg.free.fr/vimqrc.html">vim commands - a quick reference card</a></li></br>
+	<li><a href="http://tnerual.eriogerg.free.fr/vimqrc.html">vim commands - a handy reference card</a></li></br>
 	<li><a href="https://www.fprintf.net/vimCheatSheet.html">another reference cheat sheet for vim</a></li></p>
 	</ol>
 <li> <b>Sublime Text 2</b> for Windows OS and MacOS X --- see <a href="https://www.sublimetext.com/">the product website</a> (it's a program that you'd have to download)</li>
@@ -202,48 +202,28 @@ As you progress in your Computer Science education and, subsequently, your caree
 </ol>
 
 <hr>
-<h3>Step 4: Edit <b>hello.cpp</b></h3>
+<h3>Step 4: Create and edit a file containing a C++ program</h3>
 
-<p>To put text inside the <span class="code">hello.cpp</span> file, you will need to use a <i>text editor</i>.</p>
+<p>Let's use <b>emacs</b> to create and edit a new file. We'll call this file <b>hello.cpp</b>. On a terminal, type:</br>
+<pre>$ emacs hello.cpp</pre></br>
+Once emacs is open, you can start editing the file immediately. To move around, use <b>the arrow keys</b>.</p>
 
-<p>We will describe how to use the <span class="code">gedit</span> graphical text editor, which you can use on Phelps lab machines or CSIL machines, and the <span class="code">emacs</span> editor, which you can use any time (including when connected remotely).</p>
-
-<p>To open the <span class="code">hello.cpp</span> with <span class="code">gedit</span>, you can use the following command:</p>
-<pre>$ gedit hello.cpp</pre>
-
-<p>You can then edit the file. Make sure to save the file frequently to avoid lost work.</p>
-
-<p>Alternatively, or if you are logged in remotely, you can edit the file with <span class="code">emacs</span> using the following command:</p>
-<pre>$ emacs hello.cpp</pre>
-
-<p>If you have never used <span class="code">emacs</span> before, a short tutorial can be found in <a href="#step5a">Step 5a</a>.</p>
-
-<p>You are not required to use one of the two mentioned editors. If you are more comfortable with another installed editor (such as <span class="code">vim</span>), you are free to use it. However, the TAs and Professor may not be able to answer all questions about any given editor.</p>
-
-<h4 id="step5a">Step 5a: Using <span class="code">emacs</span></h4>
-
-<p>Once <span class="code">emacs</span> is open, you can start editing the file immediately. To move around, use the arrow keys.</p>
-
-<p><span class="code">emacs</span> commands usually take the form <span class="code">C-x C-c</span>. This means press and hold the <span class="code">control</span> key then press the <span class="code">x</span> key, then next press and hold the <span class="code">control</span> key and press the <span class="code">c</span> key. You can also hold the <span class="code">control</span> key and then press <span class="code">x</span> and <span class="code">c</span> in succession. In contrast, the command <span class="code">C-x 1</span> means press and hold the <span class="code">control</span> key, then release the <span class="code">control</span> key and then press the <span class="code">1</span> key.</p>
+<p>emacs commands usually take the form <b>C-x C-c</b>. This means press and hold the <b>control</b> key while pressing the <b>x</b> key, then next press and hold the <b>control</b> key while pressing the <b>c</b> key. In contrast, the command <b>C-x 1</b> means press and hold the <b>control</b> and <b>x</b> keys, then release both and then press the <b>1</b> key.</p>
 
 <p>Some useful commands are:</p>
 	<ul>
-		<li><span class="code">C-x C-c</span> closes <span class="code">emacs</span></li>
-		<li><span class="code">C-x C-s</span> saves the current file</li>
-		<li><span class="code">C-x 1</span> closes all other panes except the current one (you can use this close the help panel)</li>
-		<li><span class="code">C-g</span> at any point in a command will cancel the command</li>
-		<li><span class="code">C-k</span> &ldquo;kills&rdquo; or cuts the current line, and <span class="code">C-y</span> &ldquo;yanks&rdquo; or pastes the line back at the cursor location</li>
+		<li><b>C-x C-c</b> closes emacs</li>
+		<li><b>C-x C-s</b> saves the current file</li>
+		<li><b>C-x 1</b> closes all other panes except the current one (you can use this close the help panel)</li>
+		<li><b>C-g</b> at any point in a command will cancel the command</li>
+		<li><b>C-k</b> "kills" or cuts the current line, and <b>C-y</b> "yanks" or pastes the line back at the cursor location</li>
 	</ul>
 
-<p>You can find a comprehensive beginners guide to <span class="code">emacs</span> at <a href="http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs/">http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs/</a>.</p>
-
-<p>You can find a reference card (that prints on one page front and back) that includes a huge number of common <span class="code">emacs</span> commands at <a href="https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf">https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf</a>.</p>
-
-<h3 id="step6">Step 6: Write the Code</h3>
-
-<p>Now it is time to write the program! This assignment only needs to print out two lines, and nothing else. The output should look exactly as follows (no space before or after each line, except the newlines):</p>
-<pre class="source">Hello, world!
+<p>Now it's time to write the program! This assignment only needs you to write a program that prints out two lines on the display, and nothing else. The output should look exactly as follows (no space before or after each line, except the newlines):</p>
+<pre>Hello, world!
 CS16 Winter 2016.</pre>
+
+xxxxxx
 
 <p>Start with a skeleton program that contains the necessary structure but that does not do anything:</p>
 <pre class="source">#include &lt;cstdio&gt;
