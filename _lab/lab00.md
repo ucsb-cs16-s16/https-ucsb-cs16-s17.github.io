@@ -52,11 +52,11 @@ You will write your first C++ program that will print a specific text out on you
 <li>Open the "Terminal" application. It is found inside the <em>Applications</em> folder of your main drive, inside the <em>Utilities</em> subfolder. The icon looks like this:</li>
 <img src="images/mac-terminal.png" width="79" alt="Mac OS X Terminal Icon" /></br>
 
-You can also find it using Spotlight by typing &ldquo;terminal&rdquo; and pressing enter.
+You can also find it using Spotlight by typing "terminal" and pressing ENTER.
 </p>
 
 <p>Once you have a terminal window open on your machine, you next need to <b>connect to the CSIL server remotely</b>. </br>
-You will do this using a UNIX command (a computer network protocol, really) called <em>SSH</em> (short for Secure Shell).</p>
+You will do this using a UNIX command (an internet protocol, really) called <em>SSH</em> (short for Secure Shell).</p>
 
 <p>Type the following command in your terminal, replacing <b>USERNAME</b> with <b>your CSIL username</b>:</p>
 <pre>$ ssh USERNAME@csil.cs.ucsb.edu</pre>
@@ -89,28 +89,31 @@ Are you sure you want to continue connecting (yes/no)? </pre>
 
 <p>To connect remotely on Windows machines, we recommend using a program called <em>PuTTY</em>. This program is a well-known and widely-used SSH client for the Windows OS.</p>
 
-<p>First, download the program from <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html</a>. You only need the executable file <b>putty.exe</b>, but feel free to download any other programs that you want. The page includes portable versions and a version with an installer. <u>Always make sure to download PuTTY from this site</u>, so that you can make sure it is the correct program.</p>
+<p>First, download the program from <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html</a>. You only need the executable file <b>putty.exe</b>, but feel free to download any other programs that you want. The page includes portable versions and a version with an installer. <i>Always make sure to download PuTTY from this site</i>, so that you can make sure it is the correct program.</p>
 
-<p>Then open PuTTY like you would open other programs. If you just download the <span class="code">putty.exe</span> file, you can open it from your downloads folder directly. You can also move it to any other location on your machine and open it from there. If you used the installer, open PuTTY from the Start Menu.</p>
+<p>Once downloaded, run PuTTY like you would open other programs. If you just download the <b>putty.exe</b> file, you can open it from your downloads folder directly. You can also move it to any other location on your machine and open it from there. If you used the installer, open PuTTY from the Start Menu.</p>
 
 <p>When PuTTY opens, you should see a window that looks like this:</p>
 <img src="images/putty-empty.png" width="469" alt="Empty PuTTY window" />
 
-<p>Type <em>csil.cs.ucsb.edu</em> into the box labeled &ldquo;Host Name (or IP address)&rdquo;. Leave the &ldquo;Port&rdquo; setting as 22 and leave the &ldquo;SSH&rdquo; button checked. The window should now look like this:</p>
+<p>Type <b>csil.cs.ucsb.edu</b> into the box labeled "Host Name (or IP address)". Leave the "Port" setting at 22 and leave the "SSH" button checked. The window should now look like this:</p>
 <img src="images/putty-full.png" width="472" alt="Completed PuTTY window" />
 
-<p>Then click on the &ldquo;Open&rdquo; button to connect. PuTTY will then show a prompt which looks like this:</p>
+<p>Then click on the "Open" button to connect. PuTTY will then show a prompt which looks like this:</p>
 <img  src="images/putty-hostkey.png" width="433" alt="PuTTY Host Key Prompt" />
 
-<p>Click &ldquo;Yes&rdquo; to accept and remember CSIL's key.</p>
+<p>Click "Yes" to accept and have PuTTY remember CSIL's key.</p>
 
-<p>Once a connection is made, CSIL will ask for both your username and then your password. Type in your CSIL username and password. The password will not be shown on the screen, but the characters you type are being used. This step will look something like this (with your username instead of &ldquo;username&rdquo;):</p>
+<p>Once a connection is made, CSIL will ask for both your username and then your password. Type in your CSIL username and password. The password will not be shown on the screen, but the characters you type are being used. This step will look something like this (with your username instead of "username"):</p>
 <img src="images/putty-login.png" width="677" alt="PuTTY Login Prompt" />
 
 <p>Once you have logged in successfully, you should be connected remotely to the CSIL server. Run the following command to make sure (this command shows the full host name of the machine you are logged in to):</p>
 <pre>$ hostname</pre>
 
-<p>This command should output <span class="code">csil.cs.ucsb.edu</span>. You can now do anything in this terminal window that you could do on a CSIL machine or a Phelps lab machine, except run graphical applications.</p>
+<p>This command should output <b>csil.cs.ucsb.edu</b>. You can now do anything in this terminal window that you could do on a CSIL machine or a Phelps lab machine, except run graphical applications.</p>
+</ol>
+
+xxxxxx
 
 <h3 id="step3">Step 3: Create CS16 and Programming Assignment 01 Directories</h3>
 
