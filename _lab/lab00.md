@@ -151,8 +151,8 @@ $ cd pa01   </pre>
 <h3>Step 3: Editing text files for programming</h3>
 <p>Let's take a little detour on how to best create and modify text files. These will carry all the code (regardless of computer language) that we want to assemble, compile, and execute.</p>
 
-<p>You are surely all familiar with Microsoft Word as a widely-used "word processor"</p>
-<p>DO <b>NOT</b> USE MS WORD IN PROGRAMMING!! :)</p>
+<p>You are surely all familiar with Microsoft Word as a widely-used "word processor", but</br>
+DO <b>NOT</b> USE MS WORD IN PROGRAMMING!! :)</p>
 
 <p>Instead, for programming, you have access to a very large number of excellent text editors.</br>
 I will introduce you to just 4 of them:</p>
