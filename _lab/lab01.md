@@ -330,7 +330,7 @@ hello.cpp:10:1: error: expected ‘;’ before ‘}’ token
 <p>Once you submit, you should see a page detailing your submission. The system will automatically grade your program and will show you the results on this page after about a 1 minute delay.</p>
 
 <p>You can <em>alternatively</em> submit your code from the command line (i.e. in the terminal) on any CS machine, including the Phelps lab machines or the CSIL server. You can also use this method when logged in remotely. To submit the the <b>hello.cpp</b> file to this assignment by running the command:</p>
-<pre>$ ~submit/submit -p 410 hello.cpp</pre>
+<pre>$ ~submit/submit -p 521 hello.cpp</pre>
 
 <p>The program will ask you to login <b>with your submit.cs username and password</b>. The password will not be printed to the terminal, but what you type will be used. It will also offer the option to save your credentials, so that you do not have login next time you submit. You may choose to do this or not. After the submission succeeds, you should see the program output something like:</p>
 <pre>Results will be available at: https://submit.cs.ucsb.edu/submission/xxxxx</pre>
