@@ -98,7 +98,7 @@ Are you sure you want to continue connecting (yes/no)? </pre>
 <pre>$ ssh -X USERNAME@mickey.cs.ucsb.edu</pre>
 </ol>
 
-<ol>
+<div style="margin-left: 3em;" markdown="1">
 <h4>Step 2c: Connecting to CSIL via SSH with PuTTY</h4>
 
 <p>To connect remotely on Windows machines, we recommend using a program called <em>PuTTY</em>. This program is a well-known and widely-used SSH client for the Windows OS.</p>
@@ -128,7 +128,7 @@ Are you sure you want to continue connecting (yes/no)? </pre>
 
 If you want to run graphical applications, instead of using puTTY, you can use other programs, such as [MobaXterm](http://mobaxterm.mobatek.net/).
 
-</ol>
+</div>
 
 <hr>
 <h3>Step 3: Create CS16 and Programming Assignment 01 Directories</h3>
