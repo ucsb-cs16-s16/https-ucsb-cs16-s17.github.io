@@ -1,6 +1,6 @@
 ---
-layout: topic
-topic: "Emacs hints"
+layout: default
+topic: "emacs hints"
 desc: "Getting started if you've never used emacs before"
 ---
 
