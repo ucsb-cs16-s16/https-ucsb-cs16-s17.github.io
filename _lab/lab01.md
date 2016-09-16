@@ -154,6 +154,7 @@ $ cd lab01   </pre>
 
 <p>Knowing how to navigate a UNIX environment and issue UNIX commands is VERY valuable to computer scientists and engineers. To learn more UNIX commands, there are lot of cool Web resources and books on the topic. This is one website I found that's a good introductory page: 
 <a href="https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html" target="_blank">https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html</a>.
+</p>
 
 <!--
 <h3>Step 4: Create a C++ File</h3>
