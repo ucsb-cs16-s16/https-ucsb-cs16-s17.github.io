@@ -9,7 +9,6 @@ due: 2016-09-30 21:00:00.00-7
 <h2>Introduction</h2>
 
 Your first lab for this week is an introduction to programming on CSIL and in the Computer Science lab. 
-
 You will write your first C++ program that will print specific text out to be read.
 
 <h3 id="step1">Step 1: Create an Engineering Account</h3>
