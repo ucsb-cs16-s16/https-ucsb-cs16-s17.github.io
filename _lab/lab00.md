@@ -3,12 +3,12 @@ layout: lab
 num: lab00
 ready: false
 desc: "Getting started with C++"
-assigned: 2016-09-26 09:00:00.00-7
-due: 2016-09-29 21:00:00.00-7
+assigned: 2016-09-26 08:00:00.00-7
+due: 2016-09-30 21:00:00.00-7
 ---
 <h2>Introduction</h2>
 
-<p>The assignment for this week is an introduction to programming on CSIL and in the Computer Science lab. You will write your first C++ program that will print specific text out to be read.</p>
+Your first lab for this week is an introduction to programming on CSIL and in the Computer Science lab. You will write your first C++ program that will print specific text out to be read.
 
 <h3 id="step1">Step 1: Create an Engineering Account</h3>
 
