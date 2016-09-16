@@ -28,33 +28,34 @@ You will write your first C++ program that will print a specific text out on you
 <p>If you are working on your laptop and it is a Mac or Linux machine, go to <a href="#step2b">Step 2b</a>.</p>
 <p>If you are working on your laptop and it is a Windows machine, go to <a href="#step2c">Step 2c</a>.</p>
 
-<h4 id="step2a"><i>Step 2a: Opening a Terminal on a Phelps Lab Machine</i></h4>
 <ol>
-<p>Log in to the machine using your account credentials (i.e. your username and password) created in Step 1.</p>
-<p>Find the <i>Activities</i> menu, which is in the top-left corner of the screen. Click on it to open the menu.</p>
-<p>Next, type "shell" in the search box. Then click the "Terminal" application which appears.</p>
-<p>You should now see a terminal window open. You can open more tabs or windows from the Terminal application's menu.</p>
-</ol>
+<h4 id="step2a"><i>Step 2a: Opening a Terminal on a Phelps Lab Machine</i></h4>
+<p>Log in to the machine using your account credentials (i.e. your username and password) created in Step 1.</br>
+Find the <i>Activities</i> menu, which is in the top-left corner of the screen. Click on it to open the menu.</br>
+Next, type "shell" in the search box. Then click the "Terminal" application which appears.</br>
+You should now see a terminal window open. You can open more tabs or windows from the Terminal application's menu.</p>
 
-<h4 id="step2b">Step 2b: Connecting to CSIL via SSH on Mac OS X or Linux</h4>
+<h4 id="step2b"><i>Step 2b: Connecting to CSIL via SSH on Mac OS X or Linux</i></h4>
 
-<p>To get started on Mac OS X or Linux, you first need to open a terminal program. This involves slightly different steps on either OS.</p>
+<p>To get started on Mac OS X or Linux, you first need to open a terminal program. This involves slightly different steps on either OS.</br>
+On Ubuntu (an example Linux distribution), you will first want to find the search menu. It appears at the top of the Unity bar:</br>
+<img src="images/ubuntu-menu.png" width="297" alt="Ubuntu Search Menu" /></p>
 
-<p>On Ubuntu (an example Linux distribution), you will first want to find the search menu. It appears at the top of the Unity bar:</p>
-<img src="images/ubuntu-menu.png" width="297" alt="Ubuntu Search Menu" />
+<p>Click on that icon to open the search menu. Then type "terminal" and click on the "Terminal" application which appears:</br>
+<img  src="images/ubuntu-search.png" width="357" alt="Ubuntu Terminal Application" /></p>
 
-<p>Click on that icon to open the search menu. Then type &ldquo;terminal&rdquo; and click on the &ldquo;Terminal&rdquo; application which appears:</p>
-<img  src="images/ubuntu-search.png" width="357" alt="Ubuntu Terminal Application" />
+<p>On Mac OS X, open the "Terminal" application. It is found inside the <em>Applications</em> folder of your main drive, inside the <em>Utilities</em> subfolder. The icon looks like this:</br>
+<img src="images/mac-terminal.png" width="79" alt="Mac OS X Terminal Icon" /></br>
 
-<p>On Mac OS X, open the &ldquo;Terminal&rdquo; application. It is found inside the <em>Applications</em> folder of your main drive, inside the <em>Utilities</em> subfolder. The icon looks like this:</p>
-<img src="images/mac-terminal.png" width="79" alt="Mac OS X Terminal Icon" />
+You can also find it using Spotlight by typing &ldquo;terminal&rdquo; and pressing enter.</p>
 
-<p>You can also find it using Spotlight by typing &ldquo;terminal&rdquo; and pressing enter.</p>
+<p>Once you have a terminal window open on your machine, you next need to connect to the CSIL server remotely. </br>
+You will do this using a UNIX command (a computer network protocol, really) called <em>SSH</em>, short for Secure Shell.</p>
 
-<p>Once you have a terminal window open on your machine, you next need to connect to the CSIL server remotely. This will be done using a program called <em>SSH</em>.</p>
-
-<p>Type the following command in your terminal, replacing <span class="code">USERNAME</span> with <em>your CSIL username</em>:</p>
+<p>Type the following command in your terminal, replacing <b>USERNAME</b> with <em>your CSIL username</em>:</p>
 <pre>$ ssh USERNAME@csil.cs.ucsb.edu</pre>
+
+xxxx
 
 <p>SSH will first ask you a question which looks like this:</p>
 <pre>The authenticity of host 'csil.cs.ucsb.edu (128.111.43.14)' can't be established.
