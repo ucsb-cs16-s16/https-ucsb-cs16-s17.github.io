@@ -137,7 +137,7 @@ $ cd pa01   </pre>
 <p>At any time, you can check what directory you are current in with the command <b>pwd</b>. It will output the full path of the current directory. For example, if you are inside your <b>pa01</b> directory, you might see:</p>
 <pre>/cs/student/yourcsilname/cs16/pa01</pre>
 
-<p>Knowing how to navigate a UNIX environment and issue UNIX commands is VERY valuable to computer scientists and engineers. To learn more UNIX commands, there are lot of cool Web resources and books on the topic. This is one website I found that's a good introductory page: <a href="https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html">https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html</a>.
+<p>Knowing how to navigate a UNIX environment and issue UNIX commands is VERY valuable to computer scientists and engineers. To learn more UNIX commands, there are lot of cool Web resources and books on the topic. This is one website I found that's a good introductory page: <a href="https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html" _target="blank">https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html</a>.
 
 <h3>Step 4: Create a C++ File</h3>
 
