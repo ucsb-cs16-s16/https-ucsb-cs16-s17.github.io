@@ -230,31 +230,20 @@ As you progress in your Computer Science education and, subsequently, your caree
 <hr>
 <h3>Step 4: Create and edit a file containing a C++ program</h3>
 
-Let's use <b>emacs</b> to create and edit a new file. We'll call this file <b>hello.cpp</b>. On a terminal, type:
+Now it's time to write the program! If you're comfortable with one of the reviewed text editors, then go ahead and use one. Otherwise, here are some [emacs hints](emacs_hints/) and some [vim hints](vim_hints/).
+
+This assignment only needs you to write a program that prints out two lines on the display, and nothing else. The output should look exactly as follows (no space before or after each line, except the newlines):
+
 ```
-$ emacs hello.cpp
+Hello, world!
+CS16 Fall 2016.
 ```
-Once emacs is open, you can start editing the file immediately. To move around, use <b>the arrow keys</b>.
 
-<p>emacs commands usually take the form <b>C-x C-c</b>. This means press and hold the <b>control</b> key while pressing the <b>x</b> key, then next press and hold the <b>control</b> key while pressing the <b>c</b> key. In contrast, the command <b>C-x 1</b> means press and hold the <b>control</b> and <b>x</b> keys, then release both and then press the <b>1</b> key.</p>
+Start with a "skeleton program" (or template) that contains the necessary structure but that does not do anything:
 
-<p>Some useful commands are:</p>
-<ol><ul>
-	<li><b>C-x C-c</b> closes emacs</li>
-	<li><b>C-x C-s</b> saves the current file</li>
-	<li><b>C-x 1</b> closes all other panes except the current one (you can use this close the help panel)</li>
-	<li><b>C-g</b> at any point in a command will cancel the command</li>
-	<li><b>C-k</b> "kills" or cuts the current line, and <b>C-y</b> "yanks" or pastes the line back at the cursor location</li>
-</ul></ol>
-
-<p>Now it's time to write the program! This assignment only needs you to write a program that prints out two lines on the display, and nothing else. The output should look exactly as follows (no space before or after each line, except the newlines):</p>
-<pre>Hello, world!
-CS16 Fall 2016.</pre>
-
-<p>Start with a "skeleton program" (or template) that contains the necessary structure but that does not do anything:</p>
-<pre>
-#include &lt;stdio&gt;
-#include &lt;iostream&gt;
+```cpp
+#include <stdio>
+#include <iostream>
 
 using namespace std;
 
@@ -263,8 +252,7 @@ int main() {
 
     return 0;
 }
-</pre>
-
+```
 <p>Go ahead and type this in to the <b>hello.cpp</b> file. Alternatively, you can copy and paste it directly from this page.</p>
 
 <p>Next, you will need to replace the comment with code to print out the expected output. Comments in C++ are lines that start with <b>//</b> or text between <b>/*</b> and <b>*/</b>. The second type can span multiple lines.</p>
