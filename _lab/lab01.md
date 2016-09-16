@@ -125,6 +125,9 @@ Are you sure you want to continue connecting (yes/no)? </pre>
 <pre>$ hostname</pre>
 
 <p>This command should output <b>csil.cs.ucsb.edu</b>. You can now do anything in this terminal window that you could do on a CSIL machine or a Phelps lab machine, except run graphical applications.</p>
+
+If you want to run graphical applications, instead of using puTTY, you can use other programs, such as [MobaXterm](http://mobaxterm.mobatek.net/).
+
 </ol>
 
 <hr>
