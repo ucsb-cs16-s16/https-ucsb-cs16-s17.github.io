@@ -10,7 +10,7 @@ due: 2016-09-30 12:00:00.00-7
 
 Your first lab for this week is an introduction to programming on CSIL and in the Computer Science lab.</br>
 You will write your first C++ program that will print a specific text out on your computer display.
-<p>Also, please note (I'll only do this this one time, on your 1st lab) that your completed lab assignment must be turned in by this <font color="red">FRIDAY at NOON</font>. In fact, all of your assignments will be given to you on your Monday labs and then be expected to be submitted by the coming Friday at noon.</p>
+<p>Also, please note (I'll only do this this one time, on your 1st lab) that your completed lab assignment must be turned in by this <b><i>FRIDAY at NOON</i></b>. In fact, all of your assignments will be given to you on your Monday labs and then be expected to be submitted by the coming Friday at noon.</p>
 
 <h3>Step 1: Create an Engineering Account</h3>
 
@@ -85,7 +85,7 @@ Are you sure you want to continue connecting (yes/no)? </pre>
 <p>Doing this on the CSIL server will be very slow, since the server is shared between everyone logged in. For better performance, use one of the CSIL workstation names as your SSH destination instead. You can find a list of the workstations at <a href="http://www.cs.ucsb.edu/~don/machines/csilmap.php">http://www.cs.ucsb.edu/~don/machines/csilmap.php</a>. To login to a workstation, just replace "CSIL" with the name of the workstation. For example, to login to "mickey":</p>
 <pre>$ ssh -X USERNAME@mickey.cs.ucsb.edu</pre>
 
-<h4 id="step2c">Step 2c: Connecting to CSIL via SSH with PuTTY</h4>
+<h4>Step 2c: Connecting to CSIL via SSH with PuTTY</h4>
 
 <p>To connect remotely on Windows machines, we recommend using a program called <em>PuTTY</em>. This program is a well-known and widely-used SSH client for the Windows OS.</p>
 
@@ -113,36 +113,37 @@ Are you sure you want to continue connecting (yes/no)? </pre>
 <p>This command should output <b>csil.cs.ucsb.edu</b>. You can now do anything in this terminal window that you could do on a CSIL machine or a Phelps lab machine, except run graphical applications.</p>
 </ol>
 
-xxxxxx
-
-<h3 id="step3">Step 3: Create CS16 and Programming Assignment 01 Directories</h3>
+<h3>Step 3: Create CS16 and Programming Assignment 01 Directories</h3>
 
 <p>Now that your environment is set up, you next will need to create a directory (a folder is also called <i>directory</i> in Linux) that will contain all your work for the course. Then, inside that directory, you will need to create another directory to contain your work for this assignment.</p>
 
-<p>To create your CS16 directory, use the <span class="code">mkdir</span> command. Type the following in the terminal and press enter:</p>
+<p>To create your CS16 directory, use the <b>mkdir</b> command. Type the following in the terminal and press enter:</p>
 <pre>$ mkdir cs16</pre>
 
-<p>The <span class="code">$</span> represents the terminal prompt; you won't type this character. Whenever you see it, that means that the following command is intended to be typed into the terminal window and run by pressing enter.</p>
+<p>The <b>$</b> represents the terminal prompt; <i>you won't type this character</i>. Whenever you see it, that means that the following command is intended to be typed into the terminal window and run by pressing enter.</p>
 
-<p>You can see list of files and directories in the current directory with <span class="code">ls</span> command. Type the following in the terminal and press enter:</p>
+<p>You can see list of files and directories in the current directory with <b>ls</b> command. Type the following in the terminal and press enter:</p>
 <pre>$ ls</pre>
 
-<p>You should be able to see the directory you just created i.e. <span class="code">cs16</span> </p>
+<p>You should be able to see the directory you just created i.e. <b>cs16</b> </p>
 
-<p>Now move into that new CS16 directory with the <span class="code">cd</span> command as follows:</p>
+<p>Now move into that new CS16 directory with the <b>cd</b> command as follows:</p>
 <pre>$ cd cs16</pre>
 
 <p>And create and move into a PA 01 directory:</p>
 <pre>$ mkdir pa01
 $ cd pa01   </pre>
 
-<p>At any time, you can check what directory you are current in with the command <span class="code">pwd</span>. It will output the full path of the current directory. For example, if you are inside your <span class="code">pa01</span> directory, you might see:</p>
+<p>At any time, you can check what directory you are current in with the command <b>pwd</b>. It will output the full path of the current directory. For example, if you are inside your <b>pa01</b> directory, you might see:</p>
 <pre>/cs/student/yourcsilname/cs16/pa01</pre>
 
+<p>Knowing how to navigate a UNIX environment and issue UNIX commands is VERY valuable to computer scientists and engineers. To learn more UNIX commands, there are lot of cool Web resources and books on the topic. This is one website I found that's a good introductory page: <a href="https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html">https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html</a>.
 
-<h3 id="step4">Step 4: Create a C++ File</h3>
+<h3>Step 4: Create a C++ File</h3>
 
-<p>Now that we have a directory to contain our work for the assignment, let's start writing our code. Create a file called <span class="code">hello.cpp</span> with the <span class="code">touch</span> command:</p>
+xxxxxxx
+
+<p>Now that we have a directory to contain our work for the assignment, let's start writing our code. Create a file called <b>hello.cpp</b> with the <b>touch</span> command:</p>
 <pre>$ touch hello.cpp</pre>
 
 <p><span class="code">hello.cpp</span> is now a completely empty file that you will use throughout the rest of the assignment to write your C++ code.</p> 
