@@ -12,7 +12,7 @@ Your first lab for this week is an introduction to programming on CSIL and in th
 You will write your first C++ program that will print a specific text out on your computer display.
 <p>Also, please note (I'll only do this this one time, on your 1st lab) that your completed lab assignment must be turned in by this <b><i>FRIDAY at NOON</i></b>. In fact, all of your assignments will be given to you on your Monday labs and then be expected to be submitted by the coming Friday at noon.</p>
 
-<p>For this first lab, you will do the following:</br>
+<p>For this first lab, you will do the following:<br>
 <ol>
 <li>Create a College of Engineering online computer account, if you don't have one already.</li>
 <li>Learn how to open a terminal on a lab or personal computer.</li>
@@ -52,7 +52,7 @@ You will write your first C++ program that will print a specific text out on you
 <h4><i>Step 2b: Connecting to CSIL via SSH on Mac OS X or Linux</i></h4>
 
 <p>To get started on Mac OS X or Linux, you first need to open a terminal program. This involves slightly different steps on either OS.</p>
-<p>On Ubuntu (an example of a Linux OS):</br>
+<p>On Ubuntu (an example of a Linux OS):<br>
 <li>You will first want to find the search menu. It appears at the top of the Unity bar:</li>
 <img src="lab01/ubuntu-menu.png" width="297" alt="Ubuntu Search Menu" /></p>
 
@@ -60,14 +60,14 @@ You will write your first C++ program that will print a specific text out on you
 <img  src="lab01/ubuntu-search.png" width="357" alt="Ubuntu Terminal Application" />
 </p>
 
-<p>On Mac OS X:</br>
+<p>On Mac OS X:<br>
 <li>Open the "Terminal" application. It is found inside the <em>Applications</em> folder of your main drive, inside the <em>Utilities</em> subfolder. The icon looks like this:</li>
-<img src="lab01/mac-terminal.png" width="79" alt="Mac OS X Terminal Icon" /></br>
+<img src="lab01/mac-terminal.png" width="79" alt="Mac OS X Terminal Icon" /><br>
 
 You can also find it using Spotlight by typing "terminal" and pressing ENTER.
 </p>
 
-<p>Once you have a terminal window open on your machine, you next need to <b>connect to the CSIL server remotely</b>. </br>
+<p>Once you have a terminal window open on your machine, you next need to <b>connect to the CSIL server remotely</b>. <br>
 You will do this using a UNIX command (an internet protocol, really) called <em>SSH</em> (short for Secure Shell).</p>
 
 <p>Type the following command in your terminal, replacing <b>USERNAME</b> with <b>your CSIL username</b>:</p>
@@ -166,35 +166,35 @@ $ cd lab01   </pre>
 
 <p>Let's take a little detour on how to best create and modify text files. These will carry all the code (regardless of computer language) that we want to assemble, compile, and execute.</p>
 
-<p>You are surely all familiar with Microsoft Word as a widely-used "word processor", but please DO <b>NOT</b> USE MS WORD TO WRITE PROGRAMS!!! :)</br>
+<p>You are surely all familiar with Microsoft Word as a widely-used "word processor", but please DO <b>NOT</b> USE MS WORD TO WRITE PROGRAMS!!! :)<br>
 <p>Instead, for programming, you have access to a very large number of excellent text editors - most of them are free to use! I will introduce you to just 4 of them below. If you already have a favorite editor and know how to use it well, then you don't have to change and use something else, just for this class.</p>
-<p>In fact, <i>AND PLEASE NOTE THIS</i>, no one editor is necessarily "better" than another. It is a matter of your preference. This is a great time for you to explore multiple options and then pick one. Once you pick an editor of choice, STICK WITH IT!</br>
+<p>In fact, <i>AND PLEASE NOTE THIS</i>, no one editor is necessarily "better" than another. It is a matter of your preference. This is a great time for you to explore multiple options and then pick one. Once you pick an editor of choice, STICK WITH IT!<br>
 As you progress in your Computer Science education and, subsequently, your careers in CS, make sure you end up learning how to use more than one editor. You can still have a "favorite" that you excel at using, but at least have a working familiarity with others.</p>
 
 <ol>
 <li> <b>emacs</b> for UNIX-based OS</li>
 	<ol>
 	<p>emacs is a very popular editor that's available on just about every UNIX machine (including the ones that you're using in the CS labs) and UNIX-based machines (like MacOS computers).</p>
-	<p>To run emacs on a UNIX machine or a MacOS machine, open up a terminal (see above for how to do that on Macs) and type:</br>
+	<p>To run emacs on a UNIX machine or a MacOS machine, open up a terminal (see above for how to do that on Macs) and type:<br>
 	<pre>$ emacs</pre></p>
 	<p>To edit a file (let's say it's called "filename"), you'd type:</p>
 	<pre>$ emacs <i>filename</i></pre></p>
 
-	<p>To learn how to use emacs, there is no substitute for PRACTICE!!! Of course, there are multiple online resources that you can look at (especially given emacs' popularity) and here are some of them:</br>
-	<li><a href="https://www.gnu.org/software/emacs/tour/">emacs tour from the GNU organization (makers of emacs)</a></li></br>
-	<li><a href="https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf">emacs commands - a handy reference card</a></li></br>
+	<p>To learn how to use emacs, there is no substitute for PRACTICE!!! Of course, there are multiple online resources that you can look at (especially given emacs' popularity) and here are some of them:<br>
+	<li><a href="https://www.gnu.org/software/emacs/tour/">emacs tour from the GNU organization (makers of emacs)</a></li><br>
+	<li><a href="https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf">emacs commands - a handy reference card</a></li><br>
 	<li><a href="http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs">a beginner's guide to emacs</a></li></p>
 	</ol>
 <li> <b>vim</b> for UNIX-based OS</li>
 	<ol>
 	<p>vim (or sometimes called vi) is another popular editor that's also available on just about every UNIX machine (including the ones that you're using in the CS labs) and UNIX-based machines (like MacOS computers).</p>
-	<p>To run vim on a UNIX machine or a MacOS machine, open up a terminal (see above for how to do that on Macs) and type:</br>
+	<p>To run vim on a UNIX machine or a MacOS machine, open up a terminal (see above for how to do that on Macs) and type:<br>
 	<pre>$ vim</pre></p>
 	<p>To edit a file (let's say it's called "filename"), you'd type:</p>
 	<pre>$ vim <i>filename</i></pre></p>
-	<p>Again, to learn how to use vim, there is no substitute for PRACTICE!!! Again, there are multiple online resources that you can look at and here are some of them:</br>
-	<li><a href="http://www.vim.org/about.php">About vim</a></li></br>
-	<li><a href="http://tnerual.eriogerg.free.fr/vimqrc.html">vim commands - a handy reference card</a></li></br>
+	<p>Again, to learn how to use vim, there is no substitute for PRACTICE!!! Again, there are multiple online resources that you can look at and here are some of them:<br>
+	<li><a href="http://www.vim.org/about.php">About vim</a></li><br>
+	<li><a href="http://tnerual.eriogerg.free.fr/vimqrc.html">vim commands - a handy reference card</a></li><br>
 	<li><a href="https://www.fprintf.net/vimCheatSheet.html">another reference cheat sheet for vim</a></li></p>
 	</ol>
 <li> <b>Sublime Text 2</b> for Windows OS and MacOS X --- see <a href="https://www.sublimetext.com/">the product website</a> (it's a program that you'd have to download)</li>
@@ -204,8 +204,8 @@ As you progress in your Computer Science education and, subsequently, your caree
 <hr>
 <h3>Step 4: Create and edit a file containing a C++ program</h3>
 
-<p>Let's use <b>emacs</b> to create and edit a new file. We'll call this file <b>hello.cpp</b>. On a terminal, type:</br>
-<pre>$ emacs hello.cpp</pre></br>
+<p>Let's use <b>emacs</b> to create and edit a new file. We'll call this file <b>hello.cpp</b>. On a terminal, type:<br>
+<pre>$ emacs hello.cpp</pre><br>
 Once emacs is open, you can start editing the file immediately. To move around, use <b>the arrow keys</b>.</p>
 
 <p>emacs commands usually take the form <b>C-x C-c</b>. This means press and hold the <b>control</b> key while pressing the <b>x</b> key, then next press and hold the <b>control</b> key while pressing the <b>c</b> key. In contrast, the command <b>C-x 1</b> means press and hold the <b>control</b> and <b>x</b> keys, then release both and then press the <b>1</b> key.</p>
@@ -266,7 +266,7 @@ int main() {
 
 <p>Which means "in the current directory, as represented by the <b>.</b> character, run the program <b>hello</b>". You should then see the program output the two expected lines.</p>
 
-<p>The other possibility is that the program may <b>not compile successfully</b>. What to do then?</br>
+<p>The other possibility is that the program may <b>not compile successfully</b>. What to do then?<br>
 If you run the <b>g++</b> command and are unsuccesful with your compilation, then you might see an output that looks like this:</p>
 <pre>hello.cpp: In function ‘int main()’:
 hello.cpp:10:1: error: expected ‘;’ before ‘}’ token
