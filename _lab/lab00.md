@@ -151,11 +151,13 @@ $ cd pa01   </pre>
 <h3>Step 3: Editing text files for programming</h3>
 <p>Let's take a little detour on how to best create and modify text files. These will carry all the code (regardless of computer language) that we want to assemble, compile, and execute.</p>
 
-<p>You are surely all familiar with Microsoft Word as a widely-used "word processor", but</br>
-DO <b>NOT</b> USE MS WORD IN PROGRAMMING!! :)</p>
+<p>You are surely all familiar with Microsoft Word as a widely-used "word processor", but please DO <b>NOT</b> USE MS WORD IN PROGRAMMING!! :)</p>
 
 <p>Instead, for programming, you have access to a very large number of excellent text editors.</br>
-I will introduce you to just 4 of them:</p>
+I will introduce you to just 4 of them below.</br>
+PLEASE NOTE that no one editor is necessarily "better" than another. It is a matter of your preference. This is a great time for you to explore multiple options and then pick one. Once you pick an editor of choice, STICK WITH IT!</p>
+<p>As you progress in your Computer Science education and, subsequently, your careers in CS, make sure you end up learning how to use more than one editor. You can still have a "favorite" that you excel at using, but at least have a working familiarity with others.</p>
+
 <ol>
 <li> <b>emacs</b> for UNIX-based OS</li>
 	<ol>
@@ -186,7 +188,6 @@ I will introduce you to just 4 of them:</p>
 <li> <b>Notepad++</b> for Windows OS --- see <a href="https://notepad-plus-plus.org/">the product website</a> (it's a program that you'd have to download)</li>
 </ol>
 
-<p>No one editor is necessarily "better" than another. It is a matter of your preference. This is a great time for you to explore multiple options and then pick one. Once you pick an editor of choice, STICK WITH IT!</p>
 
 xxxxx
 
