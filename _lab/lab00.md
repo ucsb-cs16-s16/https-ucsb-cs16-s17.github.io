@@ -30,10 +30,12 @@ You will write your first C++ program that will print a specific text out on you
 
 <ol>
 <h4 id="step2a"><i>Step 2a: Opening a Terminal on a Phelps Lab Machine</i></h4>
-<p>Log in to the machine using your account credentials (i.e. your username and password) created in Step 1.</br>
-Find the <i>Activities</i> menu, which is in the top-left corner of the screen. Click on it to open the menu.</br>
-Next, type "shell" in the search box. Then click the "Terminal" application which appears.</br>
-You should now see a terminal window open. You can open more tabs or windows from the Terminal application's menu.</p>
+<p>
+<li>Log in to the machine using your account credentials (i.e. your username and password) created in Step 1.</li>
+<li>Find the <i>Activities</i> menu, which is in the top-left corner of the screen. Click on it to open the menu.</li>
+<li>Next, type "shell" in the search box. Then click the "Terminal" application which appears.</li>
+<li>You should now see a terminal window open. You can open more tabs or windows from the Terminal application's menu.</li>
+</p>
 
 <h4 id="step2b"><i>Step 2b: Connecting to CSIL via SSH on Mac OS X or Linux</i></h4>
 
