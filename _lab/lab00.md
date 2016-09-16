@@ -160,9 +160,11 @@ I will introduce you to just 4 of them:</p>
 <li> <b>emacs</b> for UNIX-based OS</li>
 	<ol>
 	<p>emacs is a very popular editor that's available on just about every UNIX machine (including the ones that you're using in the CS labs) and UNIX-based machines (like MacOS computers).</p>
-	<p>To run emacs on a UNIX machine, simply type:</br>
+	<p>To run emacs on a UNIX machine or a MacOS machine, open up a terminal (see above for how to do that on Macs) and type:</br>
 	<pre>$ emacs</pre></p>
-	<p>To run emacs on a MacOS machine, open the Terminal program (see above how to do that) and do the same as above.</p>
+	<p>To edit a file (let's say it's called "filename"), you'd type:</p>
+	<pre>$ emacs <i>filename</i></pre></p>
+
 	<p>To learn how to use emacs, there is no substitute for PRACTICE!!! Of course, there are multiple online resources that you can look at (especially given emacs' popularity) and here are some of them:</br>
 	<a href="https://www.gnu.org/software/emacs/tour/">emacs tour from the GNU organization (makers of emacs)</a></br>
 	<a href="http://www.cs.colostate.edu/helpdocs/emacs.html">a concise list of commonly-used emacs commands</a></br>
@@ -171,9 +173,10 @@ I will introduce you to just 4 of them:</p>
 <li> <b>vim</b> for UNIX-based OS</li>
 	<ol>
 	<p>vim (or sometimes called vi) is another popular editor that's also available on just about every UNIX machine (including the ones that you're using in the CS labs) and UNIX-based machines (like MacOS computers).</p>
-	<p>To run vim on a UNIX machine, simply type:</br>
+	<p>To run vim on a UNIX machine or a MacOS machine, open up a terminal (see above for how to do that on Macs) and type:</br>
 	<pre>$ vim</pre></p>
-	<p>To run vim on a MacOS machine, open the Terminal program (see above how to do that) and do the same as above.</p>
+	<p>To edit a file (let's say it's called "filename"), you'd type:</p>
+	<pre>$ vim <i>filename</i></pre></p>
 	<p>Again, to learn how to use vim, there is no substitute for PRACTICE!!! Again, there are multiple online resources that you can look at and here are some of them:</br>
 	<a href="http://www.vim.org/about.php">About vim</a></br>
 	<a href="http://tnerual.eriogerg.free.fr/vimqrc.html">vim commands - a quick reference card</a></br>
