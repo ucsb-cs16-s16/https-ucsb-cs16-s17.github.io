@@ -167,9 +167,9 @@ As you progress in your Computer Science education and, subsequently, your caree
 	<pre>$ emacs <i>filename</i></pre></p>
 
 	<p>To learn how to use emacs, there is no substitute for PRACTICE!!! Of course, there are multiple online resources that you can look at (especially given emacs' popularity) and here are some of them:</br>
-	<ul><a href="https://www.gnu.org/software/emacs/tour/">emacs tour from the GNU organization (makers of emacs)</a></br>
+	<li><a href="https://www.gnu.org/software/emacs/tour/">emacs tour from the GNU organization (makers of emacs)</a></br>
 	<a href="http://www.cs.colostate.edu/helpdocs/emacs.html">a concise list of commonly-used emacs commands</a></br>
-	<a href="http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs">a beginner's guide to emacs</a></p></ul>
+	<a href="http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs">a beginner's guide to emacs</a></p></li>
 	</ol>
 <li> <b>vim</b> for UNIX-based OS</li>
 	<ol>
