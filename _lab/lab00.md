@@ -164,9 +164,9 @@ I will introduce you to just 4 of them:</p>
 	<pre>$ emacs</pre></p>
 	<p>To run emacs on a MacOS machine, open the Terminal program (see above how to do that) and do the same as above.</p>
 	<p>To learn how to use emacs, there is no substitute for PRACTICE!!! Of course, there are multiple online resources that you can look at (especially given emacs' popularity) and here are some of them:</br>
-	<a href="https://www.gnu.org/software/emacs/tour/">emacs tour from the GNU organization (makers of emacs)</a>
-	<a href="http://www.cs.colostate.edu/helpdocs/emacs.html">a concise list of commonly-used emacs commands</a>
-	<a href="http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs">a beginner's guide to emacs</a>
+	<a href="https://www.gnu.org/software/emacs/tour/">emacs tour from the GNU organization (makers of emacs)</a></br>
+	<a href="http://www.cs.colostate.edu/helpdocs/emacs.html">a concise list of commonly-used emacs commands</a></br>
+	<a href="http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs">a beginner's guide to emacs</a></p>
 	</ol>
 <li> <b>vim</b> for UNIX-based OS</li>
 	<ol>
@@ -175,9 +175,9 @@ I will introduce you to just 4 of them:</p>
 	<pre>$ vim</pre></p>
 	<p>To run vim on a MacOS machine, open the Terminal program (see above how to do that) and do the same as above.</p>
 	<p>Again, to learn how to use vim, there is no substitute for PRACTICE!!! Again, there are multiple online resources that you can look at and here are some of them:</br>
-	<a href="http://www.vim.org/about.php">About vim</a>
-	<a href="http://tnerual.eriogerg.free.fr/vimqrc.html">vim commands - a quick reference card</a>
-	<a href="https://www.fprintf.net/vimCheatSheet.html">another reference cheat sheet for vim</a>
+	<a href="http://www.vim.org/about.php">About vim</a></br>
+	<a href="http://tnerual.eriogerg.free.fr/vimqrc.html">vim commands - a quick reference card</a></br>
+	<a href="https://www.fprintf.net/vimCheatSheet.html">another reference cheat sheet for vim</a></p>
 	</ol>
 <li> <b>Sublime Text 2</b> for Windows OS and MacOS X --- see <a href="https://www.sublimetext.com/">the product website</a></li>
 <li> <b>Notepad++</b> for Windows OS --- see <a href="https://notepad-plus-plus.org/">the product website</a> </li>
