@@ -179,8 +179,8 @@ I will introduce you to just 4 of them:</p>
 	<a href="http://tnerual.eriogerg.free.fr/vimqrc.html">vim commands - a quick reference card</a></br>
 	<a href="https://www.fprintf.net/vimCheatSheet.html">another reference cheat sheet for vim</a></p>
 	</ol>
-<li> <b>Sublime Text 2</b> for Windows OS and MacOS X --- see <a href="https://www.sublimetext.com/">the product website</a></li>
-<li> <b>Notepad++</b> for Windows OS --- see <a href="https://notepad-plus-plus.org/">the product website</a> </li>
+<li> <b>Sublime Text 2</b> for Windows OS and MacOS X --- see <a href="https://www.sublimetext.com/">the product website</a> (it's a program that you'd have to download)</li>
+<li> <b>Notepad++</b> for Windows OS --- see <a href="https://notepad-plus-plus.org/">the product website</a> (it's a program that you'd have to download)</li>
 </ol>
 
 <p>No one editor is necessarily "better" than another. It is a matter of your preference. This is a great time for you to explore multiple options and then pick one. Once you pick an editor of choice, STICK WITH IT!</p>
