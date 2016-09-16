@@ -228,8 +228,8 @@ CS16 Winter 2016.</pre>
 
 <p>Start with a "skeleton program" (or template) that contains the necessary structure but that does not do anything:</p>
 <pre>
-\#include &lt;stdio&gt;
-\#include &lt;iostream&gt;
+#include &lt;stdio&gt;
+#include &lt;iostream&gt;
 
 using namespace std;
 
