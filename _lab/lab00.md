@@ -12,6 +12,7 @@ Your first lab for this week is an introduction to programming on CSIL and in th
 You will write your first C++ program that will print a specific text out on your computer display.
 <p>Also, please note (I'll only do this this one time, on your 1st lab) that your completed lab assignment must be turned in by this <b><i>FRIDAY at NOON</i></b>. In fact, all of your assignments will be given to you on your Monday labs and then be expected to be submitted by the coming Friday at noon.</p>
 
+<hr>
 <h3>Step 1: Create an Engineering Account</h3>
 
 <p>To log in to the machines in the Computer Science labs, or to connect remotely, you will need a <b>College of Engineering account</b>.</p>
@@ -20,7 +21,8 @@ You will write your first C++ program that will print a specific text out on you
 
 <p>If you are enrolled in <i>any</i> CoE course this quarter (including CS16), you can create your account immediately. If you are not, you will need to contact the ECI Help Desk at <a href="mailto:help@engineering.ucsb.edu">help@engineering.ucsb.edu</a>.</p> 
 
-<h3 id="step2">Step 2: Open a Terminal</h3>
+<hr>
+<h3>Step 2: Open a Terminal</h3>
 
 <p>The first step in every assignment will be to open a <b>terminal window</b>, which will be the environment you use to write, compile, and run your programs.</p>
 
@@ -29,7 +31,7 @@ You will write your first C++ program that will print a specific text out on you
 <p>If you are working on your laptop and it is a Windows machine, go to <a href="#step2c">Step 2c</a>.</p>
 
 <ol>
-<h4 id="step2a"><i>Step 2a: Opening a Terminal on a Phelps Lab Machine</i></h4>
+<h4><i>Step 2a: Opening a Terminal on a Phelps Lab Machine</i></h4>
 <p>
 <li>Log in to the machine using your account credentials (i.e. your username and password) created in Step 1.</li>
 <li>Find the <i>Activities</i> menu, which is in the top-left corner of the screen. Click on it to open the menu.</li>
@@ -37,7 +39,7 @@ You will write your first C++ program that will print a specific text out on you
 <li>You should now see a terminal window open. You can open more tabs or windows from the Terminal application's menu.</li>
 </p>
 
-<h4 id="step2b"><i>Step 2b: Connecting to CSIL via SSH on Mac OS X or Linux</i></h4>
+<h4><i>Step 2b: Connecting to CSIL via SSH on Mac OS X or Linux</i></h4>
 
 <p>To get started on Mac OS X or Linux, you first need to open a terminal program. This involves slightly different steps on either OS.</p>
 <p>On Ubuntu (an example of a Linux OS):</br>
@@ -113,6 +115,7 @@ Are you sure you want to continue connecting (yes/no)? </pre>
 <p>This command should output <b>csil.cs.ucsb.edu</b>. You can now do anything in this terminal window that you could do on a CSIL machine or a Phelps lab machine, except run graphical applications.</p>
 </ol>
 
+<hr>
 <h3>Step 3: Create CS16 and Programming Assignment 01 Directories</h3>
 
 <p>Now that your environment is set up, you next will need to create a directory (a folder is also called <i>directory</i> in Linux) that will contain all your work for the course. Then, inside that directory, you will need to create another directory to contain your work for this assignment.</p>
@@ -148,6 +151,7 @@ $ cd pa01   </pre>
 
 <p><span class="code">hello.cpp</span> is now a completely empty file that you will use throughout the rest of the assignment to write your C++ code.</p> -->
 
+<hr>
 <h3>Step 3: Editing text files for programming</h3>
 
 <p>Let's take a little detour on how to best create and modify text files. These will carry all the code (regardless of computer language) that we want to assemble, compile, and execute.</p>
@@ -187,10 +191,7 @@ As you progress in your Computer Science education and, subsequently, your caree
 <li> <b>Notepad++</b> for Windows OS --- see <a href="https://notepad-plus-plus.org/">the product website</a> (it's a program that you'd have to download)</li>
 </ol>
 
-
-xxxxx
-
-
+<hr>
 <h3>Step 4: Edit <b>hello.cpp</b></h3>
 
 <p>To put text inside the <span class="code">hello.cpp</span> file, you will need to use a <i>text editor</i>.</p>
