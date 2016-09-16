@@ -80,16 +80,16 @@ Are you sure you want to continue connecting (yes/no)? </pre>
 <p>If you have an X windows system installed you can get graphical applications running by <em>forwarding</em> X from CSIL to your machine. To do this, add the <b>-X</b> option to the SSH command like this:</p>
 <pre>$ ssh -X USERNAME@csil.cs.ucsb.edu</pre>
 
-<p>X windows is almost always installed on graphical Linux, and can be installed on Mac OS X as XQuartz (which can be found at <a href="http://xquartz.macosforge.org/landing/">http://xquartz.macosforge.org/landing/</a>).</p>
+<p>X windows is almost always installed on graphical Linux, and can be installed on Mac OS X as XQuartz (which can be found at <a href="http://xquartz.macosforge.org/landing/" target="_blank">http://xquartz.macosforge.org/landing/</a>).</p>
 
-<p>Doing this on the CSIL server will be very slow, since the server is shared between everyone logged in. For better performance, use one of the CSIL workstation names as your SSH destination instead. You can find a list of the workstations at <a href="http://www.cs.ucsb.edu/~don/machines/csilmap.php">http://www.cs.ucsb.edu/~don/machines/csilmap.php</a>. To login to a workstation, just replace "CSIL" with the name of the workstation. For example, to login to "mickey":</p>
+<p>Doing this on the CSIL server will be very slow, since the server is shared between everyone logged in. For better performance, use one of the CSIL workstation names as your SSH destination instead. You can find a list of the workstations at <a href="http://www.cs.ucsb.edu/~don/machines/csilmap.php" target="_blank">http://www.cs.ucsb.edu/~don/machines/csilmap.php</a>. To login to a workstation, just replace "CSIL" with the name of the workstation. For example, to login to "mickey":</p>
 <pre>$ ssh -X USERNAME@mickey.cs.ucsb.edu</pre>
 
 <h4>Step 2c: Connecting to CSIL via SSH with PuTTY</h4>
 
 <p>To connect remotely on Windows machines, we recommend using a program called <em>PuTTY</em>. This program is a well-known and widely-used SSH client for the Windows OS.</p>
 
-<p>First, download the program from <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html</a>. You only need the executable file <b>putty.exe</b>, but feel free to download any other programs that you want. The page includes portable versions and a version with an installer. <i>Always make sure to download PuTTY from this site</i>, so that you can make sure it is the correct program.</p>
+<p>First, download the program from <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" target="_blank">http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html</a>. You only need the executable file <b>putty.exe</b>, but feel free to download any other programs that you want. The page includes portable versions and a version with an installer. <i>Always make sure to download PuTTY from this site</i>, so that you can make sure it is the correct program.</p>
 
 <p>Once downloaded, run PuTTY like you would open other programs. If you just download the <b>putty.exe</b> file, you can open it from your downloads folder directly. You can also move it to any other location on your machine and open it from there. If you used the installer, open PuTTY from the Start Menu.</p>
 
@@ -137,7 +137,8 @@ $ cd pa01   </pre>
 <p>At any time, you can check what directory you are current in with the command <b>pwd</b>. It will output the full path of the current directory. For example, if you are inside your <b>pa01</b> directory, you might see:</p>
 <pre>/cs/student/yourcsilname/cs16/pa01</pre>
 
-<p>Knowing how to navigate a UNIX environment and issue UNIX commands is VERY valuable to computer scientists and engineers. To learn more UNIX commands, there are lot of cool Web resources and books on the topic. This is one website I found that's a good introductory page: <a href="https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html" target="_blank">https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html</a>.
+<p>Knowing how to navigate a UNIX environment and issue UNIX commands is VERY valuable to computer scientists and engineers. To learn more UNIX commands, there are lot of cool Web resources and books on the topic. This is one website I found that's a good introductory page: 
+<a href="https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html" target="_blank">https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html</a>.
 
 <h3>Step 4: Create a C++ File</h3>
 
