@@ -149,14 +149,13 @@ $ cd pa01   </pre>
 <p><span class="code">hello.cpp</span> is now a completely empty file that you will use throughout the rest of the assignment to write your C++ code.</p> -->
 
 <h3>Step 3: Editing text files for programming</h3>
+
 <p>Let's take a little detour on how to best create and modify text files. These will carry all the code (regardless of computer language) that we want to assemble, compile, and execute.</p>
 
-<p>You are surely all familiar with Microsoft Word as a widely-used "word processor", but please DO <b>NOT</b> USE MS WORD IN PROGRAMMING!! :)</p>
-
-<p>Instead, for programming, you have access to a very large number of excellent text editors.</br>
-I will introduce you to just 4 of them below.</br>
-PLEASE NOTE that no one editor is necessarily "better" than another. It is a matter of your preference. This is a great time for you to explore multiple options and then pick one. Once you pick an editor of choice, STICK WITH IT!</p>
-<p>As you progress in your Computer Science education and, subsequently, your careers in CS, make sure you end up learning how to use more than one editor. You can still have a "favorite" that you excel at using, but at least have a working familiarity with others.</p>
+<p>You are surely all familiar with Microsoft Word as a widely-used "word processor", but please DO <b>NOT</b> USE MS WORD IN PROGRAMMING!! :)</br>
+<p>Instead, for programming, you have access to a very large number of excellent text editors. I will introduce you to just 4 of them below.</p>
+<p><i>PLEASE NOTE</i> that no one editor is necessarily "better" than another. It is a matter of your preference. This is a great time for you to explore multiple options and then pick one. Once you pick an editor of choice, STICK WITH IT!</br>
+As you progress in your Computer Science education and, subsequently, your careers in CS, make sure you end up learning how to use more than one editor. You can still have a "favorite" that you excel at using, but at least have a working familiarity with others.</p>
 
 <ol>
 <li> <b>emacs</b> for UNIX-based OS</li>
