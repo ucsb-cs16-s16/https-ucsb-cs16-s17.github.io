@@ -33,11 +33,31 @@ due: 2016-09-30 12:00:00.00-7
 <hr>
 <h3>Step 2: Open a Terminal</h3>
 
-<p>The first step in every assignment will be to open a <b>terminal window</b>, which will be the environment you use to write, compile, and run your programs.</p>
+The first step in every assignment will be to open a <b>terminal window</b>, which will be the environment you use to write, compile, and run your programs.
 
-<p>If you are working on a machine in the Computer Science lab in Phelps 3525, go to <a href="#step2a">Step 2a</a>.</p>
-<p>If you are working on your laptop and it is a Mac or Linux machine, go to <a href="#step2b">Step 2b</a>.</p>
-<p>If you are working on your laptop and it is a Windows machine, go to <a href="#step2c">Step 2c</a>.</p>
+
+* If you are working on a machine in the Phelps 3525
+    please see [Step 2a](#step2a) for further instructions.
+
+* If you are working on a machine in the Computer Science Instruction Lab (CSIL), you'll be working 
+    on one of the following machines: `csil-01.cs.ucsb.edu`, `csil-02.cs.ucsb.edu`, etc. 
+    (though `csil-48.cs.ucsb.edu`).   Please see [Step 2a](#step2a) for further instructions.
+
+If you are working on your laptop, whether Windows, Mac or Linux, the instructions below 
+will tell you how to connect to `csil.cs.ucsb.edu`.   For the first time you connect, that's fine.  However,
+please get in the habit of connecting, instead, to one of the following machines:
+
+* `csil-01.cs.ucsb.edu`
+* `csil-02.cs.ucsb.edu`, etc. 
+* etc.
+* through `csil-48.cs.ucsb.edu`
+
+You'll get much better performance on those individual machines, because they are much less heavily loaded and have
+newer hardware, as compared to `csil.cs.ucsb.edu`.
+
+* If you are working on your laptop and it is a Mac or Linux machine, go to <a href="#step2b">Step 2b</a>.</p>
+* If you are working on your laptop and it is a Windows machine, go to <a href="#step2c">Step 2c</a>.</p>
+
 
 <ol>
 <h4><i>Step 2a: Opening a Terminal on a Phelps Lab Machine</i></h4>
@@ -49,10 +69,11 @@ due: 2016-09-30 12:00:00.00-7
 </p>
 </ol>
 
-<ol>
+<ol markdown="1">
 <h4><i>Step 2b: Connecting to CSIL via SSH on Mac OS X or Linux</i></h4>
 <p>To get started on Mac OS X or Linux, you first need to open a terminal program. This involves slightly different steps on either OS.</p>
 <p>On Ubuntu (an example of a Linux OS):
+
 <li>You will first want to find the search menu. It appears at the top of the Unity bar:</li>
 <img src="ubuntu-menu.png" width="297" alt="Ubuntu Search Menu" />
 
@@ -94,8 +115,6 @@ Are you sure you want to continue connecting (yes/no)? </pre>
 
 <p>X windows is almost always installed on graphical Linux, and can be installed on Mac OS X as XQuartz (which can be found at <a href="http://xquartz.macosforge.org/landing/" target="_blank">http://xquartz.macosforge.org/landing/</a>).</p>
 
-<p>Doing this on the CSIL server will be very slow, since the server is shared between everyone logged in. For better performance, use one of the CSIL workstation names as your SSH destination instead. You can find a list of the workstations at <a href="http://www.cs.ucsb.edu/~don/machines/csilmap.php" target="_blank">http://www.cs.ucsb.edu/~don/machines/csilmap.php</a>. To login to a workstation, just replace "CSIL" with the name of the workstation. For example, to login to "mickey":</p>
-<pre>$ ssh -X USERNAME@mickey.cs.ucsb.edu</pre>
 </ol>
 
 <div style="margin-left: 3em;" markdown="1">
@@ -129,6 +148,7 @@ Are you sure you want to continue connecting (yes/no)? </pre>
 If you want to run graphical applications, instead of using puTTY, you can use other programs, such as [MobaXterm](http://mobaxterm.mobatek.net/){: target="_blank"}.
 
 </div>
+
 
 <hr>
 <h3>Step 3: Create CS16 and Programming Assignment 01 Directories</h3>
