@@ -4,14 +4,15 @@ num: lab00
 ready: false
 desc: "Getting started with C++"
 assigned: 2016-09-26 08:00:00.00-7
-due: 2016-09-30 21:00:00.00-7
+due: 2016-09-30 12:00:00.00-7
 ---
 <h2>Introduction</h2>
 
 Your first lab for this week is an introduction to programming on CSIL and in the Computer Science lab.</br>
-You will write your first C++ program that will print specific text out to be read.
+You will write your first C++ program that will print a specific text out on your computer display.
+<p>Also, please note (I'll only do this this one time, on your 1st lab) that your completed lab assignment must be turned in by this FRIDAY at NOON. In fact, all of your assignments will be given to you on your Monday labs and then be expected to be submitted by the coming Friday at noon.</p>
 
-<h3 id="step1">Step 1: Create an Engineering Account</h3>
+<h3>Step 1: Create an Engineering Account</h3>
 
 <p>To log in to the machines in the Computer Science labs, or to connect remotely, you will need a College of Engineering account.</p>
 
