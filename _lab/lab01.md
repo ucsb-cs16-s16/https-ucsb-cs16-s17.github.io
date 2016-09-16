@@ -8,11 +8,10 @@ due: 2016-09-30 12:00:00.00-7
 ---
 <h2>Introduction</h2>
 
-Your first lab for this week is an introduction to programming on CSIL and in the Computer Science lab.<br>
-You will write your first C++ program that will print a specific text out on your computer display.
+<p>Your first lab for this week is an introduction to programming on CSIL and in the Computer Science lab. You will write your first C++ program that will print a specific text out on your computer display.</p>
 <p>Also, please note (I'll only do this this one time, on your 1st lab) that your completed lab assignment must be turned in by this <b><i>FRIDAY at NOON</i></b>. In fact, all of your assignments will be given to you on your Monday labs and then be expected to be submitted by the coming Friday at noon.</p>
 
-<p>For this first lab, you will do the following:<br>
+<p>For this first lab, you will do the following:
 <ol>
 <li>Create a College of Engineering online computer account, if you don't have one already.</li>
 <li>Learn how to open a terminal on a lab or personal computer.</li>
@@ -22,6 +21,7 @@ You will write your first C++ program that will print a specific text out on you
 <li>Learn how to submit your program for grading.</li>
 </ol>
 </p>
+
 <hr>
 <h3>Step 1: Create an Engineering Account</h3>
 
