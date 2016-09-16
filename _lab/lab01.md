@@ -54,7 +54,7 @@ due: 2016-09-30 12:00:00.00-7
 <p>To get started on Mac OS X or Linux, you first need to open a terminal program. This involves slightly different steps on either OS.</p>
 <p>On Ubuntu (an example of a Linux OS):
 <li>You will first want to find the search menu. It appears at the top of the Unity bar:</li>
-<img src="lab01/ubuntu-menu.png" width="297" alt="Ubuntu Search Menu" />
+<img src="ubuntu-menu.png" width="297" alt="Ubuntu Search Menu" />
 
 <li>Click on that icon to open the search menu. Then type "terminal" and click on the "Terminal" application which appears:</li>
 <img  src="lab01/ubuntu-search.png" width="357" alt="Ubuntu Terminal Application" />
