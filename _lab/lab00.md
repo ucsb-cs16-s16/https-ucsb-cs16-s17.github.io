@@ -211,23 +211,22 @@ Once emacs is open, you can start editing the file immediately. To move around, 
 <p>emacs commands usually take the form <b>C-x C-c</b>. This means press and hold the <b>control</b> key while pressing the <b>x</b> key, then next press and hold the <b>control</b> key while pressing the <b>c</b> key. In contrast, the command <b>C-x 1</b> means press and hold the <b>control</b> and <b>x</b> keys, then release both and then press the <b>1</b> key.</p>
 
 <p>Some useful commands are:</p>
-	<ul>
-		<li><b>C-x C-c</b> closes emacs</li>
-		<li><b>C-x C-s</b> saves the current file</li>
-		<li><b>C-x 1</b> closes all other panes except the current one (you can use this close the help panel)</li>
-		<li><b>C-g</b> at any point in a command will cancel the command</li>
-		<li><b>C-k</b> "kills" or cuts the current line, and <b>C-y</b> "yanks" or pastes the line back at the cursor location</li>
-	</ul>
+<ol><ul>
+	<li><b>C-x C-c</b> closes emacs</li>
+	<li><b>C-x C-s</b> saves the current file</li>
+	<li><b>C-x 1</b> closes all other panes except the current one (you can use this close the help panel)</li>
+	<li><b>C-g</b> at any point in a command will cancel the command</li>
+	<li><b>C-k</b> "kills" or cuts the current line, and <b>C-y</b> "yanks" or pastes the line back at the cursor location</li>
+</ul></ol>
 
 <p>Now it's time to write the program! This assignment only needs you to write a program that prints out two lines on the display, and nothing else. The output should look exactly as follows (no space before or after each line, except the newlines):</p>
 <pre>Hello, world!
 CS16 Winter 2016.</pre>
 
-xxxxxx
-
-<p>Start with a skeleton program that contains the necessary structure but that does not do anything:</p>
-<pre class="source">#include &lt;cstdio&gt;
-#include &lt;iostream&gt;
+<p>Start with a "skeleton program" (or template) that contains the necessary structure but that does not do anything:</p>
+<pre>
+#include <cstdio>
+#include <iostream>
 
 using namespace std;
 
@@ -237,9 +236,11 @@ int main() {
     return 0;
 }</pre>
 
-<p>Go ahead and type this in to the <span class="code">hello.cpp</span> file. Alternatively, you can copy and paste it directly from this page.</p>
+<p>Go ahead and type this in to the <b>hello.cpp</b> file. Alternatively, you can copy and paste it directly from this page.</p>
 
-<p>Next, you will need to replace the comment with code to print out the expected output. Comments in C++ are lines that start with <span class="code">//</span> or text between <span class="code">/*</span> and <span class="code">*/</span>. The second type can span multiple lines.</p>
+<p>Next, you will need to replace the comment with code to print out the expected output. Comments in C++ are lines that start with <b>//</b> or text between <b>/*</b> and <b>*/</b>. The second type can span multiple lines.</p>
+
+xxxxx
 
 <p><em>Important note: For students familiar with Python, remember that lines starting with the <span class="code">#</span> character are not comments in C++. Rather, they are important include lines that allow your program to use the input and output functionality. Make sure to copy those lines in your program as well. Only <span class="code">//</span> or <span class="code">/*</span> create comments in C++.</em></p>
 
