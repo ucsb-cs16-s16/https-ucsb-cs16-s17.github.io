@@ -21,7 +21,7 @@ You will write your first C++ program that will print a specific text out on you
 <li>Compile your program and see if it runs.</li>
 <li>Learn how to submit your program for grading.</li>
 </ol>
-
+</p>
 <hr>
 <h3>Step 1: Create an Engineering Account</h3>
 
