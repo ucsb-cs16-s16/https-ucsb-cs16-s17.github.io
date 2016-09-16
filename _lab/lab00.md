@@ -32,7 +32,7 @@ You will write your first C++ program that will print a specific text out on you
 
 <p>Log in to the machine using your account credentials (i.e. your username and password) created in Step 1.</p>
 
-<p>Find the "Activities" menu, which is in the top-left corner of the screen. Click on it to open the menu.</p>
+<p>Find the <i>Activities</i> menu, which is in the top-left corner of the screen. Click on it to open the menu.</p>
 
 <p>Next, type &ldquo;shell&rdquo; into the search box. Then click the &ldquo;Terminal&rdquo; application which appears.</p>
 
