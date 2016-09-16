@@ -148,8 +148,21 @@ $ cd pa01   </pre>
 
 <p><span class="code">hello.cpp</span> is now a completely empty file that you will use throughout the rest of the assignment to write your C++ code.</p> -->
 
+<h3>Step 3: Editing text files for programming</h3>
+<p>Let's take a little detour on how to best create and modify text files. These will carry all the code (regardless of computer language) that we want to assemble, compile, and execute.</p>
 
-<h3 id="step5">Step 5: Edit <span class="code">hello.cpp</span></h3>
+<p>You are surely all familiar with Microsoft Word as a widely-used "word processor"</p>
+<p>DO <b>NOT</b> USE MS WORD IN PROGRAMMING!! :)</p>
+
+<p>Instead, for programming, you have access to a large number of excellent text editors. I will introduce you to just 4 of them:</br>
+<ol>
+<li> <b>emacs</b> for UNIX-based OS (this includes Ubuntu and MacOS X), </li>
+<li> <b>vim</b> for UNIX-based OS (this includes Ubuntu and MacOS X), </li>
+<li> <b>Sublime Text 2</b> for Windows OS and MacOS X, and </li>
+<li> <b>Notepad++</b> for Windows OS. </li>
+
+
+<h3>Step 4: Edit <b>hello.cpp</b></h3>
 
 <p>To put text inside the <span class="code">hello.cpp</span> file, you will need to use a <i>text editor</i>.</p>
 
