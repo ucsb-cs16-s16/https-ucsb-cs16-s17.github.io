@@ -54,7 +54,7 @@ You will write your first C++ program that will print a specific text out on you
 <p>To get started on Mac OS X or Linux, you first need to open a terminal program. This involves slightly different steps on either OS.</p>
 <p>On Ubuntu (an example of a Linux OS):</br>
 <li>You will first want to find the search menu. It appears at the top of the Unity bar:</li>
-<img src="images/ubuntu-menu.png" width="297" alt="Ubuntu Search Menu" /></p>
+<img src="lab00/ubuntu-menu.png" width="297" alt="Ubuntu Search Menu" /></p>
 
 <li>Click on that icon to open the search menu. Then type "terminal" and click on the "Terminal" application which appears:</li>
 <img  src="images/ubuntu-search.png" width="357" alt="Ubuntu Terminal Application" />
