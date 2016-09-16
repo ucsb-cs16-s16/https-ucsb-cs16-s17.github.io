@@ -14,17 +14,15 @@ You will write your first C++ program that will print a specific text out on you
 
 <h3>Step 1: Create an Engineering Account</h3>
 
-<p>To log in to the machines in the Computer Science labs, or to connect remotely, you will need a College of Engineering account.</p>
-
-<p>Before beginning with the assignment, go through this <a href=coelabs2.pdf>pdf file</a> that has information about your College of Engineering (CoE) account and also some common issues faced by students.</p>
+<p>To log in to the machines in the Computer Science labs, or to connect remotely, you will need a <b>College of Engineering account</b>.</p>
 
 <p>You can create an account online at <a href="https://accounts.engr.ucsb.edu/create" target="_blank">https://accounts.engr.ucsb.edu/create</a>.</p>
 
-<p>If you are enrolled in any CoE course this quarter (including CS16), you can create your account immediately. If you are not, you will need to contact the ECI Help Desk at <a href="mailto:help@engineering.ucsb.edu">help@engineering.ucsb.edu</a>.</p> 
+<p>If you are enrolled in <i>any</i> CoE course this quarter (including CS16), you can create your account immediately. If you are not, you will need to contact the ECI Help Desk at <a href="mailto:help@engineering.ucsb.edu">help@engineering.ucsb.edu</a>.</p> 
 
 <h3 id="step2">Step 2: Open a Terminal</h3>
 
-<p>The first step in every assignment will be to open a terminal window, which will be the environment you use to write, compile, and run your programs.</p>
+<p>The first step in every assignment will be to open a <b>terminal window</b>, which will be the environment you use to write, compile, and run your programs.</p>
 
 <p>If you are working on a machine in the Computer Science lab in Phelps 3525, go to <a href="#step2a">Step 2a</a>.</p>
 <p>If you are working on your laptop and it is a Mac or Linux machine, go to <a href="#step2b">Step 2b</a>.</p>
