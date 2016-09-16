@@ -39,55 +39,57 @@ You will write your first C++ program that will print a specific text out on you
 
 <h4 id="step2b"><i>Step 2b: Connecting to CSIL via SSH on Mac OS X or Linux</i></h4>
 
-<p>To get started on Mac OS X or Linux, you first need to open a terminal program. This involves slightly different steps on either OS.</br>
-On Ubuntu (an example Linux distribution), you will first want to find the search menu. It appears at the top of the Unity bar:</br>
+<p>To get started on Mac OS X or Linux, you first need to open a terminal program. This involves slightly different steps on either OS.</p>
+<p>On Ubuntu (an example of a Linux OS):</br>
+<li>You will first want to find the search menu. It appears at the top of the Unity bar:</li>
 <img src="images/ubuntu-menu.png" width="297" alt="Ubuntu Search Menu" /></p>
 
-<p>Click on that icon to open the search menu. Then type "terminal" and click on the "Terminal" application which appears:</br>
-<img  src="images/ubuntu-search.png" width="357" alt="Ubuntu Terminal Application" /></p>
+<li>Click on that icon to open the search menu. Then type "terminal" and click on the "Terminal" application which appears:</li>
+<img  src="images/ubuntu-search.png" width="357" alt="Ubuntu Terminal Application" />
+</p>
 
-<p>On Mac OS X, open the "Terminal" application. It is found inside the <em>Applications</em> folder of your main drive, inside the <em>Utilities</em> subfolder. The icon looks like this:</br>
+<p>On Mac OS X:</br>
+<li>Open the "Terminal" application. It is found inside the <em>Applications</em> folder of your main drive, inside the <em>Utilities</em> subfolder. The icon looks like this:</li>
 <img src="images/mac-terminal.png" width="79" alt="Mac OS X Terminal Icon" /></br>
 
-You can also find it using Spotlight by typing &ldquo;terminal&rdquo; and pressing enter.</p>
+You can also find it using Spotlight by typing &ldquo;terminal&rdquo; and pressing enter.
+</p>
 
-<p>Once you have a terminal window open on your machine, you next need to connect to the CSIL server remotely. </br>
-You will do this using a UNIX command (a computer network protocol, really) called <em>SSH</em>, short for Secure Shell.</p>
+<p>Once you have a terminal window open on your machine, you next need to <b>connect to the CSIL server remotely</b>. </br>
+You will do this using a UNIX command (a computer network protocol, really) called <em>SSH</em> (short for Secure Shell).</p>
 
-<p>Type the following command in your terminal, replacing <b>USERNAME</b> with <em>your CSIL username</em>:</p>
+<p>Type the following command in your terminal, replacing <b>USERNAME</b> with <b>your CSIL username</b>:</p>
 <pre>$ ssh USERNAME@csil.cs.ucsb.edu</pre>
-
-xxxx
 
 <p>SSH will first ask you a question which looks like this:</p>
 <pre>The authenticity of host 'csil.cs.ucsb.edu (128.111.43.14)' can't be established.
 RSA key fingerprint is 90:ab:6a:31:0b:81:62:25:9b:11:50:05:18:d3:1a:b5.
 Are you sure you want to continue connecting (yes/no)? </pre>
 
-<p>Type <span class="code">yes</span> to continue. It will next ask for your CSIL account password. When you type it in, nothing will show on the screen. However what you type is still being sent and once you are finished with your password, you can press enter to login.</p>
+<p>Type <b>yes</b> and then ENTER to continue. It will next ask for your CSIL account password. When you type it in, nothing will show on the screen (not even dots). However what you type is still being sent and once you are finished with your password, you can press ENTER to login.</p>
 
-<p>You should now be remotely connected to CSIL! You can make sure by typing the following command (which will tell you what machine you are currently issuing commands to):</p>
+<p><b>You should now be remotely connected to CSIL!</b> You can make sure by typing the following command (which will tell you what machine you are currently issuing commands to):</p>
 <pre>$ hostname</pre>
 
-<p>This should show <span class="code">csil.cs.ucsb.edu</span>. You can now do anything you could normally do in a terminal window in CSIL or the Phelps lab (except run graphical programs).</p>
+<p>This should show <b>csil.cs.ucsb.edu</b>. You can now do anything you could normally do in a terminal window in CSIL or the Phelps lab (except run graphical programs).</p>
 
 <h4><em>Extra Note: Graphical Forwarding</em></h4>
 
 <p>This is not required or necessary to use CSIL remotely, so if you are not interested, go ahead and skip this part.</p>
 
-<p>If you have an X windows system installed you can get graphical applications running by <em>forwarding</em> X from CSIL to your machine. To do this, add the <span class="code">-X</span> option to the SSH command like this:</p>
+<p>If you have an X windows system installed you can get graphical applications running by <em>forwarding</em> X from CSIL to your machine. To do this, add the <b>-X</b> option to the SSH command like this:</p>
 <pre>$ ssh -X USERNAME@csil.cs.ucsb.edu</pre>
 
 <p>X windows is almost always installed on graphical Linux, and can be installed on Mac OS X as XQuartz (which can be found at <a href="http://xquartz.macosforge.org/landing/">http://xquartz.macosforge.org/landing/</a>).</p>
 
-<p>Doing this on the CSIL server will be very slow, since the server is shared between everyone logged in. For better performance, use one of the CSIL workstation names as your SSH destination instead. You can find a list of the workstations at <a href="http://www.cs.ucsb.edu/~don/machines/csilmap.php">http://www.cs.ucsb.edu/~don/machines/csilmap.php</a>. To login to a workstation, just replace &ldquo;CSIL&rdquo; with the name of the workstation. For example, to login to mickey:</p>
+<p>Doing this on the CSIL server will be very slow, since the server is shared between everyone logged in. For better performance, use one of the CSIL workstation names as your SSH destination instead. You can find a list of the workstations at <a href="http://www.cs.ucsb.edu/~don/machines/csilmap.php">http://www.cs.ucsb.edu/~don/machines/csilmap.php</a>. To login to a workstation, just replace "CSIL" with the name of the workstation. For example, to login to "mickey":</p>
 <pre>$ ssh -X USERNAME@mickey.cs.ucsb.edu</pre>
 
 <h4 id="step2c">Step 2c: Connecting to CSIL via SSH with PuTTY</h4>
 
 <p>To connect remotely on Windows machines, we recommend using a program called <em>PuTTY</em>. This program is a well-known and widely-used SSH client for the Windows OS.</p>
 
-<p>First, download the program from <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html</a>. You only need <span class="code">putty.exe</span>, but feel free to download any other programs that you want. The page includes portable versions and an version with an installer. Always make sure to download PuTTY from this site, so that you can make sure it is the correct program.</p>
+<p>First, download the program from <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html</a>. You only need the executable file <b>putty.exe</b>, but feel free to download any other programs that you want. The page includes portable versions and a version with an installer. <u>Always make sure to download PuTTY from this site</u>, so that you can make sure it is the correct program.</p>
 
 <p>Then open PuTTY like you would open other programs. If you just download the <span class="code">putty.exe</span> file, you can open it from your downloads folder directly. You can also move it to any other location on your machine and open it from there. If you used the installer, open PuTTY from the Start Menu.</p>
 
