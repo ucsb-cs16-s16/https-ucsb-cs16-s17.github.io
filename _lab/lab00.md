@@ -30,9 +30,9 @@ You will write your first C++ program that will print a specific text out on you
 
 <h4 id="step2a">Step 2a: Opening a Terminal on a Phelps Lab Machine</h4>
 
-<p>Log in to the machine using account details created in Step 1.</p>
+<p>Log in to the machine using your account credentials (i.e. your username and password) created in Step 1.</p>
 
-<p>Find the &ldquo;Activities&rdquo; menu, which is in the top-left corner of the screen. Click on it to open the menu.</p>
+<p>Find the "Activities" menu, which is in the top-left corner of the screen. Click on it to open the menu.</p>
 
 <p>Next, type &ldquo;shell&rdquo; into the search box. Then click the &ldquo;Terminal&rdquo; application which appears.</p>
 
