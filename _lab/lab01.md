@@ -11,7 +11,7 @@ due: 2016-09-30 12:00:00.00-7
 <p>Your first lab for this week is an introduction to programming on CSIL and in the Computer Science lab. You will write your first C++ program that will print a specific text out on your computer display.</p>
 <p>Also, please note (I'll only do this this one time, on your 1st lab) that your completed lab assignment must be turned in by this <b><i>FRIDAY at NOON</i></b>. In fact, all of your assignments will be given to you on your Monday labs and then be expected to be submitted by the coming Friday at noon.</p>
 
-<p>For this first lab, you will do the following yyy:</p>
+<p>For this first lab, you will do the following:</p>
 <ol>
 <li>Create a College of Engineering online computer account, if you don't have one already.</li>
 <li>Learn how to open a terminal on a lab or personal computer.</li>
@@ -47,21 +47,22 @@ due: 2016-09-30 12:00:00.00-7
 <li>Next, type "shell" in the search box. Then click the "Terminal" application which appears.</li>
 <li>You should now see a terminal window open. You can open more tabs or windows from the Terminal application's menu.</li>
 </p>
+</ol>
 
+<ol>
 <h4><i>Step 2b: Connecting to CSIL via SSH on Mac OS X or Linux</i></h4>
-
 <p>To get started on Mac OS X or Linux, you first need to open a terminal program. This involves slightly different steps on either OS.</p>
-<p>On Ubuntu (an example of a Linux OS):<br>
+<p>On Ubuntu (an example of a Linux OS):
 <li>You will first want to find the search menu. It appears at the top of the Unity bar:</li>
-<img src="lab01/ubuntu-menu.png" width="297" alt="Ubuntu Search Menu" /></p>
+<img src="lab01/ubuntu-menu.png" width="297" alt="Ubuntu Search Menu" />
 
 <li>Click on that icon to open the search menu. Then type "terminal" and click on the "Terminal" application which appears:</li>
 <img  src="lab01/ubuntu-search.png" width="357" alt="Ubuntu Terminal Application" />
 </p>
 
-<p>On Mac OS X:<br>
+<p>On Mac OS X:
 <li>Open the "Terminal" application. It is found inside the <em>Applications</em> folder of your main drive, inside the <em>Utilities</em> subfolder. The icon looks like this:</li>
-<img src="lab01/mac-terminal.png" width="79" alt="Mac OS X Terminal Icon" /><br>
+<img src="lab01/mac-terminal.png" width="79" alt="Mac OS X Terminal Icon" />
 
 You can also find it using Spotlight by typing "terminal" and pressing ENTER.
 </p>
@@ -95,7 +96,9 @@ Are you sure you want to continue connecting (yes/no)? </pre>
 
 <p>Doing this on the CSIL server will be very slow, since the server is shared between everyone logged in. For better performance, use one of the CSIL workstation names as your SSH destination instead. You can find a list of the workstations at <a href="http://www.cs.ucsb.edu/~don/machines/csilmap.php" target="_blank">http://www.cs.ucsb.edu/~don/machines/csilmap.php</a>. To login to a workstation, just replace "CSIL" with the name of the workstation. For example, to login to "mickey":</p>
 <pre>$ ssh -X USERNAME@mickey.cs.ucsb.edu</pre>
+</ol>
 
+<ol>
 <h4>Step 2c: Connecting to CSIL via SSH with PuTTY</h4>
 
 <p>To connect remotely on Windows machines, we recommend using a program called <em>PuTTY</em>. This program is a well-known and widely-used SSH client for the Windows OS.</p>
