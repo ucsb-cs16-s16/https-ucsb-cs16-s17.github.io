@@ -184,9 +184,9 @@ As you progress in your Computer Science education and, subsequently, your caree
 	<pre>$ emacs <i>filename</i></pre></p>
 
 	<p>To learn how to use emacs, there is no substitute for PRACTICE!!! Of course, there are multiple online resources that you can look at (especially given emacs' popularity) and here are some of them:<br>
-	<li><a href="https://www.gnu.org/software/emacs/tour/">emacs tour from the GNU organization (makers of emacs)</a></li><br>
-	<li><a href="https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf">emacs commands - a handy reference card</a></li><br>
-	<li><a href="http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs">a beginner's guide to emacs</a></li></p>
+	<li><a href="https://www.gnu.org/software/emacs/tour/" target="_blank">emacs tour from the GNU organization (makers of emacs)</a></li><br>
+	<li><a href="https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf" target="_blank">emacs commands - a handy reference card</a></li><br>
+	<li><a href="http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs" target="_blank">a beginner's guide to emacs</a></li></p>
 	</ol>
 <li> <b>vim</b> for UNIX-based OS</li>
 	<ol>
@@ -196,12 +196,12 @@ As you progress in your Computer Science education and, subsequently, your caree
 	<p>To edit a file (let's say it's called "filename"), you'd type:</p>
 	<pre>$ vim <i>filename</i></pre></p>
 	<p>Again, to learn how to use vim, there is no substitute for PRACTICE!!! Again, there are multiple online resources that you can look at and here are some of them:<br>
-	<li><a href="http://www.vim.org/about.php">About vim</a></li><br>
-	<li><a href="http://tnerual.eriogerg.free.fr/vimqrc.html">vim commands - a handy reference card</a></li><br>
-	<li><a href="https://www.fprintf.net/vimCheatSheet.html">another reference cheat sheet for vim</a></li></p>
+	<li><a href="http://www.vim.org/about.php" target="_blank">About vim</a></li><br>
+	<li><a href="http://tnerual.eriogerg.free.fr/vimqrc.html" target="_blank">vim commands - a handy reference card</a></li><br>
+	<li><a href="https://www.fprintf.net/vimCheatSheet.html" target="_blank">another reference cheat sheet for vim</a></li></p>
 	</ol>
-<li> <b>Sublime Text 2</b> for Windows OS and MacOS X --- see <a href="https://www.sublimetext.com/">the product website</a> (it's a program that you'd have to download)</li>
-<li> <b>Notepad++</b> for Windows OS --- see <a href="https://notepad-plus-plus.org/">the product website</a> (it's a program that you'd have to download)</li>
+<li> <b>Sublime Text 2</b> for Windows OS and MacOS X --- see <a href="https://www.sublimetext.com/" target="_blank">the product website</a> (it's a program that you'd have to download)</li>
+<li> <b>Notepad++</b> for Windows OS --- see <a href="https://notepad-plus-plus.org/" target="_blank">the product website</a> (it's a program that you'd have to download)</li>
 </ol>
 
 <hr>
@@ -291,12 +291,12 @@ hello.cpp:10:1: error: expected ‘;’ before ‘}’ token
 
 <p><strong>Please remember that you must submit the program to obtain any credit for the assignment; just completing the program is not enough.</strong></p>
 
-<p>In this course we will use the <a href="https://submit.cs.ucsb.edu/">submit.cs.ucsb.edu</a> system. You can make a submission from either the command line on any CS machine, or from a Web browser.</p>
+<p>In this course we will use the <a href="https://submit.cs.ucsb.edu/" target="_blank">submit.cs.ucsb.edu</a> system. You can make a submission from either the command line on any CS machine, or from a Web browser.</p>
 
 <p>If you don't have a submit.cs account, you will first need to create one. This can be done at 
-<a href="https://submit.cs.ucsb.edu/form/user">https://submit.cs.ucsb.edu/form/user</a>.</p>
+<a href="https://submit.cs.ucsb.edu/form/user" target="_blank">https://submit.cs.ucsb.edu/form/user</a>.</p>
 
-<p>Once you have an account created, login at <a href="https://submit.cs.ucsb.edu/session">https://submit.cs.ucsb.edu/session</a>.</p>
+<p>Once you have an account created, login at <a href="https://submit.cs.ucsb.edu/session" target="_blank">https://submit.cs.ucsb.edu/session</a>.</p>
 
 <p>Next, you need to join the CS16 course. Look for the "Join Class" link at the top of the page. It is in the top bar, as seen below:</p>
 <img src="lab01/submit-topbar.png" width="542" alt="submit.cs Top Bar" />
