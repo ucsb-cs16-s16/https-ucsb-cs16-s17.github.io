@@ -228,8 +228,8 @@ CS16 Winter 2016.</pre>
 
 <p>Start with a "skeleton program" (or template) that contains the necessary structure but that does not do anything:</p>
 <pre>
-#include <cstdio>
-#include <iostream>
+\#include &lt;stdio&gt;
+\#include &lt;iostream&gt;
 
 using namespace std;
 
@@ -238,7 +238,6 @@ int main() {
 
     return 0;
 }
-xxxxx
 </pre>
 
 <p>Go ahead and type this in to the <b>hello.cpp</b> file. Alternatively, you can copy and paste it directly from this page.</p>
