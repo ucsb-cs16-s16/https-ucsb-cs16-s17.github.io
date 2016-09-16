@@ -57,12 +57,12 @@ You will write your first C++ program that will print a specific text out on you
 <img src="lab00/ubuntu-menu.png" width="297" alt="Ubuntu Search Menu" /></p>
 
 <li>Click on that icon to open the search menu. Then type "terminal" and click on the "Terminal" application which appears:</li>
-<img  src="images/ubuntu-search.png" width="357" alt="Ubuntu Terminal Application" />
+<img  src="lab00/ubuntu-search.png" width="357" alt="Ubuntu Terminal Application" />
 </p>
 
 <p>On Mac OS X:</br>
 <li>Open the "Terminal" application. It is found inside the <em>Applications</em> folder of your main drive, inside the <em>Utilities</em> subfolder. The icon looks like this:</li>
-<img src="images/mac-terminal.png" width="79" alt="Mac OS X Terminal Icon" /></br>
+<img src="lab00/mac-terminal.png" width="79" alt="Mac OS X Terminal Icon" /></br>
 
 You can also find it using Spotlight by typing "terminal" and pressing ENTER.
 </p>
@@ -106,18 +106,18 @@ Are you sure you want to continue connecting (yes/no)? </pre>
 <p>Once downloaded, run PuTTY like you would open other programs. If you just download the <b>putty.exe</b> file, you can open it from your downloads folder directly. You can also move it to any other location on your machine and open it from there. If you used the installer, open PuTTY from the Start Menu.</p>
 
 <p>When PuTTY opens, you should see a window that looks like this:</p>
-<img src="images/putty-empty.png" width="469" alt="Empty PuTTY window" />
+<img src="lab00/putty-empty.png" width="469" alt="Empty PuTTY window" />
 
 <p>Type <b>csil.cs.ucsb.edu</b> into the box labeled "Host Name (or IP address)". Leave the "Port" setting at 22 and leave the "SSH" button checked. The window should now look like this:</p>
-<img src="images/putty-full.png" width="472" alt="Completed PuTTY window" />
+<img src="lab00/putty-full.png" width="472" alt="Completed PuTTY window" />
 
 <p>Then click on the "Open" button to connect. PuTTY will then show a prompt which looks like this:</p>
-<img  src="images/putty-hostkey.png" width="433" alt="PuTTY Host Key Prompt" />
+<img  src="lab00/putty-hostkey.png" width="433" alt="PuTTY Host Key Prompt" />
 
 <p>Click "Yes" to accept and have PuTTY remember CSIL's key.</p>
 
 <p>Once a connection is made, CSIL will ask for both your username and then your password. Type in your CSIL username and password. The password will not be shown on the screen, but the characters you type are being used. This step will look something like this (with your username instead of "username"):</p>
-<img src="images/putty-login.png" width="677" alt="PuTTY Login Prompt" />
+<img src="lab00/putty-login.png" width="677" alt="PuTTY Login Prompt" />
 
 <p>Once you have logged in successfully, you should be connected remotely to the CSIL server. Run the following command to make sure (this command shows the full host name of the machine you are logged in to):</p>
 <pre>$ hostname</pre>
@@ -296,19 +296,19 @@ hello.cpp:10:1: error: expected ‘;’ before ‘}’ token
 <p>Once you have an account created, login at <a href="https://submit.cs.ucsb.edu/session">https://submit.cs.ucsb.edu/session</a>.</p>
 
 <p>Next, you need to join the CS16 course. Look for the "Join Class" link at the top of the page. It is in the top bar, as seen below:</p>
-<img src="images/submit-topbar.png" width="542" alt="submit.cs Top Bar" />
+<img src="lab00/submit-topbar.png" width="542" alt="submit.cs Top Bar" />
 
 <p>Once you see the list of all courses, click on the "Join CS16_f16"; button.
 
 <p>You should then see CS16 appear on your homepage when logging in to the submit.cs system. Click on the course now.</p>
 
 <p>Now find "lab01" and click on the "Make Submission" button. It looks like this:</p>
-<img src="images/make-submission-button.png" width="154" alt="Make Submission Button" />
+<img src="lab00/make-submission-button.png" width="154" alt="Make Submission Button" />
 
 <p>This is the Web interface for submitting your code for the assignment. You can now upload your source file directly on this page. The browser will open a dialog box and you will need to navigate to the directory containing your <b>hello.cpp</b> file and select it.</p>
 	
 <p>Once your file is uploaded, click "Submit 1 File":</p>
-<img src="images/submit-file-button.png" width="129" alt="Submit 1 File Button" />
+<img src="lab00/submit-file-button.png" width="129" alt="Submit 1 File Button" />
 
 <p>Once you submit, you should see a page detailing your submission. The system will automatically grade your program and will show you the results on this page after about a 1 minute delay.</p>
 
@@ -326,13 +326,13 @@ hello.cpp:10:1: error: expected ‘;’ before ‘}’ token
 <p>After the 1 minute delay, the submit system will show your score and give you feedback on your submission. <em>Refresh the webpage after a minute to see this information.</em> This usually takes one of three forms:</p>
 
 <p>A correct submission with a score of 100. This means that your program passed all the tests for this assignment. Once you get to this point, you are finished with the assignment and will receive full credit. This case will look like this:</p>
-<img src="images/correct-submission.png" width="233" alt="Correct Submission." />
+<img src="lab00/correct-submission.png" width="233" alt="Correct Submission." />
 
 <p>An incorrect submission with a score of 0 to 99. This means that your program failed 1 or more of the tests. For this assignment, the system will show both the expected output and the output your program generated side-by-side so that you can see what went wrong. You will need to fix your program, and then do Step 6 again to re-submit. This case will look like this:</p>
-<img src="images/incorrect-submission.png" width="706" alt="Incorrect Submission." />
+<img src="lab00/incorrect-submission.png" width="706" alt="Incorrect Submission." />
 
 <p>Or a submission for which compilation failed. This means that your program caused compilation errors when the system tried to compile it. You will need to interpret the compiler output and fix the errors. The system will show you the compilation command that failed along with the full error message. This case will look like this:</p>
-<img src="images/compilation-failure.png" width="499" alt="Compilation Failure." />
+<img src="lab00/compilation-failure.png" width="499" alt="Compilation Failure." />
 
 <p>You may submit your program multiple times before the deadline. You should really only submit after local compilation does not produce any errors and runs as expected - that's the most efficient and preferred way to do things. The score of the last submission uploaded before the deadline will be used as your assignment grade.</p>
 
