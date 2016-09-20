@@ -17,8 +17,4 @@ Basic Facts
 * **Lab** (50 minute discussion section) Monday 8am, 9am, 10am, 11am, 12pm, 1pm, Phelps 3525, ATTENDANCE REQUIRED.                                         
 * Office Hours: M W 2:00-3:30pm, SSMS 4409 
 
-About the Course
-----------------
-
-
-
+A copy of the syllabus is found [here](syllabus.pdf). Feel free to download it by right clicking and select "Save As".
