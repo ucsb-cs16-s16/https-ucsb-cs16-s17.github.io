@@ -29,7 +29,8 @@ title: CS16, Fall 2016, zmatni
 <h2 id="exams">Exams</h2>
 -->
 
-[comment]: # {%include exam_table.html %}
+[comment]: # %include exam_table.html %
+
 <!-- 
 </div>
 -->
