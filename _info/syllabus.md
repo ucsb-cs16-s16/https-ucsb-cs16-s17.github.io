@@ -1,7 +1,7 @@
 ---
 title: "Syllabus, CMPSC 16, Fall 2016"
 layout: handout
-ready: false
+ready: true
 ---
 
 CS16, Fall 2016, Syllabus
