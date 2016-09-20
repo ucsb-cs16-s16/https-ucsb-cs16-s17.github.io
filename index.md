@@ -24,7 +24,9 @@ title: CS56, Fall 2016, pconrad
 {% include lab_table.html %}
 </div>
 
+<!--
 <div data-role="collapsible" data-collapsed="false">
 <h2 id="exams">Exams</h2>
 {%include exam_table.html %}
 </div>
+-->
