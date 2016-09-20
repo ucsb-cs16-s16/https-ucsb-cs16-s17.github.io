@@ -1,5 +1,5 @@
 ---
-title: CS56, Fall 2016, pconrad
+title: CS16, Fall 2016, zmatni
 ---
 
 # {{site.course}}, {{site.quarter}}
@@ -27,6 +27,6 @@ title: CS56, Fall 2016, pconrad
 <!--
 <div data-role="collapsible" data-collapsed="false">
 <h2 id="exams">Exams</h2>
-{%include exam_table.html %}
+[comment]: {%include exam_table.html %}
 </div>
 -->
