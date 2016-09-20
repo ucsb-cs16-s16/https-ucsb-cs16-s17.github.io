@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab01
-ready: false
+ready: true
 desc: "Getting started with C++"
 assigned: 2016-09-26 08:00:00.00-7
 due: 2016-09-30 12:00:00.00-7
