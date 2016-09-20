@@ -18,4 +18,4 @@ Basic Facts
 * Office Hours: M W 2:00-3:30pm, SSMS 4409 
 
 
-A copy of the syllabus is found [here](./syllabus.pdf). Feel free to download it by right clicking and select "Save As".
+A copy of the syllabus is found [here](http://cs.ucsb.edu/~zmatni/syllabi/CS16F16_syllabus.pdf). Feel free to download it by right clicking and select "Save As".
