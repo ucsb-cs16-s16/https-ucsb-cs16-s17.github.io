@@ -16,7 +16,8 @@ Basic Facts
  
 * **TAs**: (contact via Piazza)</br>
 Daria Rudneva, Lin Chai, Hongyuan You, Magzhan Zholbaryssov, Hemanth Challoju, Harshitha Chidananda Murthy
-* **Lab**: (50 minute discussion sections) Mon. starting at 8am, 9am, 10am, 11am, 12pm, 1pm, PHELP 3525, ATTENDANCE REQUIRED.
+* **Lab**: (50 minute discussion sections)<br/>
+Mon. starting at 8am, 9am, 10am, 11am, 12pm, 1pm, PHELP 3525, ATTENDANCE REQUIRED.
 * **TA Office Hours**: See syllabus for details. 
 
 
