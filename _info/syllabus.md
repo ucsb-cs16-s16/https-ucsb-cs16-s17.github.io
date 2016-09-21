@@ -16,6 +16,6 @@ Daria Rudneva, Lin Chai, Hongyuan You, Magzhan Zholbaryssov, Hemanth Challoju, H
 Mon. starting at 8am, 9am, 10am, 11am, 12pm, 1pm, PHELP 3525, ATTENDANCE REQUIRED.
 * **TA Office Hours**: See syllabus for details. 
 
-[SYLLABUS](http://cs.ucsb.edu/~zmatni/syllabi/CS16F16_syllabus.pdf)
-----------
-A copy of the syllabus is found [here](http://cs.ucsb.edu/~zmatni/syllabi/CS16F16_syllabus.pdf). Feel free to download it by right clicking and select "Save As".
+[Class Syllabus](http://cs.ucsb.edu/~zmatni/syllabi/CS16F16_syllabus.pdf)
+----------------
+Feel free to download it by right clicking and select "Save As".
