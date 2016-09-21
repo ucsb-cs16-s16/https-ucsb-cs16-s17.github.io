@@ -12,7 +12,7 @@ Basic Facts
 
 * **Instructor**:  [Ziad Matni](http://www.cs.ucsb.edu/~zmatni)
 * **Lecture**: Tue. and Thu. 2:00-3:15pm BUCHN 1910, ATTENDANCE REQUIRED.
-* **Instructor Office Hours**: M W 2:00-3:30pm, SSMS 4409 
+* **Instructor Office Hours**: M W 2:00-3:30pm, SSMS 4409<br/><br/>
 * **TAs**: (contact via Piazza)<br/>
 Daria Rudneva, Lin Chai, Hongyuan You, Magzhan Zholbaryssov, Hemanth Challoju, Harshitha Chidananda Murthy
 * **Lab**: (50 minute discussion sections)<br/>
