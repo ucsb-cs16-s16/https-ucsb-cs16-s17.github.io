@@ -13,7 +13,7 @@ Basic Facts
 * **Instructor**:  [Ziad Matni](http://www.cs.ucsb.edu/~zmatni)
 * **Lecture**: T Th 2:00-3:15pm BUCHN 1910, ATTENDANCE REQUIRED.
 * **TAs**: (contact via Piazza) Daria Rudneva, Lin Chai, Hongyuan You, Magzhan Zholbaryssov, Hemanth Challoju, Harshitha Chidananda Murthy
-* **Lab** (50 minute discussion section) Monday 8am, 9am, 10am, 11am, 12pm, 1pm, PHELP 3525, ATTENDANCE REQUIRED.
+* **Lab**: (50 minute discussion sections) Monday starting at 8am, 9am, 10am, 11am, 12pm, 1pm, PHELP 3525, ATTENDANCE REQUIRED.
 * **Instructor Office Hours**: M W 2:00-3:30pm, SSMS 4409 
 * **TA Office Hours**: See syllabus for details. 
 
