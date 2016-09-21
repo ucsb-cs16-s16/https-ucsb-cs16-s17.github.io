@@ -4,9 +4,6 @@ layout: handout
 ready: true
 ---
 
-CS16, Fall 2016, Syllabus
-===========================
-
 Basic Facts
 -----------
 
