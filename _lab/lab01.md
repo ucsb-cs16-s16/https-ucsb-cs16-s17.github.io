@@ -26,7 +26,7 @@ due: 2016-09-30 12:00:00.00-7
 
 <p>To log in to the machines in the Computer Science labs, or to connect remotely, you will need a <b>College of Engineering account</b>.</p>
 
-<p>At this point, please go to <a href="https://ucsb.box.com/s/px12flf8g41m8g0gq4n6zqbbc9phkfrs" target="_blank">THIS LINK</a> and view the important presentation from Engineering Computing Infrastructure on the College of Engineering accounts and computer labs.
+<p>At this point, please go to <a href="https://ucsb.box.com/s/px12flf8g41m8g0gq4n6zqbbc9phkfrs" target="_blank">THIS LINK</a> and view the important presentation from Engineering Computing Infrastructure on the College of Engineering accounts and computer labs.</p>
 
 <p>You can create an account online at <a href="https://accounts.engr.ucsb.edu/create" target="_blank">https://accounts.engr.ucsb.edu/create</a>.</p>
 
