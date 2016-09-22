@@ -317,7 +317,7 @@ hello.cpp:10:1: error: expected ‘;’ before ‘}’ token
 <p>Next, you need to join the CS16 course. Look for the "Join Class" link at the top of the page. It is in the top bar, as seen below:</p>
 <img src="submit-topbar.png" width="542" alt="submit.cs Top Bar" />
 
-<p>Once you see the list of all courses, click on the "Join CS16_f16"; button.
+<p>Once you see the list of all courses, click on the <b>"Join CS16_f16"</b> button.</p>
 
 <p>You should then see CS16 appear on your homepage when logging in to the submit.cs system. Click on the course now.</p>
 
