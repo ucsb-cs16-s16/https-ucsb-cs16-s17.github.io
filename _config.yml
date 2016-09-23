@@ -51,7 +51,9 @@ collections:
   info:
     output: true
     permalink: /info/:path/
-
+  lectures:
+    output: true
+    permalink: /lectures/:path/
 
 defaults:
   -
