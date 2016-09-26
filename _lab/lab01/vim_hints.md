@@ -1,4 +1,14 @@
-Basic use
+---
+layout: topics
+topic: "emacs hints"
+desc: "Getting started if you've never used vim before"
+---
+
+[Back](../)
+
+To run vim from the terminal, just type in "vim" (or sometimes "vi" works).
+
+<h2>Basic use</h2>
 <Esc> is the escape key or use <ctrl>[  sometimes written as  <C-[>
 
 vimtutor    : starts vim editing a copy of a tutorial file -- very good.
@@ -21,7 +31,7 @@ p           : paste the default register
 :q!         : quit without saving even if changes were made!
 :help       : display help
 <Tab>       : use tab completion to scroll through commands that start with what you typed
-Still basic
+
 COPY PASTE  (for CUTting lines use dd as described above)
 v           : visual mode -- use to select text with cursor movement or mouse
 y           : use to yank (copy) what was selected
@@ -41,7 +51,8 @@ Commands are case sensitive:
    c        : starts a change command
    C        : change to end of line (same as c$)
    ce       : change to end of word (a complete change command)
-Really useful
+
+<b>Other useful hints</b>
 www.vim.org   : Visit frequently
 comp.editors  : Vim dominated newsgroup
 * # g* g#     : find word under cursor (forwards/backwards)
