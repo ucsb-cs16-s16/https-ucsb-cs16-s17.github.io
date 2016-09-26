@@ -244,7 +244,6 @@ CS16 Fall 2016.
 Start with a "skeleton program" (or template) that contains the necessary structure but that does not do anything:
 
 ```cpp
-#include <stdio>
 #include <iostream>
 
 using namespace std;
