@@ -232,7 +232,7 @@ As you progress in your Computer Science education and, subsequently, your caree
 <hr>
 <h3>Step 4: Create and edit a file containing a C++ program</h3>
 
-Now it's time to write the program! If you're comfortable with one of the reviewed text editors, then go ahead and use one. Otherwise, here are some [emacs hints](emacs_hints/) and some [vim hints](vim_hints/).
+Now it's time to write the program! If you're comfortable with one of the reviewed text editors, then go ahead and use one. Otherwise, here are some [emacs hints](./emacs_hints) and some [vim hints](./vim_hints).
 
 This assignment only needs you to write a program that prints out two lines on the display, and nothing else. <b>The output should look exactly as follows</b> (no space before or after each line, except the 2 newlines):
 
