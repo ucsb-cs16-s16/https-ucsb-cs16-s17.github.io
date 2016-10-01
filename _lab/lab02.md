@@ -44,7 +44,7 @@ Write a program that allows the user to enter a number of quarters, dimes, and n
 
 The program should print a string of text to the terminal before getting each piece of input from the user. A session should look <b><i>exactly</i></b> like the following example (including whitespace and formatting), with possibly different numbers for inputs and the output (so the following is just ONE example of how the program might run, but the FORMATTING has to be exactly the same in order for you to get full credit):
 
-<img src="coins_img.PNG" width="300" alt="coins program example" />
+<img src="coins_img.PNG" width="400" alt="coins program example" />
 
 Each string printed by the program should include a newline at the end, but no other trailing whitespace (i.e. extra space characters at the end of the line).
 
@@ -57,11 +57,11 @@ The program should print a string of text to the terminal before getting each pi
 
 Example 1:
 
-<img src="meeting1_img.PNG" width="300" alt="meeting program example 1" />
+<img src="meeting1_img.PNG" width="400" alt="meeting program example 1" />
 
 Example 2:
 
-<img src="meeting2_img.PNG" width="300" alt="meeting program example 2" />
+<img src="meeting2_img.PNG" width="400" alt="meeting program example 2" />
 
 Each string printed by the program should include a newline at the end, but no other trailing whitespace.
 
@@ -70,7 +70,7 @@ Write a program that reads in <b>ten</b> whole numbers and that outputs the sum 
 
 The program should print a string of text to the terminal before getting each piece of input from the user. A session should look exactly like the following example (including whitespace and formatting), with possibly different inputs and numbers in the output:
 
-<img src="sum_img.PNG" width="300" alt="sum program example" />
+<img src="sum_img.PNG" width="500" alt="sum program example" />
 
 Each string printed by the program should include a newline at the end, but no other trailing whitespace.
 
