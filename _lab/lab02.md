@@ -38,7 +38,7 @@ For a reminder on how to open the text editor and how edit files, refer back to 
 
 This assignment consists of three problems, each of which is described below. The first two are worth 30 points each, and the last is worth 40 points. Each should be solved in its own file and all three must be submitted for full assignment credit. These exercises are inspied by ones from the textbook - but they are NOT the same, so follow the instructions on THIS sheet carefully.
 
-<h2>COINS.CPP<\h2>
+<h2>COINS.CPP</h2>
 Write a program that allows the user to enter a number of quarters, dimes, and nickels and then outputs the monetary value of the coins in cents. For example, if the user enters 2 for the number of quarters, 3 for the number of dimes, and 1 for the number of nickels, then the program should output that the coins are worth 85 cents.
 
 The program should print a string of text to the terminal before getting each piece of input from the user. A session should look exactly like the following example (including whitespace and formatting), with possibly different inputs and number in the output:
@@ -53,7 +53,7 @@ The coins are worth 85 cents.
 
 Each string printed by the program should include a newline at the end, but no other trailing whitespace (whitespace at the end of the line).
 
-<h2>MEETING.CPP<\h2>
+<h2>MEETING.CPP</h2>
 Write a program that determines whether a meeting room is in violation of fire law regulations regarding the maximum room capacity. The program will read in the maximum room capacity and the number of people attending the meeting. If the number of people is less than or equal to the maximum room capacity, the program announces that it is legal to hold the meeting. If the number of people exceeds the maximum room capacity, the program announces that the meeting cannot be held as planned due to fire regulations and tells how many people must be excluded in order to meet the fire regulations.
 
 Note: You should do the problem specified above, rather than the harder version shown in the textbook.
@@ -74,7 +74,7 @@ Meeting cannot be held unless 5 leave.
 
 Each string printed by the program should include a newline at the end, but no other trailing whitespace (whitespace at the end of the line).
 
-<h2>SUM.CPP<\h2>
+<h2>SUM.CPP</h2>
 Write a program that reads in ten whole numbers and that outputs the sum of all the numbers greater than zero, the sum of all the numbers less than zero (which will be a negative number or zero), and the sum of all the numbers, whether positive, negative, or zero. The user enters the ten numbers just once each and the user can enter them in any order. Your program should not ask the user to enter the positive numbers and the negative numbers separately.
 
 The program should print a string of text to the terminal before getting each piece of input from the user. A session should look exactly like the following example (including whitespace and formatting), with possibly different inputs and numbers in the output:
