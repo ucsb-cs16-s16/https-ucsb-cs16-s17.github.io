@@ -44,6 +44,8 @@ Write a program that allows the user to enter a number of quarters, dimes, and n
 
 The program should print a string of text to the terminal before getting each piece of input from the user. A session should look <b><i>exactly</i></b> like the following example (including whitespace and formatting), with possibly different numbers for inputs and the output (so the following is just ONE example of how the program might run, but the FORMATTING has to be exactly the same in order for you to get full credit):
 
+<img src="coins_img.PNG" width="300" alt="coins program example" />
+
 `Enter number of quarters:`
 
 `2`
@@ -69,6 +71,8 @@ The program should print a string of text to the terminal before getting each pi
 
 Example 1:
 
+<img src="meeting1_img.PNG" width="300" alt="meeting program example 1" />
+
 `Enter maximum room capacity:`
 
 `50`
@@ -80,6 +84,8 @@ Example 1:
 `Meeting is legal.`
 
 Example 2:
+
+<img src="meeting2_img.PNG" width="300" alt="meeting program example 2" />
 
 `Enter maximum room capacity:`
 
@@ -97,6 +103,8 @@ Each string printed by the program should include a newline at the end, but no o
 Write a program that reads in <b>ten</b> whole numbers and that outputs the sum of all the numbers greater than zero, the sum of all the numbers less than zero (which will be a negative number or zero), and the sum of all the numbers, whether positive, negative, or zero. The user enters the ten numbers just once each and the user can enter them in any order. Your program should not ask the user to enter the positive numbers and the negative numbers separately.
 
 The program should print a string of text to the terminal before getting each piece of input from the user. A session should look exactly like the following example (including whitespace and formatting), with possibly different inputs and numbers in the output:
+
+<img src="sum_img.PNG" width="300" alt="sum program example" />
 
 `Enter whole number:`
 
