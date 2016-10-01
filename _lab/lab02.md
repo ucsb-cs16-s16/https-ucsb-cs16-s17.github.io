@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab02
-ready: false
+ready: true
 desc: "Input/Output and Simple Flow Assignment"
 assigned: 2016-10-03 08:00:00.00-7
 due: 2016-10-07 12:00:00.00-7
