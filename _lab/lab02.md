@@ -25,6 +25,7 @@ Start by changing into your CS 16 directory:
 And then create and move into the lab02 directory:
 
 `$ mkdir lab02`
+
 `$ cd lab02`
 
 Remember that at any time, you can check what directory you are current in with the command pwd.
