@@ -46,20 +46,6 @@ The program should print a string of text to the terminal before getting each pi
 
 <img src="coins_img.PNG" width="300" alt="coins program example" />
 
-`Enter number of quarters:`
-
-`2`
-
-`Enter number of dimes:`
-
-`3`
-
-`Enter number of nickels:`
-
-`1`
-
-`The coins are worth 85 cents.`
-
 Each string printed by the program should include a newline at the end, but no other trailing whitespace (i.e. extra space characters at the end of the line).
 
 <h2>MEETING.CPP</h2>
@@ -73,29 +59,9 @@ Example 1:
 
 <img src="meeting1_img.PNG" width="300" alt="meeting program example 1" />
 
-`Enter maximum room capacity:`
-
-`50`
-
-`Enter number of people present:`
-
-`40`
-
-`Meeting is legal.`
-
 Example 2:
 
 <img src="meeting2_img.PNG" width="300" alt="meeting program example 2" />
-
-`Enter maximum room capacity:`
-
-`50`
-
-`Enter number of people present:`
-
-`55`
-
-`Meeting cannot be held unless 5 leave.`
 
 Each string printed by the program should include a newline at the end, but no other trailing whitespace.
 
@@ -105,52 +71,6 @@ Write a program that reads in <b>ten</b> whole numbers and that outputs the sum 
 The program should print a string of text to the terminal before getting each piece of input from the user. A session should look exactly like the following example (including whitespace and formatting), with possibly different inputs and numbers in the output:
 
 <img src="sum_img.PNG" width="300" alt="sum program example" />
-
-`Enter whole number:`
-
-`1`
-
-`Enter whole number:`
-
-`1`
-
-`Enter whole number:`
-
-`1`
-
-`Enter whole number:`
-
-`1`
-
-`Enter whole number:`
-
-`1`
-
-`Enter whole number:`
-
-`1`
-
-`Enter whole number:`
-
-`1`
-
-`Enter whole number:`
-
-`1`
-
-`Enter whole number:`
-
-`1`
-
-`Enter whole number:`
-
-`1`
-
-`The sum of numbers greater than zero is 10.`
-
-`The sum of numbers less than zero is 0.`
-
-`The sum of all numbers is 10.`
 
 Each string printed by the program should include a newline at the end, but no other trailing whitespace.
 
