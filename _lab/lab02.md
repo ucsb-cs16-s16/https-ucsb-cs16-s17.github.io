@@ -22,10 +22,10 @@ Start by changing into your CS 16 directory:
 
 `$ cd cs16`
 
-And then create and move into a PA 02 directory:
+And then create and move into the lab02 directory:
 
-`$ mkdir pa02`
-`$ cd pa02`
+`$ mkdir lab02`
+`$ cd lab02`
 
 Remember that at any time, you can check what directory you are current in with the command pwd.
 
