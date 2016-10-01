@@ -110,14 +110,19 @@ Each string printed by the program should include a newline at the end, but no o
 To compile our code, we will use the same g++ command as last week. The following three commands will compile the three source files (in the same order as listed above):
 
 `$ g++ -std=c++11 -o coins coins.cpp`
+
 `$ g++ -std=c++11 -o meeting meeting.cpp`
+
 `$ g++ -std=c++11 -o sum sum.cpp`
+
 (NOTE: the -std=c++11 option in these commands is optional. All this does is force the compiler to use the latest version of C++)
 
 If the compilation is successful, you won't see any output from the compiler. You can then use the following commands to run your programs:
 
 `$ ./coins`
+
 `$ ./meeting`
+
 `$ ./sum`
 
 If you encounter an error, use the compiler hints and examine the line in question. If the compiler messsage is not sufficient to identify the error, you can search online to see when the error occurs in general.
