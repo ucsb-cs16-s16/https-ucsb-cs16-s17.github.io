@@ -1,8 +1,8 @@
 ---
 layout: lab
 num: lab02
-ready: false
-desc: "TBD"
+ready: true
+desc: "Input/Output and Simple Flow Assignment"
 assigned: 2016-10-03 08:00:00.00-7
 due: 2016-10-07 12:00:00.00-7
 ---
@@ -11,47 +11,54 @@ due: 2016-10-07 12:00:00.00-7
 
 <h1>CS16: Programming Assignment 02</h1>
 <h2>Introduction</h2>
-The assignment for this week will utilize input and output and simple control flow.
+The assignment for this week will utilize concepts of input and output and simple control flow that we covered in class (Chapter 2 in the book). You may utilize other concepts of programming as well, as you see fit.
+
 This assignment is due on Friday, October 7th at 12:00 pm.
 
 <h2>Step 1: Getting Ready</h2>
 If you have not gotten a CoE account yet, please do so as soon as possible!
-Open a terminal window - refer to the instructions in Lab #1, if you forgot how to do that.
+Open a terminal window and log into the correct machine - refer to the instructions in Lab #1, if you forgot how to do that.
 
 Start by changing into your CS 16 directory:
 
 `$ cd cs16`
 
-And then create and move into the lab02 directory:
+And then create and change into the lab02 directory:
 
 `$ mkdir lab02`
 
 `$ cd lab02`
 
-Remember that at any time, you can check what directory you are current in with the command pwd.
+Remember that at any time, you can check what directory you are currently in with the command <b>pwd</b>.
 
 <h2>Step 2: Create and Edit Your C++ Files</h2>
-This week, you will need to create <b>three</b> files called coins.cpp, meeting.cpp, and sum.cpp:
-You will need to complete each source file. Each corresponds to one of the problems listed below, which make up this lab.
+This week, you will need to create <b>three files called coins.cpp, meeting.cpp, and sum.cpp</b>:
+Each corresponds to one of the problems listed below, which make up this lab.
 
-For a reminder on how to open the text editor and how edit files, refer back to Lab #1.
+For a reminder on how to open and use a text editor to create and edit new source files, refer back to Lab #1.
 
-This assignment consists of three problems, each of which is described below. The first two are worth 30 points each, and the last is worth 40 points. Each should be solved in its own file and all three must be submitted for full assignment credit. These exercises are inspied by ones from the textbook - but they are NOT the same, so follow the instructions on THIS sheet carefully.
+This assignment consists of 3 problems, each of which is described below. The first two are worth 30 points each, and the last is worth 40 points. Each should be solved in its own file and all three must be submitted for full assignment credit. These exercises are inspied by ones from the textbook (in Ch. 2) - but they are NOT the same, so follow the instructions on THIS sheet carefully.
 
 <h2>COINS.CPP</h2>
 Write a program that allows the user to enter a number of quarters, dimes, and nickels and then outputs the monetary value of the coins in cents. For example, if the user enters 2 for the number of quarters, 3 for the number of dimes, and 1 for the number of nickels, then the program should output that the coins are worth 85 cents.
 
-The program should print a string of text to the terminal before getting each piece of input from the user. A session should look exactly like the following example (including whitespace and formatting), with possibly different inputs and number in the output:
+The program should print a string of text to the terminal before getting each piece of input from the user. A session should look <b><i>exactly</i></b> like the following example (including whitespace and formatting), with possibly different numbers for inputs and the output (so the following is just ONE example of how the program might run, but the FORMATTING has to be exactly the same in order for you to get full credit):
 
-Enter number of quarters:
-2
-Enter number of dimes:
-3
-Enter number of nickels:
-1
-The coins are worth 85 cents.
+`Enter number of quarters:`
 
-Each string printed by the program should include a newline at the end, but no other trailing whitespace (whitespace at the end of the line).
+`2`
+
+`Enter number of dimes:`
+
+`3`
+
+`Enter number of nickels:`
+
+`1`
+
+`The coins are worth 85 cents.`
+
+Each string printed by the program should include a newline at the end, but no other trailing whitespace (i.e. extra space characters at the end of the line).
 
 <h2>MEETING.CPP</h2>
 Write a program that determines whether a meeting room is in violation of fire law regulations regarding the maximum room capacity. The program will read in the maximum room capacity and the number of people attending the meeting. If the number of people is less than or equal to the maximum room capacity, the program announces that it is legal to hold the meeting. If the number of people exceeds the maximum room capacity, the program announces that the meeting cannot be held as planned due to fire regulations and tells how many people must be excluded in order to meet the fire regulations.
@@ -60,54 +67,88 @@ Note: You should do the problem specified above, rather than the harder version 
 
 The program should print a string of text to the terminal before getting each piece of input from the user. A session should look exactly one of the the following two examples (including whitespace and formatting), with possibly different inputs and number in the output:
 
-Enter maximum room capacity:
-50
-Enter number of people present:
-40
-Meeting is legal.
+Example 1:
 
-Enter maximum room capacity:
-50
-Enter number of people present:
-55
-Meeting cannot be held unless 5 leave.
+`Enter maximum room capacity:`
 
-Each string printed by the program should include a newline at the end, but no other trailing whitespace (whitespace at the end of the line).
+`50`
+
+`Enter number of people present:`
+
+`40`
+
+`Meeting is legal.`
+
+Example 2:
+
+`Enter maximum room capacity:`
+
+`50`
+
+`Enter number of people present:`
+
+`55`
+
+`Meeting cannot be held unless 5 leave.`
+
+Each string printed by the program should include a newline at the end, but no other trailing whitespace.
 
 <h2>SUM.CPP</h2>
-Write a program that reads in ten whole numbers and that outputs the sum of all the numbers greater than zero, the sum of all the numbers less than zero (which will be a negative number or zero), and the sum of all the numbers, whether positive, negative, or zero. The user enters the ten numbers just once each and the user can enter them in any order. Your program should not ask the user to enter the positive numbers and the negative numbers separately.
+Write a program that reads in <b>ten</b> whole numbers and that outputs the sum of all the numbers greater than zero, the sum of all the numbers less than zero (which will be a negative number or zero), and the sum of all the numbers, whether positive, negative, or zero. The user enters the ten numbers just once each and the user can enter them in any order. Your program should not ask the user to enter the positive numbers and the negative numbers separately.
 
 The program should print a string of text to the terminal before getting each piece of input from the user. A session should look exactly like the following example (including whitespace and formatting), with possibly different inputs and numbers in the output:
 
-Enter whole number:
-1
-Enter whole number:
-1
-Enter whole number:
-1
-Enter whole number:
-1
-Enter whole number:
-1
-Enter whole number:
-1
-Enter whole number:
-1
-Enter whole number:
-1
-Enter whole number:
-1
-Enter whole number:
-1
-The sum of numbers greater than zero is 10.
-The sum of numbers less than zero is 0.
-The sum of all numbers is 10.
+`Enter whole number:`
 
-Each string printed by the program should include a newline at the end, but no other trailing whitespace (whitespace at the end of the line).
+`1`
+
+`Enter whole number:`
+
+`1`
+
+`Enter whole number:`
+
+`1`
+
+`Enter whole number:`
+
+`1`
+
+`Enter whole number:`
+
+`1`
+
+`Enter whole number:`
+
+`1`
+
+`Enter whole number:`
+
+`1`
+
+`Enter whole number:`
+
+`1`
+
+`Enter whole number:`
+
+`1`
+
+`Enter whole number:`
+
+`1`
+
+`The sum of numbers greater than zero is 10.`
+
+`The sum of numbers less than zero is 0.`
+
+`The sum of all numbers is 10.`
+
+Each string printed by the program should include a newline at the end, but no other trailing whitespace.
 
 <h2>Step 3: Compile the Code</h2>
 
-To compile our code, we will use the same g++ command as last week. The following three commands will compile the three source files (in the same order as listed above):
+To compile our codes, we will use the same g++ command as we described last week in Lab #1. The following three commands will compile the three source files (in the same order as listed above):
 
 `$ g++ -std=c++11 -o coins coins.cpp`
 
@@ -115,7 +156,7 @@ To compile our code, we will use the same g++ command as last week. The followin
 
 `$ g++ -std=c++11 -o sum sum.cpp`
 
-(NOTE: the -std=c++11 option in these commands is optional. All this does is force the compiler to use the latest version of C++)
+(NOTE: the -std=c++11 option in these commands is optional to use (that is, not critical to define). All this does is force the compiler to use the latest version of C++).
 
 If the compilation is successful, you won't see any output from the compiler. You can then use the following commands to run your programs:
 
@@ -125,7 +166,7 @@ If the compilation is successful, you won't see any output from the compiler. Yo
 
 `$ ./sum`
 
-If you encounter an error, use the compiler hints and examine the line in question. If the compiler messsage is not sufficient to identify the error, you can search online to see when the error occurs in general.
+<b>If you encounter an error, use the compiler hints and examine the line in question. If the compiler messsage is not sufficient to identify the error, you can search online to see when the error occurs in general.</b>
 
 Remember to re-compile the relevant files after you make any changes to the C++ code.
 
