@@ -57,11 +57,11 @@ The program should print a string of text to the terminal before getting each pi
 
 Example 1:
 
-<img src="meeting1_img.PNG" width="400" alt="meeting program example 1" />
+<img src="meeting1_img.PNG" length="100" alt="meeting program example 1" />
 
 Example 2:
 
-<img src="meeting2_img.PNG" width="400" alt="meeting program example 2" />
+<img src="meeting2_img.PNG" length="100" alt="meeting program example 2" />
 
 Each string printed by the program should include a newline at the end, but no other trailing whitespace.
 
