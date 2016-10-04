@@ -55,13 +55,7 @@ Note: You should do the problem specified above, rather than the harder version 
 
 The program should print a string of text to the terminal before getting each piece of input from the user. A session should look exactly one of the the following two examples (including whitespace and formatting), with possibly different inputs and number in the output:
 
-Example 1:
-
-<img src="meeting1_img.PNG" alt="meeting program example 1" />
-
-Example 2:
-
-<img src="meeting2_img.PNG" alt="meeting program example 2" />
+<img src="meetingNEW_img.PNG" alt="meeting program example" />
 
 Each string printed by the program should include a newline at the end, but no other trailing whitespace.
 
