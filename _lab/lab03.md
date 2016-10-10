@@ -111,7 +111,7 @@ The program takes an input from the user for the value of n, which determines th
 
 The program should print a string of text to the terminal before getting each piece of input from the user. A session should look like the following example (including whitespace and formatting), with various and different inputs and numbers in the output:
 
-<img src="pi.png" width="500" alt="pi program example" />
+<img src="pi.png" width="700" alt="pi program example" />
 
 Note that each string printed by the program should include a newline at the end, but no other trailing whitespace (whitespace at the end of the line).
 
