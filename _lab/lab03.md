@@ -52,12 +52,13 @@ Each string printed by the program should include a newline at the end, but no o
 You are going to write a program that compares 4 input numbers and print out the smallest one. You should base the program on an example that I will give you that compares 3 numbers and uses nested functions (which we will talk about in class later). The example is shown in 3 separate files (see below).
 
 <b><i>Step 1</i></b>: Copy all the files over to your directory using the <b>cp</b> UNIX command, by issuing the following:
-```
-cp ~zmatni/public_html/cs16/lab03/* ~/cs16/lab03
-```
+
+`cp ~zmatni/public_html/cs16/lab03/* ~/cs16/lab03`
+
 The * symbol in this command is a "wildcard" — it means that we want all of the files from the source directory copy be copied into the destination directory namely ~/cs16/lab03
 
 <b><i>Step 2</i></b>: Do a list file command (<b>ls</b>). You should see something like this:
+
 ```
 $ ls
 
