@@ -44,7 +44,7 @@ Write a program that takes input from a user for number of rows and number of co
 
 A session should look <b><i>exactly</i></b> like the following example (including whitespace and formatting - although note that there is no whitespace at the end of each of these lines), with all manners of different numbers for inputs and the output:
 
-<img src="block.png" width="500" alt="block program example" />
+<img src="block.png" width="700" alt="block program example" />
 
 Each string printed by the program should include a newline at the end, but no other trailing whitespace (i.e. extra space characters at the end of the line).
 
