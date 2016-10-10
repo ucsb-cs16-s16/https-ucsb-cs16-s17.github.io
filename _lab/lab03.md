@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab03
-ready: false
+ready: true
 desc: "Flow Control Assignment"
 assigned: 2016-10-10 08:00:00.00-7
 due: 2016-10-14 12:00:00.00-7
@@ -16,7 +16,7 @@ The assignment for this week will utilize concepts of control flow that we cover
 This assignment is due on Friday, October 14th at 12:00 pm.
 
 <h2>Step 1: Getting Ready</h2>
-I hope I can safelt assume that you have all gotten a CoE account yet...
+I hope I can safely assume that you have all gotten a CoE account yet...
 Open a terminal window and log into the correct machine - refer to the instructions in Lab #1, if you forgot how to do that.
 
 Start by changing into your CS 16 directory:
@@ -44,7 +44,7 @@ Write a program that takes input from a user for number of rows and number of co
 
 A session should look <b><i>exactly</i></b> like the following example (including whitespace and formatting - although note that there is no whitespace at the end of each of these lines), with all manners of different numbers for inputs and the output:
 
-<img src="block.png" alt="block program example" />
+<img src="block.png" width="500" alt="block program example" />
 
 Each string printed by the program should include a newline at the end, but no other trailing whitespace (i.e. extra space characters at the end of the line).
 
@@ -94,12 +94,12 @@ If you DO use nested if/else statements, though, be sure that you indent and for
 
 Follow the pattern in min2 and min3v1/min3v2 in terrms of all other issues and how they are handled, including the usage message, etc. Your program should look exactly like this (note, there are no trailing whitespacse):
 
-<img src="min4.png" alt="min4 program example" />
+<img src="min4.png" width="500" alt="min4 program example" />
 
 <h3>PI.CPP</h3>
 Write a C++ program that approximates the value of the constant π, based on the Leibniz formula for π. The formula is shown in the image below:
 
-<img src="pi.png" alt="pi formula" />
+<img src="pi_formula.png" alt="pi formula" />
 
 Put another way, the formula can be written as:
 
@@ -111,7 +111,7 @@ The program takes an input from the user for the value of n, which determines th
 
 The program should print a string of text to the terminal before getting each piece of input from the user. A session should look like the following example (including whitespace and formatting), with various and different inputs and numbers in the output:
 
-<img src="pi.png" alt="pi program example" />
+<img src="pi.png" width="500" alt="pi program example" />
 
 Note that each string printed by the program should include a newline at the end, but no other trailing whitespace (whitespace at the end of the line).
 
