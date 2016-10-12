@@ -4,4 +4,7 @@ layout: handout
 ready: true
 ---
 
-[Homework Solutions in PDF form](http://cs.ucsb.edu/~zmatni/cs16/hwSolutions/){: target="_blank"}
+[Click here for homework solutions in PDF form](http://cs.ucsb.edu/~zmatni/cs16/hwSolutions/){: target="_blank"}
+
+---------------------
+Questions? Post them on Piazza!
