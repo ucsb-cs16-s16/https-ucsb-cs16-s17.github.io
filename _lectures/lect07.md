@@ -1,6 +1,6 @@
 ---
 num: "lect07"
-desc: "Lecure #07 slides"
-ready: false
-pdfurl: /lectures/CS16_Lecture07.pdf
+desc: "Lecure #7 slides"
+ready: true
+pdfurl: /lectures/CS16_Lecture7.pdf
 ---
