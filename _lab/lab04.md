@@ -35,7 +35,7 @@ Additionally, the program must make good use of comments in the code, per the di
 
 A session should look <b><i>exactly</i></b> like the following example (including whitespace and formatting - note that there is no whitespace at the end of each of these lines and each printed line has a newline at the end), with all manners of different numbers for inputs and the output:
 
-<img src="inflation.png" width="500" alt="inflation program example" />
+<img src="inflation.png" width="700" alt="inflation program example" />
 
 
 <h3>MORTGAGE.CPP</h3>
@@ -54,7 +54,7 @@ A session should look <b><i>exactly</i></b> like the following example (includin
 <img src="mortgage.png" width="700" alt="mortgage program example" />
 
 <h2>Step 3: Create a makefile and Compile the Codes with the make Command</h2>
-In order to learn another way to manage our source codes and their compilation, we will first create a makefile and put in the usual g++ commands in it. Afterwards, whenever we want to compile our programs, the Linux command is a lot shorter. The use of makefiles will reveal itself to be very useful the more complex our programs and CS projects become.
+In order to learn another way to manage our source codes and their compilations, we will first create a makefile and put in the usual g++ commands in it. Afterwards, whenever we want to compile our programs, the Linux command is a lot shorter. The use of makefiles will reveal itself to be very useful the more complex our programs and CS projects become.
 
 Using your text editor, create a new file called makefile and enter the following into it:
 
