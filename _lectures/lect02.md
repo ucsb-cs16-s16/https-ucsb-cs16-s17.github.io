@@ -1,6 +1,6 @@
 ---
 num: "lect02"
-desc: "Lecure #2 slides"
+desc: "Lecture #2 slides"
 ready: true
 pdfurl: /lectures/CS16_Lecture2.pdf
 ---
