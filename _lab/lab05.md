@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab05
-ready: false
+ready: true
 desc: "Void Functions and Command Line Arguments"
 assigned: 2016-10-24 08:00:00.00-7
 due: 2016-10-28 12:00:00.00-7
@@ -60,13 +60,15 @@ A session should look <b><i>exactly</i></b> like the following example (includin
 
 <img src="change.png" width="700" alt="change program example" />
 
-Also note that the words have to match the numbers (so singulars for quarter, dime, and penny are expected as appropriate for the case).
+Also note that the words have to match the numbers (so singulars for quarter, dime, and penny are expected as appropriate for the case). This can be trickier than it looks.
 
 
 <h3>REVERSEARGS.CPP</h3>
 Write the program reverseArgs.cpp that takes command line input arguments and prints them back in reverse order.
-For example, if you ran the program as `./reverseArgs first_arg second_arg`, you would get an output back of `second_arg first_arg`. 
+For example, if you ran the program as `./reverseArgs first_arg second_arg`, you would get an output back of `second_arg first_arg`.
+
 If you ran the program as `./reverseArgs I love gorgonzola cheese, but I hate toothpaste`, you would get an output back of `toothpaste hate I but cheese, gorgonzola love I`. 
+
 If you ran the program with double quotes, then the words within should act as one unit. For example: `./reverseArgs I would rather be at "UC Santa Barbara"` would output: `UC Santa Barbara at be rather would I`.
 
 A session should look <b><i>exactly</i></b> like the following example (including whitespace and formatting - note that there is no whitespace at the end of each of these lines and each printed line has a newline at the end), with all manners of different numbers for inputs and the output:
@@ -74,7 +76,7 @@ A session should look <b><i>exactly</i></b> like the following example (includin
 <img src="reverseArgs.png" width="700" alt="reverse program example" />
 
 
-<h3>MULTIPLE.CPP</h3>
+<h3>MULTIPLY.CPP</h3>
 For the 3rd program, you will write a simple program that multiplies two numbers provided as command line arguments. When it is complete, the program should take exactly two command line arguments that are integers, multiply them together, and print their product on the standard output.
 
 If the number of arguments is not exactly two (other than the program name itself), a "Usage" message is printed.
@@ -82,7 +84,7 @@ Hint: you may want to use cerr instead of cout here.
 
 Here are some sample runs:
 
-<img src="multiple.png" width="700" alt="multiple program example" />
+<img src="multiply.png" width="700" alt="multiply program example" />
 
 
 <h2>Step 3: Create a makefile and Compile the Codes with the make Command</h2>
