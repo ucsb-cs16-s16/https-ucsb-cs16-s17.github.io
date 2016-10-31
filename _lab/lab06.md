@@ -37,17 +37,23 @@ Your program should take file name as input from the user. The answers should be
 
 A session should look <b><i>exactly</i></b> like the following example (including whitespace and formatting - note that there is no whitespace at the end of each of these lines and each printed line has a newline at the end), with all manners of different numbers for inputs and the output:
 
-`Enter filename:`
-`nums.txt`
-`The standard deviation is 1.581`
-
+```
+Enter filename:
+nums.txt
+The standard deviation is 1.581
+```
 The accompanying input file in this example, could look like this:
+
 `6 7 8    9         10`
+
 or like this:
-`6 7`
-`8`
-`9`
-`10`
+
+```
+6 7
+8
+9
+10
+```
 
 <h3>OPERATORS.CPP</h3>
 Write a program will correct a C++ program that has errors in which operator, << or >>, it uses with cin and cout. The program replaces each (incorrect) occurrence of:
@@ -98,6 +104,7 @@ Write a program that reads in an input file with one or more binary numbers sepa
 
 The binary numbers should be read in as strings. Utilize the following devices in your program (not optional):
 
+```
 string.length()     returns the length of a string, i
                     so if string = "code", string.size() = 4.
 string[n]           returns the nth character in the string (indexing starts at 0), 
@@ -107,6 +114,7 @@ int(char c)         converts a character into its ASCII code,
                     and if c = 'c', the int(c) = 99, etc...
 to_string(int i)    converts an integer into a string. Function found in <string> library.
                     Example, if i = 73, then to_string(i) = "73"
+```
 
 Given a file called `bin.txt`, which contains the following:
 
