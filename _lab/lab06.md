@@ -6,12 +6,14 @@ desc: "Using File I/O Data Streams & String Manipulation"
 assigned: 2016-10-31 08:00:00.00-7
 due: 2016-11-04 12:00:00.00-7
 ---
+
+THIS IS NOT A RELEASED LAB YET! CHANGES MAY STILL OCCUR! CHECK BACK AGAIN WHEN THIS MESSAGE IS NO LONGER HERE!
+
 <div markdown="1">
 
 <h1>CS16: Programming Assignment 06</h1>
 <h2>Introduction</h2>
-The assignment for this week will utilize concepts of file I/O data streams and string manipulation. Some of the concepts needed to finish this lab, such as the various string member functions and others, will be discussed further in the Nov. 1st lecture in class.
-This assignment is due on <b>Friday, November 4th at noon (12:00 pm)</b>
+The assignment for this week will utilize concepts of file I/O data streams and string manipulation. Some of the concepts needed to finish this lab, such as the various string member functions and others items, will be discussed further in the Tuesday, Nov. 1st lecture in class. Additionally, this lab is a little more challenging than previous labs and you are required to use functions and, by necessity, you will have to test these functions as per the lectures we have had on the topic in class. Again, the TAs and I will be looking for (and grading) programming stylizations, such as proper use of comments, tab indentation, good variable names, and overall block and function designs. So, it's not enough for your lab to pass submit.cs! Please read the instructions herein <b>carefully</b>. This assignment is due on <b>Friday, November 4th at noon (12:00 pm)</b>
 
 <h2>Step 1: Getting Ready</h2>
 Open a terminal window and log into the correct machine.
@@ -25,7 +27,7 @@ Each corresponds to one of the problems listed below, which make up this lab.
 This assignment consists of 3 problems, each of which is described below. The problem stddev.cpp is worth 20 points, binconverter.cpp and operators.cpp are worth 40 points each. Each should be solved in its own file and each must be submitted for full assignment credit. 
 
 NOTE: All these submissions will be checked by the automatic system on submit.cs AND by the instructor and TAs for further evaluation. Details below.
-
+---
 <h3>STDDEV.CPP</h3>
 This program takes its inputs from a file that contains numbers. The program reads them in as type double. The program outputs to the screen the <i>standard deviation</i> of the numbers in the file. The file contains nothing but numbers of type double separated by blanks and/or line breaks. The standard deviation of a list of numbers x1, x2, x3, and so forth is defined as the <b><i>square root</i></b> of:
 
@@ -33,7 +35,7 @@ This program takes its inputs from a file that contains numbers. The program rea
 
 Where the number a is the average of the numbers x1, x2, x3, and so forth and the number n is the count of how many numbers there are.
 
-Your program should take file name as input from the user. The answers should be given within 3 decimal points.
+Your program should take file name as input from the user. The answers should be given with 3 decimal points. Additionally, your program should define <b>at least one function</b>. If your program does NOT have at least one function, you will not get credit for this part of the assignment, even if your program passes submit.cs grading.
 
 A session should look <b><i>exactly</i></b> like the following example (including whitespace and formatting - note that there is no whitespace at the end of each of these lines and each printed line has a newline at the end), with all manners of different numbers for inputs and the output:
 
@@ -42,11 +44,13 @@ Enter filename:
 nums.txt
 The standard deviation is 1.581
 ```
-The accompanying input file in this example, could look like this:
+The accompanying input file in this example, could look like this (note the separation by one or more spaces):
 
-`6 7 8    9         10`
+```
+6 7 8    9			10
+```
 
-or like this:
+or like this (note the separation by either spaces or newline characters):
 
 ```
 6 7
@@ -72,11 +76,11 @@ with the corrected version
 
 `cout <<`
 
-Allow for the possibility that there may be any number of whitespace characters (one or more) between cin and << and between cout and >>. The replacement corrected version has only one blank between the cin or cout and the following operator.
+Allow for the possibility that there may be any number of whitespace characters (one or more) between cin and << and between cout and >>. The replacement corrected version has only one blank between the cin or cout and the following operator. You should not correct other whitespace characters in the input file (such as those at the start of a line).
 
-Your program should get the source filename as an input from the user. The corrected version should be output to a file called "corrected.txt" (cannot be called anything else) and the output should also be displayed on the terminal. That is, the output of your program should be exactly same as the contents of the file "corrected.txt". 
+Your program should get the source filename as an input from the user. The corrected version should be output to a file called "corrected.txt" (it cannot be called anything else) and the output should also be displayed on the terminal. That is, the output of your program should be exactly same as the contents of the file "corrected.txt". 
 
-Your program should define at least one function that is called with the input- and output-file streams as arguments. If your program does NOT have this function, you will not get credit for this part of the assignment, even if your program passes submit.cs grading.
+Your program should define <b>at least one function</b> that is called and that manipulates the read line from the input file. If your program does NOT have at least this function, you will not get credit for this part of the assignment, even if your program passes submit.cs grading.
 
 You will need to use multiple <string> member functions to manipulate strings in this program. In addition, you will have to use the getline() function in the <string> library in order to read an entire line by ifstream. 
 
@@ -102,11 +106,13 @@ The file "corrected.txt" consists of the above output (except first two lines).
 <h3>BINCONVERTER.CPP</h3>
 Write a program that reads in an input file with one or more binary numbers separated by spaces or newline characters and outputs a conversion to decimal, hexadecimal, and octal numbers.
 
-The binary numbers should be read in as strings. Utilize the following devices in your program (not optional):
+Your program should take file name as input from the user. The binary numbers must be read in as strings. It is up to you to choose the variable types needed otherwise. Additionally, your program should define <b>at least one function</b> (likely, you'll end up with at least 3). If your program does NOT have at least one function, you will not get credit for this part of the assignment, even if your program passes submit.cs grading.
+
+You have to utilize the following devices in your program (required):
 
 ```
 string.length()     returns the length of a string, i
-                    so if string = "code", string.size() = 4.
+                    so if string = "code", string.length() = 4.
 string[n]           returns the nth character in the string (indexing starts at 0), 
                     so string[0] = "c", string[1] = "o", etc...
 int(char c)         converts a character into its ASCII code,
@@ -116,7 +122,7 @@ to_string(int i)    converts an integer into a string. Function found in <string
                     Example, if i = 73, then to_string(i) = "73"
 ```
 
-Given a file called `bin.txt`, which contains the following:
+For example, given a file called `bin.txt`, which contains the following:
 
 <div markdown="1">
 ```
@@ -127,7 +133,7 @@ Given a file called `bin.txt`, which contains the following:
 ```
 </div>
 
-A session should look like the following example (including whitespace and formatting):
+A session should then look like the following example, including whitespace (no whitespaces at the end of the lines) and formatting:
 
 <div markdown="1">
 ```
