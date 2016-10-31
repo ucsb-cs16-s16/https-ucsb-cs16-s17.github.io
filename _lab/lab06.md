@@ -196,7 +196,7 @@ Once you submit, you should see a page detailing your submission. The system wil
 
 You can alternatively submit your code from the command line (terminal) on any CS machine, including the Phelps lab machines or the CSIL server. You can use this method when logged in remotely. To submit the the three source files to this assignment by running the command:
 
-`$ ~submit/submit -p XXXXXX stddev.cpp operators.cpp binconverter.cpp`
+`$ ~submit/submit -p 593 stddev.cpp operators.cpp binconverter.cpp`
 
 You can copy the URL shown in the output of the above and paste into a web browser to reach the submission result page.
 
