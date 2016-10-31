@@ -4,7 +4,7 @@ layout: handout
 ready: true
 ---
 
-[Click here for the class grades presented online.](http://cs.ucsb.edu/~zmatni/cs16/CS16Grades_Fa2016.htm/){: target="_blank"}
+[Click here for the class grades presented online.](http://cs.ucsb.edu/~zmatni/cs16/CS16Grades_Fa2016.htm){: target="_blank"}
 
 <h2>A Word on Figuring Out the Class Grades Spreadsheet</h2>
 
