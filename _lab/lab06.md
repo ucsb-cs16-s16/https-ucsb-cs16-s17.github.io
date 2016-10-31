@@ -7,10 +7,10 @@ assigned: 2016-10-31 08:00:00.00-7
 due: 2016-11-04 12:00:00.00-7
 ---
 <div markdown="1">
-<h1 style="font-color:red">THIS IS NOT A RELEASED LAB YET! CHANGES MAY STILL OCCUR! CHECK BACK AGAIN WHEN THIS MESSAGE IS NO LONGER HERE!</h1>
+<h1 style="color:red">THIS IS NOT A RELEASED LAB YET! CHANGES MAY STILL OCCUR! CHECK BACK AGAIN WHEN THIS MESSAGE IS NO LONGER HERE!</h1>
 
 <h1>CS16: Programming Assignment 06</h1>
-<h2>Introduction</h2>
+<h2>Introduction -- Important: Read this!</h2>
 The assignment for this week will utilize concepts of file I/O data streams and string manipulation. Some of the concepts needed to finish this lab, such as the various string member functions and others items, will be discussed further in the Tuesday, Nov. 1st lecture in class. Additionally, this lab is a little more challenging than previous labs and you are required to use functions and, by necessity, you will have to test these functions as per the lectures we have had on the topic in class. Again, the TAs and I will be looking for (and grading) programming stylizations, such as proper use of comments, tab indentation, good variable names, and overall block and function designs. So, it's not enough for your lab to pass submit.cs! Please read the instructions herein <b>carefully</b>. This assignment is due on <b>Friday, November 4th at noon (12:00 pm)</b>
 
 <h2>Step 1: Getting Ready</h2>
@@ -24,8 +24,10 @@ Each corresponds to one of the problems listed below, which make up this lab.
 
 This assignment consists of 3 problems, each of which is described below. The problem stddev.cpp is worth 20 points, binconverter.cpp and operators.cpp are worth 40 points each. Each should be solved in its own file and each must be submitted for full assignment credit. 
 
-NOTE: All these submissions will be checked by the automatic system on submit.cs AND by the instructor and TAs for further evaluation. Details below.
+Note: All these submissions will be checked by the automatic system on submit.cs AND by the instructor and TAs for further evaluation. Details below.
+
 ---
+
 <h3>STDDEV.CPP</h3>
 This program takes its inputs from a file that contains numbers. The program reads them in as type double. The program outputs to the screen the <i>standard deviation</i> of the numbers in the file. The file contains nothing but numbers of type double separated by blanks and/or line breaks. The standard deviation of a list of numbers x1, x2, x3, and so forth is defined as the <b><i>square root</i></b> of:
 
@@ -56,6 +58,8 @@ or like this (note the separation by either spaces or newline characters):
 9
 10
 ```
+
+---
 
 <h3>OPERATORS.CPP</h3>
 Write a program will correct a C++ program that has errors in which operator, << or >>, it uses with cin and cout. The program replaces each (incorrect) occurrence of:
@@ -100,6 +104,8 @@ int main(){
 </div>
 
 The file "corrected.txt" consists of the above output (except first two lines).
+
+---
 
 <h3>BINCONVERTER.CPP</h3>
 Write a program that reads in an input file with one or more binary numbers separated by spaces or newline characters and outputs a conversion to decimal, hexadecimal, and octal numbers.
