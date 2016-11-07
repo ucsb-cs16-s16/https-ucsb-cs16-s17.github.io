@@ -74,7 +74,7 @@ With the heights given above, the horizontal distance between the lowest and hig
 
 Hint: remember that the distance between two points, (x<sub>1</sub>, y<sub>1</sub>) and (x<sub>2</sub>, y<sub>2</sub>), is the square root of ( (x<sub>1</sub> - x<sub>2</sub>)<sup>2</sup> + (y<sub>1</sub> - y<sub>2</sub>)<sup>2</sup> ).
 
-Hint: the <cmath> library contains the arctangent function, with the name `atan()`.
+Hint: the <cmath> library contains the arctangent function, with the name <b>atan()</b>.
 
 Note: Assume that the lowest and the highest points are unique. This may not be true for other points.
 
