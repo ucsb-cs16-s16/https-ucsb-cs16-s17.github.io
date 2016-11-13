@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab07
-ready: false
+ready: true
 desc: "Arrays"
 assigned: 2016-11-07 08:00:00.00-7
 due: 2016-11-14 08:00:00.00-7
@@ -74,12 +74,12 @@ With the heights given above, the horizontal distance between the lowest and hig
 
 Hint: remember that the distance between two points, (x<sub>1</sub>, y<sub>1</sub>) and (x<sub>2</sub>, y<sub>2</sub>), is the square root of ( (x<sub>1</sub> - x<sub>2</sub>)<sup>2</sup> + (y<sub>1</sub> - y<sub>2</sub>)<sup>2</sup> ).
 
-Hint: the <cmath> library contains the arctangent function, with the name `atan()`.
+Hint: the <cmath> library contains the arctangent function, with the name <b>atan()</b>.
 
 Note: Assume that the lowest and the highest points are unique. This may not be true for other points.
 
 REQUIRED: 
-The input should be stored in a multidimensional integer array. The rectangle of heights will have a size less than or equal to 10 by 10. The program must utilize functions in the design (required to have at least one function).
+The input should be stored in a multidimensional integer array. The rectangle of heights will have a size less than or equal to 10 by 10. The program must utilize functions in the design. You are required to have at least one function that passes an array.
 
 The program should print a string of text to the terminal before getting each line of input from the user. A session should look like one of the following examples (including whitespace and formatting), with a possibly numbers and letters in the output:
 
@@ -123,7 +123,7 @@ Remember that the matrix product is defined as:
 Your program should output an error if the dimensions of the input matrices are incompatible (the number of columns in the first matrix is not equal to the number of rows in the second matrix).
 
 REQUIRED: 
-Each input matrix should be stored in a multidimensional integer array. The result matrix will also be stored in a multidimensional array. All three matrices have sizes less than or equal to 10 by 10. The program must utilize functions in the design (required to have at least one function).
+Each input matrix should be stored in a multidimensional integer array. The result matrix will also be stored in a multidimensional array. All three matrices have sizes less than or equal to 10 by 10. 
 
 The program should print a string of text to the terminal before getting input from the user. A session should look like one of the following examples (including whitespace and formatting), with a matrix (or error message) in the output:
 
@@ -167,11 +167,11 @@ Using your text editor, create a new file called makefile and enter the followin
 ```
 all: climb matrix
 
-stddev:
-	g++ -std=c++11 -Wall stddev.cpp -o stddev
+climb:
+	g++ -std=c++11 -Wall climb.cpp -o climb
 
-operators:
-	g++ -std=c++11 -Wall operators.cpp -o operators
+matrix:
+	g++ -std=c++11 -Wall matrix.cpp -o matrix
 
 clean:
 	rm climb matrix
@@ -199,7 +199,7 @@ Once you submit, you should see a page detailing your submission. The system wil
 
 You can alternatively submit your code from the command line (terminal) on any CS machine, including the Phelps lab machines or the CSIL server. You can use this method when logged in remotely. To submit the the three source files to this assignment by running the command:
 
-`$ ~submit/submit -p XXX climb.cpp matrix.cpp`
+`$ ~submit/submit -p 597 climb.cpp matrix.cpp`
 
 You can copy the URL shown in the output of the above and paste into a web browser to reach the submission result page.
 
