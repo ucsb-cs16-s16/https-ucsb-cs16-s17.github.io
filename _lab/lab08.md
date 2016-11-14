@@ -339,10 +339,11 @@ Points from automated submit.cs. system tests
 |utilityTest|utilityTest|50 pts
 
 <b>Points assigned by TAs manually</b>
+
 (40 pts) Style:
-Good choice of variable names
-Code indented in ways that are consistent, and in line with good C++ practice
-Where applicable, common code is factored out into functions (added to utility.h and utility.cpp as needed). (This may or may not arise, but if it does, utility.h and utility.cpp is a place where functions needed in multiple files can be put—prototypes in utility.h and function definitions in utility.cpp).
+Good choice of variable names, code indented in ways that are consistent, and in line with good C++ practice. Where applicable, common code is factored out into functions (added to utility.h and utility.cpp as needed). 
+
+This last point may or may not arise, but if it does, utility.h and utility.cpp is a place where functions needed in multiple files can be put—prototypes in utility.h and function definitions in utility.cpp.
 
 (30 pts) Following instructions and submitting on time.
 
