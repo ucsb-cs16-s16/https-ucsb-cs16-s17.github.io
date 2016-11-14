@@ -7,7 +7,7 @@ assigned: 2016-11-14 08:00:00.00-7
 due: 2016-11-21 08:00:00.00-7
 ---
 
-<h1>THIS LAB IS NOT RELEASED YET. PLEASE DO NOT DOWNLOAD OR USE!!!</h1>
+<h1 style="font-color: red">THIS LAB IS NOT RELEASED YET. PLEASE DO NOT DOWNLOAD OR USE!!!</h1>
 
 <div markdown="1">
 
