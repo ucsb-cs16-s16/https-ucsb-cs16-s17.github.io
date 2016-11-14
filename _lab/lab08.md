@@ -1,14 +1,11 @@
 ---
 layout: lab
 num: lab08
-ready: false
+ready: true
 desc: "Compiling Multiple Source Files in C++"
 assigned: 2016-11-14 08:00:00.00-7
 due: 2016-11-21 08:00:00.00-7
 ---
-
-<h1 style="color:red;">THIS LAB IS NOT RELEASED YET. PLEASE DO NOT DOWNLOAD OR USE!!!</h1>
-
 <div markdown="1">
 
 <h1>CS16: Programming Assignment 08</h1>
