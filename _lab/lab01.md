@@ -238,7 +238,7 @@ This assignment only needs you to write a program that prints out two lines on t
 
 ```
 Hello, world!
-CS16 Fall 2016.
+CS16 Spring 2017.
 ```
 
 Start with a "skeleton program" (or template) that contains the necessary structure but that does not do anything:
