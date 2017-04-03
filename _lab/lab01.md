@@ -1,15 +1,15 @@
 ---
 layout: lab
 num: lab01
-ready: false
+ready: true
 desc: "Getting started with C++"
-assigned: 2016-09-26 08:00:00.00-7
-due: 2016-09-30 12:00:00.00-7
+assigned: 2017-04-04 08:00:00.00-7
+due: 2017-04-11 23:59:59.00-7
+pdf: "."
 ---
 <h2>Introduction</h2>
 
 <p>Your first lab for this week is an introduction to programming on CSIL and in the Computer Science lab. You will write your first C++ program that will print a specific text out on your computer display.</p>
-<p>Also, please note (I'll only do this this one time, on your 1st lab) that your completed lab assignment must be turned in by this <b><i>FRIDAY at NOON</i></b>. In fact, all of your assignments will be given to you on your Monday labs and then be expected to be submitted by the coming Friday at noon.</p>
 
 <p>For this first lab, you will do the following:</p>
 <ol>
