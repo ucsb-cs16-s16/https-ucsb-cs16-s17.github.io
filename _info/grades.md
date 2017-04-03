@@ -1,10 +1,10 @@
 ---
-title: "Class Grades, CMPSC 16, Fall 2016"
+title: "Class Grades, CMPSC 16, Spring 2017"
 layout: handout
-ready: true
+ready: false
 ---
 
-[Click here for the class grades presented online.](http://cs.ucsb.edu/~zmatni/cs16/CS16Grades_Fa2016.htm){: target="_blank"}
+[Click here for the class grades presented online.](http://cs.ucsb.edu/~zmatni/cs16s17/xxxx){: target="_blank"}
 
 <h2>A Word on Figuring Out the Class Grades Spreadsheet</h2>
 
