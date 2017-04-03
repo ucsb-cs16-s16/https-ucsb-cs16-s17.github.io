@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab05
-ready: true
+ready: false
 desc: "Void Functions and Command Line Arguments"
 assigned: 2016-10-24 08:00:00.00-7
 due: 2016-10-28 12:00:00.00-7

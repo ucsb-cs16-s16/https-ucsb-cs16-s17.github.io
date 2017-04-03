@@ -1,6 +1,6 @@
-# ucsb-cs16-f16.github.io
+# ucsb-cs16-s17.github.io
 
-Website: http://ucsb-cs16-f16.github.io
+Website: http://ucsb-cs16-s17.github.io
 
 To test locally:
 * One time setup:
