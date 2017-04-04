@@ -6,7 +6,7 @@ off_campus: http://proquest.safaribooksonline.com.proxy.library.ucsb.edu:2048
 start_week: 0
 start_date: 2017-04-02 00:00:00.00-7:00
 num_weeks: 11
-extra_exam_week: true
+extra_exam_week: false
 
 instructor_url: https://ucsb-cs16.github.io/instructor
 
