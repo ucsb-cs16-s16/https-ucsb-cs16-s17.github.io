@@ -13,12 +13,12 @@
   <td class="lab_num"  ><a href="{{lab.pdfurl}}" data-ajax="false">{{ lab.num }}</a></td>
   <td class="lab_ready">{{lab.ready}}</td>
   <td class="lab_desc" >{{lab.desc }}</td>
-  <td class="lab_assigned">{{lab.assigned}}</td>
-  <td class="lab_due">{{lab.due}}</td>
+  <td class="asn_date" >{{asn.assigned | date: "%a %m/%d %I:%M%p"  }}</td> 
+  <td class="asn_date" >{{asn.due | date: "%a %m/%d %I:%M%p" }}</td>
 </tr>
 
 {% if lab.last_before %}
-<tr><th colspan = "5">{{lab.last_before}}</th></tr>
+<tr><th colspan = "6">{{lab.last_before}}</th></tr>
 {% endif %}
 
 {% endfor %}
