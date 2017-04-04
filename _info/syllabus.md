@@ -20,7 +20,7 @@ Jinjin Shao <jinjin_shao@umail.ucsb.edu>, <br/>
 Bay-Yuan Hsu (Grader) <bhsu@umail.ucsb.edu><br/><br/>
 
 * **Lab**: (50 minute sections)<br/>
-Wednesdays starting at 3pm, 4pm, 5pm, 6pm PHELP 3525, ATTENDANCE REQUIRED.<br/>
+Wednesdays starting at 8am, 9am, 10am PHELP 3525, ATTENDANCE REQUIRED.<br/>
 * **TA Office Hours**: See full syllabus for details. <br/>
 * **Instructor's Policies**: See full syllabus for details.
 
