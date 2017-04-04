@@ -13,7 +13,9 @@ Office: SSMS 4409<br/><br/>
 
 * **Lecture**: Tue. and Thu. 12:30-1:45pm BUCHN 1930, ATTENDANCE REQUIRED.<br/>
 * **Instructor Office Hours**: T 10:00am - 12:00pm, SSMS 4409<br/><br/>
-* **TAs**: (contact via Piazza)<br/>
+
+* **Piazza Site**: (piazza.com/ucsb/spring2017/cs16)</br>
+* **TAs**:<br/>
 Sujaya Maiyya <sujaya_maiyya@umail.ucsb.edu>, <br/>
 Nataly Moreno <nataly_moreno@umail.ucsb.edu>, <br/>
 Jinjin Shao <jinjin_shao@umail.ucsb.edu>, <br/>
