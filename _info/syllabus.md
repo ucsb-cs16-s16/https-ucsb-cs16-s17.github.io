@@ -7,9 +7,9 @@ ready: true
 Basic Facts
 -----------
 
-* **Instructor**:  [Ziad Matni](http://www.cs.ucsb.edu/~zmatni){: target="_blank"}
+* **Instructor**:  [Ziad Matni](http://www.cs.ucsb.edu/~zmatni){: target="_blank"}<br/>
 Email: <zmatni@cs.ucsb.edu><br/>
-Office: SSMS 4409<br/>
+Office: SSMS 4409<br/><br/>
 * **Lecture**: Tue. and Thu. 12:30-1:45pm BUCHN 1930, ATTENDANCE REQUIRED.<br/>
 * **Instructor Office Hours**: T 10:00am - 12:00pm, SSMS 4409<br/><br/>
 * **TAs**: (contact via Piazza)<br/>
