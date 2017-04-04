@@ -8,7 +8,9 @@ Basic Facts
 -----------
 
 * **Instructor**:  [Ziad Matni](http://www.cs.ucsb.edu/~zmatni){: target="_blank"}
-* **Lecture**: Tue. and Thu. 12:30-1:45pm BUCHN 1930, ATTENDANCE REQUIRED.
+Email: <zmatni@cs.ucsb.edu><br/>
+Office: SSMS 4409<br/>
+* **Lecture**: Tue. and Thu. 12:30-1:45pm BUCHN 1930, ATTENDANCE REQUIRED.<br/>
 * **Instructor Office Hours**: T 10:00am - 12:00pm, SSMS 4409<br/><br/>
 * **TAs**: (contact via Piazza)<br/>
 Sujaya Maiyya <sujaya_maiyya@umail.ucsb.edu>, <br/>
