@@ -4,7 +4,11 @@ layout: handout
 ready: false
 ---
 
+<!--
 [Click here for homework solutions in PDF form](http://cs.ucsb.edu/~zmatni/xxx/){: target="_blank"}
+-->
+
+TBA at a later date.
 
 ---------------------
 Questions? Post them on Piazza!
