@@ -9,7 +9,7 @@
 
 {% for lab in site.lab %}
 
-<tr class={% if labs.ready %}"ready"{% else %}"not-ready"{% endif %} >
+<tr class={% if lab.ready %}"ready"{% else %}"not-ready"{% endif %} >
   <td class="lab_num"  ><a href="{{lab.pdfurl}}" data-ajax="false">{{ lab.num }}</a></td>
   <td class="lab_ready">{{lab.ready}}</td>
   <td class="lab_desc" >{{lab.desc }}</td>
