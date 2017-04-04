@@ -7,7 +7,7 @@
   <th class="asn_due" >due</th>
 </tr>
 
-{% for lab in site.labs %}
+{% for lab in site.lab %}
 
 <tr class={% if labs.ready %}"ready"{% else %}"not-ready"{% endif %} >
   <td class="lab_num"  ><a href="{{lab.pdfurl}}" data-ajax="false">{{ lab.num }}</a></td>
