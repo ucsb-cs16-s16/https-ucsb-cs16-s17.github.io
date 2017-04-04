@@ -1,8 +1,25 @@
 <table id="lab_table" class="asn_table">
-  {% include asn_table_header_row.html %}
-{% for asn in site.lab %}
- {% if asn.num %}
-   {% include asn_table_row.html %}
- {% endif %}
+<tr>
+  <th class="asn_num"  >num</th>
+  <th class="asn_ready">ready?</th>
+  <th class="asn_desc" >description</th>
+  <th class="asn_assigned" >assigned</th>
+  <th class="asn_due" >due</th>
+</tr>
+
+{% for lab in site.labs %}
+
+<tr class={% if labs.ready %}"ready"{% else %}"not-ready"{% endif %} >
+  <td class="lab_num"  ><a href="{{lab.pdfurl}}" data-ajax="false">{{ lab.num }}</a></td>
+  <td class="lab_ready">{{lab.ready}}</td>
+  <td class="lab_desc" >{{lab.desc }}</td>
+  <td class="lab_assigned">{{lab.assigned}}</td>
+  <td class="lab_due">{{lab.due}}</td>
+</tr>
+
+{% if lab.last_before %}
+<tr><th colspan = "5">{{lab.last_before}}</th></tr>
+{% endif %}
+
 {% endfor %}
 </table>
