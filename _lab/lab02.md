@@ -12,7 +12,7 @@ pdf: "."
 
 <h1>CS16: Programming Assignment 02</h1>
 <h2>Introduction</h2>
-The assignment for this week will utilize concepts of input and output and simple control flow that we covered in class (Chapter 2 in the book). You may utilize other concepts of programming as well, as you see fit.
+The assignment for this week will utilize concepts of input and output and simple control flow (Chapter 2 in the book). We will cover these topics in class this week.
 
 <h2>Step 1: Getting Ready</h2>
 If you have not gotten a CoE account yet, please do so as soon as possible!
