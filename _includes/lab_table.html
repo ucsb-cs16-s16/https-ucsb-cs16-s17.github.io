@@ -8,14 +8,14 @@
 </tr>
 
 {% for lab in site.lab %}
-
-<tr class={% if lab.ready %}"ready"{% else %}"not-ready"{% endif %} >
-  <td class="lab_num"  ><a href="{{lab.url}}" data-ajax="false">{{ lab.num }}</a></td>
-  <td class="lab_ready">{{lab.ready}}</td>
-  <td class="lab_desc" >{{lab.desc }}</td>
-  <td class="asn_date" >{{lab.assigned | date: "%a %m/%d %I:%M%p"  }}</td> 
-  <td class="asn_date" >{{lab.due | date: "%a %m/%d %I:%M%p" }}</td>
-</tr>
+ {% if asn.num %}
+	<tr class={% if lab.ready %}"ready"{% else %}"not-ready"{% endif %} >
+	  <td class="lab_num"  ><a href="{{lab.url}}" data-ajax="false">{{ lab.num }}</a></td>
+	  <td class="lab_ready">{{lab.ready}}</td>
+ 	 <td class="lab_desc" >{{lab.desc }}</td>
+ 	 <td class="asn_date" >{{lab.assigned | date: "%a %m/%d %I:%M%p"  }}</td> 
+ 	 <td class="asn_date" >{{lab.due | date: "%a %m/%d %I:%M%p" }}</td>
+	</tr>
 
 {% if lab.last_before %}
 <tr><th colspan = "6">{{lab.last_before}}</th></tr>
