@@ -8,7 +8,7 @@
 </tr>
 
 {% for lab in site.lab %}
- {% if asn.num %}
+ {% if lab.num %}
 	<tr class={% if lab.ready %}"ready"{% else %}"not-ready"{% endif %} >
 	  <td class="lab_num"  ><a href="{{lab.url}}" data-ajax="false">{{ lab.num }}</a></td>
 	  <td class="lab_ready">{{lab.ready}}</td>
