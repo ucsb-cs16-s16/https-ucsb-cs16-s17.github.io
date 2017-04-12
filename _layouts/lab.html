@@ -10,9 +10,9 @@
         <div id="content"  class="ui-content">
           <h1>{{page.num}} : {{page.desc}}</h1>
           <table class="asn_table">
-            {% include asn_table_header_row.html %}
+            {% include asn_table_header_row_nopdf.html %}
             {% assign asn = page %}
-            {% include asn_table_row.html %}
+            {% include asn_table_row_nopdf.html %}
           </table>
           {{ content }}
         </div><!-- content -->
