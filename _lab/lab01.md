@@ -5,7 +5,6 @@ ready: true
 desc: "Getting started with C++"
 assigned: 2017-04-04 08:00:00.00-7
 due: 2017-04-11 23:59:59.00-7
-pdf: "."
 ---
 <h2>Introduction</h2>
 
