@@ -73,7 +73,7 @@ A session should look <b><i>exactly</i></b> like the following example (includin
 Write the program reverseArgs.cpp that takes command line input arguments and prints them back in reverse order.
 For example, if you ran the program as `./reverseArgs first_arg second_arg`, you would get an output back of `second_arg first_arg`.
 
-If you ran the program as `./reverseArgs I love gorgonzola cheese, but I hate toothpaste`, you would get an output back of `toothpaste hate I but cheese, gorgonzola love I`. 
+If you ran the program as `./reverseArgs I love gorgonzola cheese, but I hate toothpaste`, you would get an output back of `toothpaste hate I but cheese, gorgonzola love I`. This is why I (lovingly) refer to this exercise as "the Yoda program"...
 
 If you ran the program with double quotes, then the words within should act as one unit. For example: `./reverseArgs I would rather be at "UC Santa Barbara"` would output: `UC Santa Barbara at be rather would I`.
 
@@ -84,7 +84,7 @@ A session should look <b><i>exactly</i></b> like the following example (includin
 <img src="reverseArgs.png" width="700" alt="reverse program example" />
 
 <h3>GONZO.CPP</h3>
-Write a program gonzo.cpp that takes 2 command line input arguments: a number (N) and a name. The program then does 2 things: it prints out what the remainder of N divided by 10 is and, on the next line, prints out the name N times separated by a comma and space character.
+Write a program gonzo.cpp that takes 2 command line input arguments: a number (N) and a name. The program then does 2 things: it prints out what the remainder of N divided by 10 is and, on the next line, prints out the name N times separated by a comma and space character with a period at the end of the sentence.
 
 You are only permitted to use the <strong>iostream</strong> library and you must use a <strong>switch</strong> statement at least once in this program.
 
