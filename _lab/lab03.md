@@ -43,7 +43,7 @@ Write a program that gauges the rate of inflation over the past year. The progra
 
 Your program must use a function to compute the rate of inflation. A program which does not use a function will be awarded a score of zero, even if all tests pass. The presence of this function will be checked by the instructor and the TAs.
 
-You are only permitted to use the <iostream> library.
+You are only permitted to use the <strong>iostream</strong> library.
 
 Additionally, the program must make good use of comments in the code, per the discussions we have been having in class. Again, the presence of comments (and thier good use) will be checked by the instructor and the TAs.
 
@@ -61,7 +61,7 @@ So, the real annual cost to a home-owner - the annual after-tax cost - is comput
 
 As mentioned, the input should be the price of the house and the down payment. Inputs should be of type double. Your program should use at least two function definitions (other than main function) and should allow the user to repeat this calculation as often as the user wishes. A program which does not use at least 2 functions will be awarded a score of zero, even if all tests pass. The presence of these functions will be checked by the instructor and the TAs.
 
-You are only permitted to use the <iostream> library.
+You are only permitted to use the <strong>iostream</strong> library.
 
 Additionally, the program must make good use of comments in the code, per the discussions we have been having in class. Again, the presence of comments (and thier good use) will be checked by the instructor and the TAs.
 
@@ -77,7 +77,7 @@ If you ran the program as `./reverseArgs I love gorgonzola cheese, but I hate to
 
 If you ran the program with double quotes, then the words within should act as one unit. For example: `./reverseArgs I would rather be at "UC Santa Barbara"` would output: `UC Santa Barbara at be rather would I`.
 
-You are only permitted to use the <iostream> library.
+You are only permitted to use the <strong>iostream</strong> library.
 
 A session should look <b><i>exactly</i></b> like the following example (including whitespace and formatting - note that there is no whitespace at the end of each of these lines and each printed line has a newline at the end), with all manners of different numbers for inputs and the output:
 
@@ -86,11 +86,11 @@ A session should look <b><i>exactly</i></b> like the following example (includin
 <h3>GONZO.CPP</h3>
 Write a program gonzo.cpp that takes 2 command line input arguments: a number (N) and a name. The program then does 2 things: it prints out what the remainder of N divided by 10 is and, on the next line, prints out the name N times separated by a comma and space character.
 
-You are only permitted to use the <iostream> library and you must use switch statement at least once in this program.
+You are only permitted to use the <strong>iostream</strong> library and you must use a <strong>switch</strong> statement at least once in this program.
 
 A session should look <b><i>exactly</i></b> like the following example (including whitespace and formatting - note that there is no whitespace at the end of each of these lines and each printed line has a newline at the end), with all manners of different numbers for inputs and the output:
 
-<img src="gonzo.png" width="700" alt="gonzo program example" />
+<img src="gonzo.png" width="900" alt="gonzo program example" />
 
 <h2>Step 3: Create a makefile and Compile the Codes with the make Command</h2>
 In order to learn another way to manage our source codes and their compilations, we will first create a makefile and put in the usual g++ commands in it. Afterwards, whenever we want to compile our programs, the Linux command is a lot shorter. The use of makefiles will reveal itself to be very useful the more complex our programs and CS projects become.
