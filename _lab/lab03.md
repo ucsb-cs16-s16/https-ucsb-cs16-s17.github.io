@@ -49,7 +49,7 @@ Additionally, the program must make good use of comments in the code, per the di
 
 A session should look <b><i>exactly</i></b> like the following example (including whitespace and formatting - note that there is no whitespace at the end of each of these lines and each printed line has a newline at the end), with all manners of different numbers for inputs and the output:
 
-<img src="inflation.png" width="700" alt="inflation program example" />
+<img src="inflation.png" width="500" alt="inflation program example" />
 
 
 <h3>MORTGAGE.CPP</h3>
