@@ -30,9 +30,6 @@ And then create and change into the lab02 directory:
 Remember that at any time, you can check what directory you are currently in with the command <b>pwd</b>.
 
 <h2>Step 2: Create and Edit Your C++ Files</h2>
-This week, you will need to create <b>three files called coins.cpp, meeting.cpp, and sum.cpp</b>:
-Each corresponds to one of the problems listed below, which make up this lab.
-
 For a reminder on how to open and use a text editor to create and edit new source files, refer back to Lab #1.
 
 This assignment consists of 3 problems, each of which is described below. The first two are worth 30 points each, and the last is worth 40 points. Each should be solved in its own file and all three must be submitted for full assignment credit. These exercises are inspied by ones from the textbook (in Ch. 2) - but they are NOT the same, so follow the instructions on THIS sheet carefully.
