@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab03
-ready: false
+ready: true
 desc: "Passing Arguments into C++ Programs; Basic Functions"
 assigned: 2017-04-19 08:00:00.00-7
 due: 2017-05-01 12:00:00.00-7
