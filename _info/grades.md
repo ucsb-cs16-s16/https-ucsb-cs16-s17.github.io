@@ -5,8 +5,6 @@ ready: true
 ---
 <h2>
 [Click here for the class grades.](https://www.cs.ucsb.edu/~shao158/){: target="_blank"} </h2>
-<h3>
-Instructions: put your perm ID number in the box, click the button. Voila: grades!
-</h3>
+<strong>Instructions</strong>: put your perm ID number in the box, click the button!
 
 Questions? Post them on Piazza!
