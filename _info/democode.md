@@ -4,7 +4,7 @@ layout: handout
 ready: true
 ---
 
-[Click here for demo code used in lecture](http://cs.ucsb.edu/~zmatni/cs16s17/demos/){: target="_blank"}
+<h2>[Click here for demo code used in lecture](http://cs.ucsb.edu/~zmatni/cs16s17/demos/){: target="_blank"}</h2>
 
 
 ---------------------
