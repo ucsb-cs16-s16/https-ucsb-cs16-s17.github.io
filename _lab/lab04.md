@@ -24,7 +24,7 @@ This week, you will need to create <b>2 files called change.cpp, and multiply.cp
 Each corresponds to one of the problems listed below, which make up this lab.
 Each is worth 50 points and should be solved in its own file and both must be submitted for full assignment credit. 
 
-*IMPORTANT NOTE:* This lab will be also graded for use of comments and style. See below for details. In addition, we will take points OFF if you use C++ instructions/libraries/code that either (a) was not covered in class, or (b) was found to be copied from outside sources (or each other) withoutproper citation.
+*IMPORTANT NOTE:* This lab will be also graded for use of comments and style. See below for details. In addition, we will take points OFF if you use C++ instructions/libraries/code that either (a) was not covered in class, or (b) was found to be copied from outside sources (or each other) without proper citation.
 
 <h3>CHANGE.CPP</h3>
 Write a program that tells what coins to give out for any amount of change from 1 cent to 99 cents. For example, if the amount is 86 cents, the output would be something like the following:
@@ -78,7 +78,7 @@ Using your text editor, create a new file called makefile and enter the followin
 
 <div markdown="1">
 ```
-all: change reverseArgs multiply
+all: change multiply
 
 change:
 	change.cpp g++ -std=c++11 change.cpp -o change
