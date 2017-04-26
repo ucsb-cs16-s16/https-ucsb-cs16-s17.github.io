@@ -65,7 +65,7 @@ Also note that the words have to match the numbers (so singulars for quarter, di
 You will write a simple program that multiplies two numbers provided as command line arguments. When it is complete, the program should take exactly two command line arguments that are integers, multiply them together, and print their product on the standard output.
 
 If the number of arguments is not exactly two (other than the program name itself), a "Usage" message is printed (see the sample runs below). <b>Hint:</b> you may want to use <code>cerr</code> instead of <code>cout</code> to output the usage message.
-While cerr and cout are alike in that they direct values to standard output, we usually use cout for the standard output, but use cerr to show or report errors to the user and the system.
+While <code>cerr</code> and <code>cout</code> are alike in that they direct values to standard output, we usually use cout for the standard output, but use cerr to show or report errors to the user and the system.
 
 Here are some sample runs:
 
