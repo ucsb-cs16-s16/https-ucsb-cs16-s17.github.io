@@ -81,7 +81,7 @@ Using your text editor, create a new file called makefile and enter the followin
 all: change multiply
 
 change:
-	change.cpp g++ -std=c++11 change.cpp -o change
+	g++ -std=c++11 change.cpp -o change
 
 multiply:
 	g++ -std=c++11 multiply.cpp -o multiply
