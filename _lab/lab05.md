@@ -1,10 +1,10 @@
 ---
 layout: lab
 num: lab05
-ready: false
-desc: ""
+ready: true
+desc: "Binary <-> Decimal Conversions"
 assigned: 2017-05-03 08:00:00.00-7
-due: 2017-05-11 12:00:00.00-7
+due: 2017-05-09 12:00:00.00-7
 ---
 
 <div markdown="1">
