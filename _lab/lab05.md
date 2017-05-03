@@ -66,7 +66,7 @@ That's 81 in decimal.
 $ ./8binConv 11111111
 That's 255 in decimal.
 ```
-You will need to include cstlib and cmath (in addition to iostream, of course) libraries.
+You will need to include cstlib, cstring, and cmath (in addition to iostream, of course) libraries.
 
 Some clues that will come in handy:
 * Recall that argv[x] are strings of characters, more commonly known as <b>C-strings</b>. If you have a C-string, cst, the command <b>strlen(cst)</b> returns the LENGTH of that C-string.
