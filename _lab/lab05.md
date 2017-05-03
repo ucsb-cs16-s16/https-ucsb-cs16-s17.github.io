@@ -54,9 +54,9 @@ See example print out (note that the first 2 entries are purposeful mistakes and
 
 ```
 $ ./8binConv
-Usage: binc <8-bit binary number>
+Usage: 8binConv <8-bit binary number>
 $ ./8binConv 0000000
-Usage: binc <8-bit binary number>
+Usage: 8binConv <8-bit binary number>
 $ ./8binConv 00000000
 That's 0 in decimal.
 $ ./8binConv 00000001
