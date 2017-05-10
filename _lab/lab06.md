@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab06
-ready: false
+ready: true
 desc: "Using File I/O Data Streams & String Manipulation"
 assigned: 2017-05-10 08:00:00.00-7
 due: 2017-05-16 12:00:00.00-7
