@@ -11,7 +11,7 @@ due: 2017-05-16 12:00:00.00-7
 <h1>CS16: Programming Assignment 06</h1>
 <h2>Introduction -- Important: Read this!</h2>
 The assignment for this week will utilize concepts of file I/O data streams and string manipulation. Some of the concepts needed to finish this lab, such as the various string member functions and others items, will be discussed further in the Thursday lecture in class. 
-Again, the TAs and I will be looking for (and grading) programming stylizations, such as proper use of comments, tab indentation, good variable names, and overall block and function designs. So, it's not enough for your lab to pass submit.cs! Please read the instructions herein <b>carefully</b>.
+Again, the TAs and I will be looking for (and grading) programming stylizations, such as proper use of comments, tab indentation, good variable names, and overall block and function designs. So, it is not enough for your lab to pass submit.cs! Please read the instructions herein <b>carefully</b>.
 
 <h2>Step 1: Getting Ready</h2>
 Open a terminal window and log into the correct machine.
@@ -19,7 +19,7 @@ Change into your CS 16 directory, create a lab06 directory and change into it.
 Remember that at any time, you can check what directory you are currently in with the command <b>pwd</b>.
 
 <h2>Step 2: Create and Edit Your C++ Files</h2>
-This week, you will need to create <b>3 files called stddev.cpp and operators.cpp</b>:
+This week, you will need to create <b>2 files called stddev.cpp and operators.cpp</b>:
 Each corresponds to one of the problems listed below, which make up this lab.
 
 This assignment consists of 2 problems, each of which is worth 50 points and is described below. Each should be solved in its own file and each must be submitted for full assignment credit. 
@@ -143,7 +143,7 @@ Remember to re-compile the relevant files after you make any changes to the C++ 
 
 <h2>Step 4: Submit</h2>
 
-Once you are satisfied that your programs are correct, it is time to submit them. Login at [https://submit.cs.ucsb.edu](https://submit.cs.ucsb.edu), then navigate to “CS16_f16” and click on “lab05”. Then click “Make Submission”, and make your submission the same way as last week. Remember to submit both of the .cpp files.
+Once you are satisfied that your programs are correct, it is time to submit them. Login at [https://submit.cs.ucsb.edu](https://submit.cs.ucsb.edu), then navigate to “CS16_s17” and click on “lab05”. Then click “Make Submission”, and make your submission the same way as last week. Remember to submit both of the .cpp files.
 
 Please remember that you must submit the programs to obtain any credit for the assignment; just completing the programs is not enough.
 
@@ -151,7 +151,7 @@ Once you submit, you should see a page detailing your submission. The system wil
 
 You can alternatively submit your code from the command line (terminal) on any CS machine, including the Phelps lab machines or the CSIL server. You can use this method when logged in remotely. To submit the the three source files to this assignment by running the command:
 
-`$ ~submit/submit -p XXX stddev.cpp operators.cpp` 
+`$ ~submit/submit -p 732 stddev.cpp operators.cpp` 
 
 You can copy the URL shown in the output of the above and paste into a web browser to reach the submission result page.
 

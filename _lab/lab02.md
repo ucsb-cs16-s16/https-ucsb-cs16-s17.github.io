@@ -99,7 +99,7 @@ Remember to re-compile the relevant files after you make any changes to the C++ 
 
 <h2>Step 4: Submit</h2>
 
-Once you are satisfied that your programs are correct, it is time to submit them. Login at [https://submit.cs.ucsb.edu](https://submit.cs.ucsb.edu), then navigate to “CS16_f16” and click on “lab02”. Then click “Make Submission”, and make your submission the same way as last week. Remember to submit all three .cpp files.
+Once you are satisfied that your programs are correct, it is time to submit them. Login at [https://submit.cs.ucsb.edu](https://submit.cs.ucsb.edu), then navigate to “CS16_s17” and click on “lab02”. Then click “Make Submission”, and make your submission the same way as last week. Remember to submit all three .cpp files.
 
 Please remember that you must submit the programs to obtain any credit for the assignment; just completing the programs is not enough.
 
