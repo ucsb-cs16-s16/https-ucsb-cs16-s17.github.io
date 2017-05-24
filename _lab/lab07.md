@@ -321,6 +321,8 @@ For this lab, since there are a lot of files to upload to submit.cs, your best c
 
 You can then copy the URL shown in the output of the above and paste into a web browser to reach the submission result page.
 
+PLEASE NOTE THAT THIS IS A NON-TYPICAL LARGE SUBMISSION TO THE SYSTEM. Be patient if the system takes a bit longer to respond to your submission.
+
 <h2>Grading Rubric</h2>
 Points from automated submit.cs system tests
 
