@@ -11,6 +11,8 @@ due: 2017-05-30 12:00:00.00-7
 <h1>CS16: Programming Assignment 07</h1>
 <h2>Introduction -- Important: Read this!</h2>
 
+THIS IS A CHALLENGING LAB AND I AM GIVING YOU THE OPTION TO PAIR UP WITH SOMEONE ELSE IN YOUR LAB (because two heads are - often - better than one).
+
 The TAs and I will be looking for (and grading) programming stylizations, such as proper use of comments, tab indentation, good variable names, and overall block and function designs. So, it is not enough for your lab to pass submit.cs! Please read the instructions herein <b>carefully</b>. 
 
 <h3>Pair programming is <b>OPTIONAL</b> for this lab.</h3>
@@ -315,7 +317,7 @@ At that point, you are ready to try submitting on the submit.cs system.
 
 For this lab, since there are a lot of files to upload to submit.cs, your best course is to type the following from the Linux/UNIX prompt, that is, from the command line (terminal) on any CS machine, including from your computer when you are remotely logged into a CS machine (via ssh):
 
-`$ ~submit/submit -p XXX *.cpp *.h`
+`$ ~submit/submit -p 749 *.cpp *.h`
 
 You can then copy the URL shown in the output of the above and paste into a web browser to reach the submission result page.
 
