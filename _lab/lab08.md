@@ -8,7 +8,7 @@ due: 2017-06-08 23:59:59.00-8
 ---
 <div markdown="1">
 
-<h1>CS16: Programming Assignment 08 / 10</h1>
+<h1>CS16: Programming Assignment 08</h1>
 <h2>Introduction -- Important: Read this!</h2>
 This lab will have you do programming exercises with arrays, vectors, and dynamic arrays.
 
