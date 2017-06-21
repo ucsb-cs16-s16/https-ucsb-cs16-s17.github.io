@@ -9,5 +9,4 @@ ready: true
 
 Questions? Post them on Piazza or email TA Jinjin Shao at [mailto:jinjin_shao@cs.ucsb.edu](mailto:jinjin_shao@cs.ucsb.edu){: target="_blank"}
 
-[FINAL CLASS GRADES ARE HERE!]
-(https://www.cs.ucsb.edu/~zmatni/cs16s17/CS16S17_Grades.htm){: target="_blank"}
+Also, [FINAL CLASS GRADES ARE HERE!](https://www.cs.ucsb.edu/~zmatni/cs16s17/CS16S17_Grades.htm){: target="_blank"}
