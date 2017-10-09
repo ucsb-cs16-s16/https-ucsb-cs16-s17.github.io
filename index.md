@@ -2,6 +2,9 @@
 title: CS16, Spring 2017, zmatni
 ---
 
+# PLEASE NOTE THAT THIS IS AN OLD WEBSITE. 
+# DO NOT REFER TO IT FOR THE CURRENT QUARTER!!!
+
 # {{site.course}}, {{site.quarter}}
 
 
